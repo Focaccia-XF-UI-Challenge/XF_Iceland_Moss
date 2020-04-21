@@ -1,11 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Iceland_Moss.Views.MainPage"
-             Title="{Binding Title}">
+<ContentPage
+    x:Class="Iceland_Moss.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="{Binding Title}"
+    BackgroundColor="White">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
-    </StackLayout>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
+            <Color x:Key="TextColor">#313643</Color>
 
+            <Style x:Key="HeaderFontLight" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratLight}" />
+                <Setter Property="FontSize" Value="28" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            </Style>
+            <Style x:Key="HeaderFontMedium" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratMedium}" />
+                <Setter Property="FontSize" Value="28" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            </Style>
+
+            <Style x:Key="ButtonStyle" TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
+                <Setter Property="CornerRadius" Value="14" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <AbsoluteLayout>
+        <ImageButton
+            Padding="10"
+            AbsoluteLayout.LayoutBounds="20,20,48,48"
+            BackgroundColor="White"
+            Source="Hambuerger_Icon.png" />
+        <ImageButton
+            AbsoluteLayout.LayoutBounds="340,20,48,48"
+            Source="ShoppingBag_Icon.png"
+            Style="{StaticResource ButtonStyle}" />
+
+        <StackLayout AbsoluteLayout.LayoutBounds="20,100,340,100">
+            <Label Style="{StaticResource HeaderFontLight}" Text="Choose your new" />
+            <Label Style="{StaticResource HeaderFontMedium}" Text="green friend" />
+        </StackLayout>
+        <BoxView
+            AbsoluteLayout.LayoutBounds="20,200,300,48"
+            BackgroundColor="{StaticResource ButtonBackgroundColor}"
+            CornerRadius="10" />
+        <ImageButton
+            Padding="14"
+            AbsoluteLayout.LayoutBounds="20,200,48,48"
+            BackgroundColor="Transparent"
+            Source="Search_Icon.png" />
+        <Entry AbsoluteLayout.LayoutBounds="60,200,240,48" />
+
+        <ImageButton
+            AbsoluteLayout.LayoutBounds="340,200,48,48"
+            Source="Setting_Icon.png"
+            Style="{StaticResource ButtonStyle}" />
+    </AbsoluteLayout>
 </ContentPage>
