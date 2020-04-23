@@ -40,7 +40,7 @@ namespace Iceland_Moss.ViewModels
                      HeroColor="#D69EFC",
                      ImageUrl=" ",
                      Price=19,
-                     IsFeatured=false
+                     IsFeatured=true
                 },
                 new Product()
                 {
@@ -48,7 +48,7 @@ namespace Iceland_Moss.ViewModels
                      HeroColor="#FFCA81",
                      ImageUrl=" ",
                      Price=17,
-                     IsFeatured=false
+                     IsFeatured=true
                 },
                 new Product()
                 {

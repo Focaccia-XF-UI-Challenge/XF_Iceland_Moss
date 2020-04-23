@@ -11,6 +11,7 @@ namespace Iceland_Moss.Model
         public decimal Price { get; set; }
         public string HeroColor { get; set; }
         public bool IsFeatured { get; set; }
+        public double Height { get; set; }
 
         //todo - 
     }
