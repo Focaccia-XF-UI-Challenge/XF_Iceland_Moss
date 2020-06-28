@@ -8,6 +8,7 @@
     Title="{Binding Title}"
     BackgroundColor="White">
 
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
@@ -36,6 +37,7 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
+
     <AbsoluteLayout>
         <ImageButton
             Padding="10"
@@ -43,6 +45,7 @@
             BackgroundColor="White"
             Source="Hambuerger_Icon.png" />
         <ImageButton
+            x:Name="icon購物"
             AbsoluteLayout.LayoutBounds="340,20,48,48"
             Source="ShoppingBag_Icon.png"
             Style="{StaticResource ButtonStyle}" />
@@ -51,23 +54,33 @@
             <Label Style="{StaticResource HeaderFontLight}" Text="Choose your new" />
             <Label Style="{StaticResource HeaderFontMedium}" Text="green friend" />
         </StackLayout>
+
+        <!--#region 查詢元件-->
         <BoxView
+            x:Name="boxView查詢"
             AbsoluteLayout.LayoutBounds="20,200,300,48"
             BackgroundColor="{StaticResource ButtonBackgroundColor}"
             CornerRadius="10" />
         <ImageButton
+            x:Name="icon查詢"
             Padding="14"
             AbsoluteLayout.LayoutBounds="20,200,48,48"
             BackgroundColor="Transparent"
             Source="Search_Icon.png" />
+
         <Entry AbsoluteLayout.LayoutBounds="60,200,240,48" />
+        <!--#endregion-->
 
         <ImageButton
+            x:Name="icon設定"
             AbsoluteLayout.LayoutBounds="340,200,48,48"
             Source="Setting_Icon.png"
             Style="{StaticResource ButtonStyle}" />
 
-        <ScrollView AbsoluteLayout.LayoutBounds="20,300,380,340" BackgroundColor="Yellow">
+        <ScrollView
+            x:Name="scrollContainer"
+            AbsoluteLayout.LayoutBounds="20,300,380,340"
+            BackgroundColor="Yellow">
             <FlexLayout
                 BindableLayout.ItemsSource="{Binding Products}"
                 Direction="Column"
@@ -124,7 +137,6 @@
                                             Text="{Binding Price}"
                                             TextColor="White" />
                                     </StackLayout>
-
                                 </StackLayout>
                                 <Image
                                     HorizontalOptions="End"
