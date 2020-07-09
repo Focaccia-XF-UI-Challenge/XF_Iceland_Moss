@@ -19,6 +19,7 @@
                 FalseString="170"
                 TrueString="240" />
 
+            <!--#region 自意義的字體-->
             <Style x:Key="HeaderFontLight" TargetType="Label">
                 <Setter Property="FontFamily" Value="{StaticResource MontserratLight}" />
                 <Setter Property="FontSize" Value="28" />
@@ -29,7 +30,7 @@
                 <Setter Property="FontSize" Value="28" />
                 <Setter Property="TextColor" Value="{StaticResource TextColor}" />
             </Style>
-
+            <!--#endregion-->
             <Style x:Key="ButtonStyle" TargetType="ImageButton">
                 <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
                 <Setter Property="CornerRadius" Value="14" />
@@ -82,6 +83,7 @@
             AbsoluteLayout.LayoutBounds="20,300,380,340"
             BackgroundColor="Yellow">
             <FlexLayout
+                x:Name="flexLayoutProducts"
                 BindableLayout.ItemsSource="{Binding Products}"
                 Direction="Column"
                 HeightRequest="450"
@@ -122,6 +124,12 @@
                                         Text="{Binding Name}"
                                         TextColor="White"
                                         VerticalOptions="Center" />
+                                    <StackLayout Margin="10,0,0,0">
+                                        <Label
+                                            FontSize="40"
+                                            Text="{Binding Sort, StringFormat='{0:F0}.'}"
+                                            TextColor="White" />
+                                    </StackLayout>
                                     <StackLayout
                                         Margin="10,0,0,0"
                                         Padding="0"
@@ -136,6 +144,7 @@
                                             FontSize="40"
                                             Text="{Binding Price}"
                                             TextColor="White" />
+
                                     </StackLayout>
                                 </StackLayout>
                                 <Image

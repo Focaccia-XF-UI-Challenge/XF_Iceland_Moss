@@ -5,9 +5,11 @@
 /.vs
 /Iceland_Moss/.vs/Iceland_Moss/v16
 /Iceland_Moss/Iceland_Moss/obj
-/Iceland_Moss/Iceland_Moss/bin/Debug/netstandard2.0
-/Iceland_Moss/Iceland_Moss.Android/bin/Debug
+/Iceland_Moss/Iceland_Moss/bin
+/Iceland_Moss/Iceland_Moss.Android/bin
 /Iceland_Moss/Iceland_Moss.Android/obj
 /Iceland_Moss/Iceland_Moss.UWP/obj
-/Iceland_Moss/Iceland_Moss.UWP/bin/x86/Debug
+/Iceland_Moss/Iceland_Moss.UWP/bin
+/Iceland_Moss/Iceland_Moss.iOS/bin
+/Iceland_Moss/Iceland_Moss.iOS/obj
 /Iceland_Moss/.vs/Iceland_Moss/DesignTimeBuild

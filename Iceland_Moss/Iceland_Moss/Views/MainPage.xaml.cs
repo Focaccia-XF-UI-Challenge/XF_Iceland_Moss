@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Iceland_Moss.ViewModels;
+using Prism.Navigation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mime;
@@ -10,6 +12,13 @@ namespace Iceland_Moss.Views
 {
     public partial class MainPage : ContentPage
     {
+
+        enum States
+        {
+            SearchExpanded,
+            SearchHidden
+        }
+
         public MainPage()
         {
             InitializeComponent();
@@ -33,8 +42,11 @@ namespace Iceland_Moss.Views
 
 
         const int margin = 20;
+
+
+
         /// <summary>
-        /// 
+        /// 當畫面大小改變時
         /// </summary>
         /// <param name="width"></param>
         /// <param name="height"></param>
@@ -42,7 +54,7 @@ namespace Iceland_Moss.Views
         {
             base.OnSizeAllocated(width, height);
 
-            //
+            Storyboard _storyboard = new Storyboard();
 
             //購物車
             Rectangle baskedRect = new Rectangle(
@@ -53,6 +65,15 @@ namespace Iceland_Moss.Views
 
             AbsoluteLayout.SetLayoutBounds(icon購物, baskedRect);
 
+            _storyboard.Add(States.SearchExpanded, new[]
+            {
+                new ViewTransition(icon購物, AnimationType.Layout, baskedRect)
+            });
+
+            _storyboard.Add(States.SearchHidden, new[]
+           {
+                new ViewTransition(icon購物, AnimationType.Layout, baskedRect)
+            });
 
             #region 查詢區塊
             Rectangle searchRect = new Rectangle(
@@ -89,6 +110,12 @@ namespace Iceland_Moss.Views
              height: height - (icon查詢.Bounds.Bottom + margin));
 
             AbsoluteLayout.SetLayoutBounds(scrollContainer, scrollContainerRect);
+
+            //方塊的排序
+            if (width > height)
+                flexLayoutProducts.Direction = FlexDirection.Row;
+            else
+                flexLayoutProducts.Direction = FlexDirection.Column;
         }
 
     }
