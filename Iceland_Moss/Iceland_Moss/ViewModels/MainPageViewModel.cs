@@ -31,6 +31,9 @@ namespace Iceland_Moss.ViewModels
                 new Product(){Sort=2,Name="Lavander",HeroColor="#D69EFC",ImageUrl="",Price=19,IsFeatured=true},
                 new Product(){Sort=3,Name="Yellow Sun",HeroColor="#FFCA81",ImageUrl="",Price=17,IsFeatured=true},
                 new Product(){Sort=4,Name="Green Life ",HeroColor="#74D69E",ImageUrl="",Price=14,IsFeatured=false},
+                new Product(){Sort=5,Name="Red Life ",HeroColor="#DC3333",ImageUrl="",Price=12,IsFeatured=true},
+                new Product(){Sort=6,Name="Orange Life ",HeroColor="#F4BA51",ImageUrl="",Price=10,IsFeatured=false},
+                new Product(){Sort=7,Name="Pink Life ",HeroColor="#FCA4B4",ImageUrl="",Price=10,IsFeatured=false},
             };
         }
     }

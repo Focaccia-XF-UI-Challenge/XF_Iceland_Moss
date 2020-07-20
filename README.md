@@ -9,7 +9,10 @@
 ## 有使用到的套件:
 
 1. Prism.DryIoc.Forms
+   - 
 2. Xamarin.Forms.PancakeView
+   - 用來畫方塊
+3. [Resizetizer.NT](#Resizetizer.NT)
 
 ---
 
@@ -51,7 +54,7 @@
 - 本專案實作出來的範例(BoolToStringConverter.cs):
 
 ```c#
-![Test](D:\simon\XF_Challenge\Prism_Iceland_Moss\readme\Test.png) public class BoolToStringConverter : IValueConverter
+ public class BoolToStringConverter : IValueConverter
  {
         public string TrueString { get; set; }
         public string FalseString { get; set; }
@@ -69,8 +72,6 @@
         }
  }
 ```
-
-
 
 - 實際使用
 
@@ -99,3 +100,26 @@
 
 
 #### Storyboard
+
+---
+
+參考 章節  Part2  [53:50]
+
+
+
+#### Resizetizer.NT
+
+---
+
+參考資料: [Resizetizer.NT]( https://www.youtube.com/watch?v=zcUPh5cVWaE&amp;amp;feature=youtu.be )
+
+放圖片很方便的工具不需要每次都把圖片一個一個塞到各個平台的專案，也不需要分大小。
+
+- 安裝套件(All)
+- 設定圖片屬性(F4)- 建置動作 改為SharedImaged
+- 發行完可以在obj\resizetizer\看到圖片
+
+
+
+
+
