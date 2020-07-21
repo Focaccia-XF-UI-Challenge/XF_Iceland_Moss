@@ -9,7 +9,6 @@
 ## 有使用到的套件:
 
 1. Prism.DryIoc.Forms
-   - 
 2. Xamarin.Forms.PancakeView
    - 用來畫方塊
 3. [Resizetizer.NT](#Resizetizer.NT)
@@ -28,6 +27,7 @@
 
 - 4.畫面翻轉寬度調整(OnSizeAllocated)
   - 只要畫面改變都會觸發的事件
+  - 異動為寫在OnAppearing SizeChanged中(因為會出現錯誤訊息好像是個不太好的寫法所以改掉了)
 - [5.Storyboard](#Storyboard)
 
 
@@ -105,7 +105,7 @@
 
 參考 章節  Part2  [53:50]
 
-
+畫面上方的圖示都是靠這個方法執行的
 
 #### Resizetizer.NT
 
