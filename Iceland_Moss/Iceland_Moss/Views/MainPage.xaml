@@ -3,42 +3,14 @@
     x:Class="Iceland_Moss.Views.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:controls="clr-namespace:Iceland_Moss.Controls"
     xmlns:converters="clr-namespace:Iceland_Moss.Converter"
-    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     Title="{Binding Title}"
     BackgroundColor="White">
 
 
     <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
-            <Color x:Key="TextColor">#313643</Color>
-
-            <converters:BoolToStringConverter
-                x:Key="FeatureHeightConverter"
-                FalseString="170"
-                TrueString="240" />
-
-            <!--#region 自意義的字體-->
-            <Style x:Key="HeaderFontLight" TargetType="Label">
-                <Setter Property="FontFamily" Value="{StaticResource MontserratLight}" />
-                <Setter Property="FontSize" Value="28" />
-                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
-            </Style>
-            <Style x:Key="HeaderFontMedium" TargetType="Label">
-                <Setter Property="FontFamily" Value="{StaticResource MontserratMedium}" />
-                <Setter Property="FontSize" Value="28" />
-                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
-            </Style>
-            <!--#endregion-->
-
-            <Style x:Key="ButtonStyle" TargetType="ImageButton">
-                <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
-                <Setter Property="CornerRadius" Value="14" />
-                <Setter Property="Padding" Value="10" />
-            </Style>
-        </ResourceDictionary>
+        <ResourceDictionary />
     </ContentPage.Resources>
 
     <AbsoluteLayout>
@@ -104,73 +76,28 @@
                 Wrap="Wrap">
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
-                        <pancake:PancakeView
-                            Margin="10"
-                            BackgroundColor="{Binding HeroColor}"
-                            CornerRadius="20"
-                            HeightRequest="{Binding IsFeatured, Converter={StaticResource FeatureHeightConverter}}"
-                            WidthRequest="160">
-                            <Grid>
-                                <BoxView
-                                    CornerRadius="5,5,20,5"
-                                    HeightRequest="50"
-                                    HorizontalOptions="End"
-                                    Opacity=".5"
-                                    VerticalOptions="Start"
-                                    WidthRequest="50"
-                                    Color="White" />
-                                <Label
-                                    Margin="0,0,14,0"
-                                    FontSize="35"
-                                    HorizontalOptions="End"
-                                    Opacity=".9"
-                                    Text="+"
-                                    TextColor="White"
-                                    TranslationY="-4"
-                                    VerticalOptions="Start" />
-                                <StackLayout Orientation="Vertical" Spacing="0">
-                                    <Label
-                                        Margin="15,10,0,0"
-                                        FontAttributes="Bold"
-                                        FontSize="20"
-                                        HorizontalOptions="Start"
-                                        Text="{Binding Name}"
-                                        TextColor="White"
-                                        VerticalOptions="Center" />
-                                    <StackLayout Margin="10,0,0,0">
-                                        <Label
-                                            FontSize="40"
-                                            Text="{Binding Sort, StringFormat='{0:F0}.'}"
-                                            TextColor="White" />
-                                    </StackLayout>
-                                    <StackLayout
-                                        Margin="10,0,0,0"
-                                        Padding="0"
-                                        Orientation="Horizontal"
-                                        Spacing="0">
-                                        <Label
-                                            FontSize="14"
-                                            Text="$"
-                                            TextColor="White"
-                                            TranslationY="11" />
-                                        <Label
-                                            FontSize="40"
-                                            Text="{Binding Price}"
-                                            TextColor="White" />
-
-                                    </StackLayout>
-                                </StackLayout>
-                                <Image
-                                    HorizontalOptions="End"
-                                    Source="moss.png"
-                                    TranslationX="40"
-                                    TranslationY="30"
-                                    VerticalOptions="End" />
-                            </Grid>
-                        </pancake:PancakeView>
+                        <controls:ProductDisplay HeightRequest="{Binding IsFeatured, Converter={StaticResource FeatureHeightConverter}}">
+                            <controls:ProductDisplay.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                            </controls:ProductDisplay.GestureRecognizers>
+                        </controls:ProductDisplay>
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
             </FlexLayout>
         </ScrollView>
+
+
+        <controls:ProductDisplay x:Name="FakeProduct" IsVisible="false">
+            <controls:ProductDisplay.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+            </controls:ProductDisplay.GestureRecognizers>
+        </controls:ProductDisplay>
+        <!--<BoxView
+            x:Name="AnimationTest"
+            AbsoluteLayout.LayoutBounds="20,200,300,48"
+            BackgroundColor="Red"
+            CornerRadius="10"
+            Opacity="0.7" />-->
+
     </AbsoluteLayout>
 </ContentPage>

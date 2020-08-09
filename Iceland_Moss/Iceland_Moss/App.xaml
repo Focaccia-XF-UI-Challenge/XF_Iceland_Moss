@@ -3,19 +3,48 @@
     x:Class="Iceland_Moss.App"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:Iceland_Moss.Converter"
     xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms">
     <Application.Resources>
-        <OnPlatform x:Key="MontserratLight" x:TypeArguments="x:String">
-            <!--  記得要補上#xxxxxx  -->
-            <On Platform="Android" Value="Montserrat-Light.ttf#Montserrat-Light" />
-            <On Platform="UWP" Value="Montserrat-Light.ttf#Montserrat-Light" />
-        </OnPlatform>
+        <ResourceDictionary>
+            <OnPlatform x:Key="MontserratLight" x:TypeArguments="x:String">
+                <!--  記得要補上#xxxxxx  -->
+                <On Platform="Android" Value="Montserrat-Light.ttf#Montserrat-Light" />
+                <On Platform="UWP" Value="Montserrat-Light.ttf#Montserrat-Light" />
+            </OnPlatform>
 
-        <OnPlatform x:Key="MontserratMedium" x:TypeArguments="x:String">
-            <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
-            <On Platform="UWP" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
-        </OnPlatform>
-        <!--  Application resource dictionary  -->
+            <OnPlatform x:Key="MontserratMedium" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                <On Platform="UWP" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+            </OnPlatform>
+            <!--  Application resource dictionary  -->
+
+            <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
+            <Color x:Key="TextColor">#313643</Color>
+            <converters:BoolToStringConverter
+                x:Key="FeatureHeightConverter"
+                FalseString="170"
+                TrueString="240" />
+            <!--#region 自意義的字體-->
+            <Style x:Key="HeaderFontLight" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratLight}" />
+                <Setter Property="FontSize" Value="28" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            </Style>
+            <Style x:Key="HeaderFontMedium" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratMedium}" />
+                <Setter Property="FontSize" Value="28" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            </Style>
+            <!--#endregion-->
+
+            <Style x:Key="ButtonStyle" TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
+                <Setter Property="CornerRadius" Value="14" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+        </ResourceDictionary>
+
 
     </Application.Resources>
 </prism:PrismApplication>

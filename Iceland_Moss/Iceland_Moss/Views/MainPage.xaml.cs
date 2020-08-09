@@ -3,18 +3,20 @@ using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.PancakeView;
 
 namespace Iceland_Moss.Views
 {
     public partial class MainPage : ContentPage
     {
 
-        private int animationSpeed = 1000;
+        private uint animationSpeed = 500;
         const int margin = 20;
         Storyboard _storyboard = new Storyboard();
 
@@ -231,6 +233,38 @@ namespace Iceland_Moss.Views
         private async void btnAlert_Clicked(object sender, EventArgs e)
         {
             await DisplayAlert("Question?", "Would you like Delete", "Yes", "No");
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            //點擊了一個區塊
+            View element = sender as View;
+
+            //設定假的產品資料來源
+            FakeProduct.BindingContext = element.BindingContext;
+            FakeProduct.IsVisible = true;
+
+            var ySctoll = scrollContainer.ScaleY;
+
+            Rectangle rect = new Rectangle(
+                x: scrollContainer.X + element.X,
+                y: scrollContainer.Y + element.Y - ySctoll,
+                width: element.Width,
+                height: element.Height);
+            //Rectangle rect = pancake.Bounds;
+            AbsoluteLayout.SetLayoutBounds(FakeProduct, rect);
+
+
+            element.Opacity = 0.01;
+
+            await FakeProduct.ExpanToFill(this.Bounds);
+
+            element.Opacity = 1;
+        }
+
+        private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
+        {
+            ((View)sender).IsVisible = false;
         }
 
         //https://youtu.be/-m1Q29s2lhs?t=7847
