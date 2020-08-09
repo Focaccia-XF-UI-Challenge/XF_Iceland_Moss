@@ -53,6 +53,11 @@ namespace Iceland_Moss
             // Run all transition tasks
             Task.WhenAll(tasks);
         }
+
+        public int Count
+        {
+            get { return _stateTransitions.Count; }
+        }
     }
 
     public class ViewTransition

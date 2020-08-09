@@ -3,6 +3,7 @@
     x:Class="Iceland_Moss.Views.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:converters="clr-namespace:Iceland_Moss.Converter"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     Title="{Binding Title}"
@@ -48,6 +49,14 @@
             BackgroundColor="White"
             Clicked="HambuergerButton_Clicked"
             Source="Hambuerger_Icon.png" />
+
+        <Button
+            x:Name="btnAlert"
+            AbsoluteLayout.LayoutBounds="80,20,48,48"
+            Clicked="btnAlert_Clicked"
+            IsVisible="false"
+            Text="Click_Alert"
+            WidthRequest="100" />
         <ImageButton
             x:Name="icon購物"
             AbsoluteLayout.LayoutBounds="340,20,48,48"
@@ -83,6 +92,7 @@
             AbsoluteLayout.LayoutBounds="340,200,48,48"
             Source="Setting_Icon.png"
             Style="{StaticResource ButtonStyle}" />
+
 
         <ScrollView x:Name="scrollContainer" AbsoluteLayout.LayoutBounds="20,300,380,340">
             <FlexLayout
