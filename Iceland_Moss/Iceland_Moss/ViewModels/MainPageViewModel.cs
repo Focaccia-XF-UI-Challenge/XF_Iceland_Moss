@@ -12,16 +12,15 @@ namespace Iceland_Moss.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-
         private IList<Product> _products;
+
         public IList<Product> Products
         {
             get { return _products; }
             set { SetProperty(ref _products, value); }
         }
 
-        public MainPageViewModel(INavigationService navigationService)
-            : base(navigationService)
+        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Main Page";
 
@@ -35,6 +34,16 @@ namespace Iceland_Moss.ViewModels
                 new Product(){Sort=6,Name="Orange Life ",HeroColor="#F4BA51",ImageUrl="",Price=10,IsFeatured=false},
                 new Product(){Sort=7,Name="Pink Life ",HeroColor="#FCA4B4",ImageUrl="",Price=10,IsFeatured=false},
             };
+        }
+
+        private DelegateCommand _navigationCommand;
+
+        public DelegateCommand NavigationCommand =>
+            _navigationCommand ?? (_navigationCommand = new DelegateCommand(ExecuteNavigationCommand));
+
+        async void ExecuteNavigationCommand()
+        {
+            await NavigationService.NavigateAsync("SecondPage");
         }
     }
 }

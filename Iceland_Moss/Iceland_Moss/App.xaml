@@ -7,6 +7,12 @@
     xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms">
     <Application.Resources>
         <ResourceDictionary>
+            <!--  FontAwesome  -->
+            <OnPlatform x:Key="FontAwesome5FreeSolid" x:TypeArguments="x:String">
+                <On Platform="Android" Value="fas.otf#Solid" />
+                <On Platform="UWP" Value="fas.otf#Solid" />
+            </OnPlatform>
+
             <OnPlatform x:Key="MontserratLight" x:TypeArguments="x:String">
                 <!--  記得要補上#xxxxxx  -->
                 <On Platform="Android" Value="Montserrat-Light.ttf#Montserrat-Light" />
@@ -21,10 +27,12 @@
 
             <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
             <Color x:Key="TextColor">#313643</Color>
+
             <converters:BoolToStringConverter
-                x:Key="FeatureHeightConverter"
+                x:Key="FeaturedHeightConverter"
                 FalseString="170"
                 TrueString="240" />
+
             <!--#region 自意義的字體-->
             <Style x:Key="HeaderFontLight" TargetType="Label">
                 <Setter Property="FontFamily" Value="{StaticResource MontserratLight}" />
@@ -42,6 +50,11 @@
                 <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
                 <Setter Property="CornerRadius" Value="14" />
                 <Setter Property="Padding" Value="10" />
+            </Style>
+
+            <!--  GridView預設都會有空格可以透過以下設定移除他  -->
+            <Style TargetType="Grid">
+                <Setter Property="RowSpacing" Value="0" />
             </Style>
         </ResourceDictionary>
 

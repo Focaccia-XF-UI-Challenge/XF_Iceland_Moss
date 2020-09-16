@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="Iceland_Moss.Controls.ProductDisplayPopover"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:dave="clr-namespace:com.ptdave.xamarin.FontHelpers;assembly=com.ptdave.xamarin">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <BoxView Grid.RowSpan="3" BackgroundColor="Purple" />
+        <BoxView
+            Grid.Row="2"
+            BackgroundColor="White"
+            CornerRadius="30,30,0,0"
+            HeightRequest="300"
+            VerticalOptions="End" />
+        <ImageButton
+            Margin="20"
+            Padding="10"
+            BackgroundColor="Transparent"
+            HeightRequest="48"
+            HorizontalOptions="Start"
+            Source="back_arrow.png"
+            VerticalOptions="Center"
+            WidthRequest="48" />
+        <ImageButton
+            Margin="20"
+            Padding="10"
+            BackgroundColor="#33FFFFFF"
+            HeightRequest="48"
+            HorizontalOptions="End"
+            Source="heart.png"
+            Style="{StaticResource ButtonStyle}"
+            VerticalOptions="Center"
+            WidthRequest="48" />
+
+        <Grid
+            Grid.Row="2"
+            Margin="20"
+            RowSpacing="20"
+            VerticalOptions="End">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Style="{StaticResource HeaderFontLight}" Text="Lavender" />
+            <!--  設定數量&金額 Start  -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        Grid.Column="0"
+                        Style="{StaticResource ButtonStyle}"
+                        Text="-" />
+                    <Label
+                        Grid.Column="1"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource HeaderFontLight}"
+                        Text="1"
+                        VerticalOptions="Center" />
+                    <Button
+                        Grid.Column="2"
+                        Style="{StaticResource ButtonStyle}"
+                        Text="+" />
+                </Grid>
+
+                <Label
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Style="{StaticResource HeaderFontLight}"
+                    Text="$19"
+                    VerticalOptions="Center" />
+            </Grid>
+            <!--  設定數量&金額 End  -->
+
+            <!--  相關資訊(包含FontAwesome) Start  -->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" Orientation="Vertical">
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span
+                                    FontFamily="{StaticResource FontAwesome5FreeSolid}"
+                                    FontSize="10"
+                                    Text="{Static dave:FAS.Tint}"
+                                    TextColor="#AAAAAA" />
+                                <Span Text=" " />
+                                <Span FontSize="10" TextColor="#AAAAAA">Humidity</Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        Style="{StaticResource HeaderFontMedium}"
+                        Text="50-75%" />
+                </StackLayout>
+                <StackLayout Grid.Column="1" Orientation="Vertical">
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span
+                                    FontFamily="{StaticResource FontAwesome5FreeSolid}"
+                                    FontSize="10"
+                                    Text="{Static dave:FAS.Sun}"
+                                    TextColor="#AAAAAA" />
+                                <Span Text=" " />
+                                <Span FontSize="10" TextColor="#AAAAAA">
+                                    Light
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        Style="{StaticResource HeaderFontMedium}"
+                        Text="50-75%" />
+                </StackLayout>
+                <StackLayout Grid.Column="2" Orientation="Vertical">
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span
+                                    FontFamily="{StaticResource FontAwesome5FreeSolid}"
+                                    FontSize="10"
+                                    Text="{Static dave:FAS.TemperatureHigh}"
+                                    TextColor="#AAAAAA" />
+                                <Span Text=" " />
+                                <Span FontSize="10" TextColor="#AAAAAA">Humidity</Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        Style="{StaticResource HeaderFontMedium}"
+                        Text="50-75%" />
+                </StackLayout>
+            </Grid>
+            <!--  相關資訊(包含FontAwesome) End  -->
+        </Grid>
+
+
+    </Grid>
+</ContentView>

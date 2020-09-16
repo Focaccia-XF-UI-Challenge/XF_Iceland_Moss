@@ -4,100 +4,127 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:Iceland_Moss.Controls"
-    xmlns:converters="clr-namespace:Iceland_Moss.Converter"
+    xmlns:converters_MainPage="clr-namespace:Iceland_Moss.Converter"
+    xmlns:prism="http://prismlibrary.com"
     Title="{Binding Title}"
-    BackgroundColor="White">
-
+    prism:ViewModelLocator.AutowireViewModel="True"
+    BackgroundColor="White"
+    NavigationPage.HasNavigationBar="False">
 
     <ContentPage.Resources>
-        <ResourceDictionary />
+        <ResourceDictionary>
+
+            <converters_MainPage:BoolToStringConverter
+                x:Key="FeaturedOffsetYConverter"
+                FalseString="60"
+                TrueString="120" />
+
+
+            <converters_MainPage:BoolToStringConverter
+                x:Key="FeaturedOffsetXConverter"
+                FalseString="60"
+                TrueString="60" />
+
+        </ResourceDictionary>
     </ContentPage.Resources>
 
-    <AbsoluteLayout>
-        <ImageButton
-            x:Name="HambuergerButton"
-            Padding="10"
-            AbsoluteLayout.LayoutBounds="20,20,48,48"
-            BackgroundColor="White"
-            Clicked="HambuergerButton_Clicked"
-            Source="Hambuerger_Icon.png" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+        <AbsoluteLayout Grid.Row="0">
+            <ImageButton
+                x:Name="HambuergerButton"
+                Padding="10"
+                AbsoluteLayout.LayoutBounds="20,20,48,48"
+                BackgroundColor="White"
+                Clicked="HambuergerButton_Clicked"
+                Source="Hambuerger_Icon.png" />
+            <Button
+                x:Name="btnAlert"
+                AbsoluteLayout.LayoutBounds="80,20,48,48"
+                Clicked="btnAlert_Clicked"
+                IsVisible="false"
+                Text="Click_Alert"
+                WidthRequest="200" />
+            <ImageButton
+                x:Name="icon購物"
+                AbsoluteLayout.LayoutBounds="340,20,48,48"
+                Source="ShoppingBag_Icon.png"
+                Style="{StaticResource ButtonStyle}" />
 
-        <Button
-            x:Name="btnAlert"
-            AbsoluteLayout.LayoutBounds="80,20,48,48"
-            Clicked="btnAlert_Clicked"
-            IsVisible="false"
-            Text="Click_Alert"
-            WidthRequest="100" />
-        <ImageButton
-            x:Name="icon購物"
-            AbsoluteLayout.LayoutBounds="340,20,48,48"
-            Source="ShoppingBag_Icon.png"
-            Style="{StaticResource ButtonStyle}" />
+            <StackLayout x:Name="Header" AbsoluteLayout.LayoutBounds="20,100,340,100">
+                <Label Style="{StaticResource HeaderFontLight}" Text="Choose your new" />
+                <Label Style="{StaticResource HeaderFontMedium}" Text="green friend" />
+            </StackLayout>
 
-        <StackLayout x:Name="Header" AbsoluteLayout.LayoutBounds="20,100,340,100">
-            <Label Style="{StaticResource HeaderFontLight}" Text="Choose your new" />
-            <Label Style="{StaticResource HeaderFontMedium}" Text="green friend" />
-        </StackLayout>
+            <!--#region 查詢元件-->
+            <BoxView
+                x:Name="boxView查詢"
+                AbsoluteLayout.LayoutBounds="20,200,300,48"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                CornerRadius="10" />
+            <ImageButton
+                x:Name="icon查詢"
+                Padding="14"
+                AbsoluteLayout.LayoutBounds="20,200,48,48"
+                BackgroundColor="Transparent"
+                Source="Search_Icon.png" />
 
-        <!--#region 查詢元件-->
-        <BoxView
-            x:Name="boxView查詢"
-            AbsoluteLayout.LayoutBounds="20,200,300,48"
-            BackgroundColor="{StaticResource ButtonBackgroundColor}"
-            CornerRadius="10" />
-        <ImageButton
-            x:Name="icon查詢"
-            Padding="14"
-            AbsoluteLayout.LayoutBounds="20,200,48,48"
-            BackgroundColor="Transparent"
-            Source="Search_Icon.png" />
+            <Entry
+                x:Name="SearchEntry"
+                AbsoluteLayout.LayoutBounds="60,200,240,48"
+                Placeholder="Search" />
+            <!--#endregion-->
 
-        <Entry
-            x:Name="SearchEntry"
-            AbsoluteLayout.LayoutBounds="60,200,240,48"
-            Placeholder="Search" />
-        <!--#endregion-->
-
-        <ImageButton
-            x:Name="icon設定"
-            AbsoluteLayout.LayoutBounds="340,200,48,48"
-            Source="Setting_Icon.png"
-            Style="{StaticResource ButtonStyle}" />
-
-
-        <ScrollView x:Name="scrollContainer" AbsoluteLayout.LayoutBounds="20,300,380,340">
-            <FlexLayout
-                x:Name="flexLayoutProducts"
-                BindableLayout.ItemsSource="{Binding Products}"
-                Direction="Column"
-                HeightRequest="1300"
-                HorizontalOptions="Center"
-                Wrap="Wrap">
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <controls:ProductDisplay HeightRequest="{Binding IsFeatured, Converter={StaticResource FeatureHeightConverter}}">
-                            <controls:ProductDisplay.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                            </controls:ProductDisplay.GestureRecognizers>
-                        </controls:ProductDisplay>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-            </FlexLayout>
-        </ScrollView>
+            <ImageButton
+                x:Name="icon設定"
+                AbsoluteLayout.LayoutBounds="340,200,48,48"
+                Source="Setting_Icon.png"
+                Style="{StaticResource ButtonStyle}" />
 
 
-        <controls:ProductDisplay x:Name="FakeProduct" IsVisible="false">
-            <controls:ProductDisplay.GestureRecognizers>
-                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
-            </controls:ProductDisplay.GestureRecognizers>
-        </controls:ProductDisplay>
-        <!--<BoxView
+            <ScrollView x:Name="scrollContainer" AbsoluteLayout.LayoutBounds="20,300,380,340">
+                <FlexLayout
+                    x:Name="flexLayoutProducts"
+                    BindableLayout.ItemsSource="{Binding Products}"
+                    Direction="Column"
+                    HeightRequest="1300"
+                    HorizontalOptions="Center"
+                    Wrap="Wrap">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <controls:ProductDisplay
+                                HeightRequest="{Binding IsFeatured, Converter={StaticResource FeaturedHeightConverter}}"
+                                ImageOffsetX="{Binding IsFeatured, Converter={StaticResource FeaturedOffsetXConverter}}"
+                                ImageOffsetY="{Binding IsFeatured, Converter={StaticResource FeaturedOffsetYConverter}}">
+                                <controls:ProductDisplay.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                </controls:ProductDisplay.GestureRecognizers>
+                            </controls:ProductDisplay>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
+
+            <controls:ProductDisplay x:Name="FakeProduct" IsVisible="false">
+                <controls:ProductDisplay.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+                </controls:ProductDisplay.GestureRecognizers>
+            </controls:ProductDisplay>
+            <controls:ProductDisplayPopover AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+            <!--<BoxView
             x:Name="AnimationTest"
             AbsoluteLayout.LayoutBounds="20,200,300,48"
             BackgroundColor="Red"
             CornerRadius="10"
             Opacity="0.7" />-->
-
-    </AbsoluteLayout>
+        </AbsoluteLayout>
+        <!--<Button
+            x:Name="GoToNextPage"
+            Grid.Row="1"
+            Command="{Binding Path=NavigationCommand}"
+            IsVisible="false"
+            Text="GoTo2" />-->
+    </Grid>
 </ContentPage>

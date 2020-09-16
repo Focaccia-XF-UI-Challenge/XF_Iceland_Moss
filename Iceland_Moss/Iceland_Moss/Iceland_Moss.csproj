@@ -9,6 +9,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="ThirdPage.xaml" />
+    <EmbeddedResource Remove="Views\ThirdPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Image\back_arrow.png" />
+    <None Remove="Image\heart-.png" />
+    <None Remove="Image\heart.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="com.ptdave.xamarin" Version="1.0.11" />
     <PackageReference Include="Resizetizer.NT" Version="0.1.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
@@ -17,7 +29,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Include="ThirdPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ThirdPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SharedImage Include="Image\back_arrow.png" />
     <SharedImage Include="Image\Hambuerger_Icon.png" />
+    <SharedImage Include="Image\heart.png" />
     <SharedImage Include="Image\moss.png" BaseSize="100,100" />
     <SharedImage Include="Image\Search_Icon.png" />
     <SharedImage Include="Image\Setting_Icon.png" />
@@ -28,7 +51,13 @@
     <EmbeddedResource Update="Controls\ProductDisplay.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Controls\ProductDisplayPopover.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\SencondPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ThridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -16,7 +16,7 @@ namespace Iceland_Moss.Views
     public partial class MainPage : ContentPage
     {
 
-        private uint animationSpeed = 500;
+        private uint animationSpeed = 400;
         const int margin = 20;
         Storyboard _storyboard = new Storyboard();
 
@@ -29,8 +29,6 @@ namespace Iceland_Moss.Views
         public MainPage()
         {
             InitializeComponent();
-
-
         }
 
 
@@ -199,10 +197,6 @@ namespace Iceland_Moss.Views
 
         }
 
-
-
-
-
         States CurrentState = States.SearchExpanded;
 
         private async void HambuergerButton_Clicked(object sender, EventArgs e)
@@ -214,7 +208,7 @@ namespace Iceland_Moss.Views
                 newState = States.SearchExpanded;
             try
             {
-                //如果沒有綁定到要在執行一次(UWP首次啟用不會觸發SizeChanged)
+                //如果沒有綁定到要再執行一次(UWP首次啟用不會觸發SizeChanged)
                 if (_storyboard.Count == 0)
                 {
                     MainPage_SizeChanged(sender, e);
@@ -238,14 +232,18 @@ namespace Iceland_Moss.Views
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             //點擊了一個區塊
-            View element = sender as View;
+            Controls.ProductDisplay element = sender as Controls.ProductDisplay;
 
             //設定假的產品資料來源
             FakeProduct.BindingContext = element.BindingContext;
+            //再次定位
+            FakeProduct.ImageOffsetX = element.ImageOffsetX;
+            FakeProduct.ImageOffsetY = element.ImageOffsetY;
             FakeProduct.IsVisible = true;
 
             var ySctoll = scrollContainer.ScaleY;
 
+            //找到點擊的區塊是哪一個並從那個方塊展開
             Rectangle rect = new Rectangle(
                 x: scrollContainer.X + element.X,
                 y: scrollContainer.Y + element.Y - ySctoll,
@@ -254,11 +252,8 @@ namespace Iceland_Moss.Views
             //Rectangle rect = pancake.Bounds;
             AbsoluteLayout.SetLayoutBounds(FakeProduct, rect);
 
-
             element.Opacity = 0.01;
-
             await FakeProduct.ExpanToFill(this.Bounds);
-
             element.Opacity = 1;
         }
 
@@ -267,6 +262,5 @@ namespace Iceland_Moss.Views
             ((View)sender).IsVisible = false;
         }
 
-        //https://youtu.be/-m1Q29s2lhs?t=7847
     }
 }

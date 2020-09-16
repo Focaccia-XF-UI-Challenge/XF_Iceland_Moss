@@ -25,6 +25,2566 @@ namespace Iceland_Moss.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::com.ptdave.xamarin.Resource.Animation.abc_fade_in = global::Iceland_Moss.Droid.Resource.Animation.abc_fade_in;
+			global::com.ptdave.xamarin.Resource.Animation.abc_fade_out = global::Iceland_Moss.Droid.Resource.Animation.abc_fade_out;
+			global::com.ptdave.xamarin.Resource.Animation.abc_grow_fade_in_from_bottom = global::Iceland_Moss.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::com.ptdave.xamarin.Resource.Animation.abc_popup_enter = global::Iceland_Moss.Droid.Resource.Animation.abc_popup_enter;
+			global::com.ptdave.xamarin.Resource.Animation.abc_popup_exit = global::Iceland_Moss.Droid.Resource.Animation.abc_popup_exit;
+			global::com.ptdave.xamarin.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Iceland_Moss.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::com.ptdave.xamarin.Resource.Animation.abc_slide_in_bottom = global::Iceland_Moss.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::com.ptdave.xamarin.Resource.Animation.abc_slide_in_top = global::Iceland_Moss.Droid.Resource.Animation.abc_slide_in_top;
+			global::com.ptdave.xamarin.Resource.Animation.abc_slide_out_bottom = global::Iceland_Moss.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::com.ptdave.xamarin.Resource.Animation.abc_slide_out_top = global::Iceland_Moss.Droid.Resource.Animation.abc_slide_out_top;
+			global::com.ptdave.xamarin.Resource.Animation.abc_tooltip_enter = global::Iceland_Moss.Droid.Resource.Animation.abc_tooltip_enter;
+			global::com.ptdave.xamarin.Resource.Animation.abc_tooltip_exit = global::Iceland_Moss.Droid.Resource.Animation.abc_tooltip_exit;
+			global::com.ptdave.xamarin.Resource.Animation.design_bottom_sheet_slide_in = global::Iceland_Moss.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::com.ptdave.xamarin.Resource.Animation.design_bottom_sheet_slide_out = global::Iceland_Moss.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::com.ptdave.xamarin.Resource.Animation.design_snackbar_in = global::Iceland_Moss.Droid.Resource.Animation.design_snackbar_in;
+			global::com.ptdave.xamarin.Resource.Animation.design_snackbar_out = global::Iceland_Moss.Droid.Resource.Animation.design_snackbar_out;
+			global::com.ptdave.xamarin.Resource.Animation.EnterFromLeft = global::Iceland_Moss.Droid.Resource.Animation.EnterFromLeft;
+			global::com.ptdave.xamarin.Resource.Animation.EnterFromRight = global::Iceland_Moss.Droid.Resource.Animation.EnterFromRight;
+			global::com.ptdave.xamarin.Resource.Animation.ExitToLeft = global::Iceland_Moss.Droid.Resource.Animation.ExitToLeft;
+			global::com.ptdave.xamarin.Resource.Animation.ExitToRight = global::Iceland_Moss.Droid.Resource.Animation.ExitToRight;
+			global::com.ptdave.xamarin.Resource.Animator.design_appbar_state_list_animator = global::Iceland_Moss.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::com.ptdave.xamarin.Resource.Animator.design_fab_hide_motion_spec = global::Iceland_Moss.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::com.ptdave.xamarin.Resource.Animator.design_fab_show_motion_spec = global::Iceland_Moss.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_btn_state_list_anim = global::Iceland_Moss.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Iceland_Moss.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_chip_state_list_anim = global::Iceland_Moss.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_fab_hide_motion_spec = global::Iceland_Moss.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_fab_show_motion_spec = global::Iceland_Moss.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Iceland_Moss.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::com.ptdave.xamarin.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Iceland_Moss.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarDivider = global::Iceland_Moss.Droid.Resource.Attribute.actionBarDivider;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarItemBackground = global::Iceland_Moss.Droid.Resource.Attribute.actionBarItemBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarPopupTheme = global::Iceland_Moss.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarSize = global::Iceland_Moss.Droid.Resource.Attribute.actionBarSize;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarSplitStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarTabBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarTabStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionBarTabStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarTabTextStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarTheme = global::Iceland_Moss.Droid.Resource.Attribute.actionBarTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.actionBarWidgetTheme = global::Iceland_Moss.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.actionButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionDropDownStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionDropDownStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionLayout = global::Iceland_Moss.Droid.Resource.Attribute.actionLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.actionMenuTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.actionMenuTextColor = global::Iceland_Moss.Droid.Resource.Attribute.actionMenuTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeBackground = global::Iceland_Moss.Droid.Resource.Attribute.actionModeBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeCloseButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeCloseDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeCopyDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeCutDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeFindDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModePasteDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModePopupWindowStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeSelectAllDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeShareDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeSplitBackground = global::Iceland_Moss.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionModeStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionModeWebSearchDrawable = global::Iceland_Moss.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.actionOverflowButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionOverflowMenuStyle = global::Iceland_Moss.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.actionProviderClass = global::Iceland_Moss.Droid.Resource.Attribute.actionProviderClass;
+			global::com.ptdave.xamarin.Resource.Attribute.actionViewClass = global::Iceland_Moss.Droid.Resource.Attribute.actionViewClass;
+			global::com.ptdave.xamarin.Resource.Attribute.activityChooserViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.alertDialogButtonGroupStyle = global::Iceland_Moss.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.alertDialogCenterButtons = global::Iceland_Moss.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::com.ptdave.xamarin.Resource.Attribute.alertDialogStyle = global::Iceland_Moss.Droid.Resource.Attribute.alertDialogStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.alertDialogTheme = global::Iceland_Moss.Droid.Resource.Attribute.alertDialogTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.allowStacking = global::Iceland_Moss.Droid.Resource.Attribute.allowStacking;
+			global::com.ptdave.xamarin.Resource.Attribute.alpha = global::Iceland_Moss.Droid.Resource.Attribute.alpha;
+			global::com.ptdave.xamarin.Resource.Attribute.alphabeticModifiers = global::Iceland_Moss.Droid.Resource.Attribute.alphabeticModifiers;
+			global::com.ptdave.xamarin.Resource.Attribute.arrowHeadLength = global::Iceland_Moss.Droid.Resource.Attribute.arrowHeadLength;
+			global::com.ptdave.xamarin.Resource.Attribute.arrowShaftLength = global::Iceland_Moss.Droid.Resource.Attribute.arrowShaftLength;
+			global::com.ptdave.xamarin.Resource.Attribute.autoCompleteTextViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.autoSizeMaxTextSize = global::Iceland_Moss.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::com.ptdave.xamarin.Resource.Attribute.autoSizeMinTextSize = global::Iceland_Moss.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::com.ptdave.xamarin.Resource.Attribute.autoSizePresetSizes = global::Iceland_Moss.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::com.ptdave.xamarin.Resource.Attribute.autoSizeStepGranularity = global::Iceland_Moss.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::com.ptdave.xamarin.Resource.Attribute.autoSizeTextType = global::Iceland_Moss.Droid.Resource.Attribute.autoSizeTextType;
+			global::com.ptdave.xamarin.Resource.Attribute.background = global::Iceland_Moss.Droid.Resource.Attribute.background;
+			global::com.ptdave.xamarin.Resource.Attribute.backgroundSplit = global::Iceland_Moss.Droid.Resource.Attribute.backgroundSplit;
+			global::com.ptdave.xamarin.Resource.Attribute.backgroundStacked = global::Iceland_Moss.Droid.Resource.Attribute.backgroundStacked;
+			global::com.ptdave.xamarin.Resource.Attribute.backgroundTint = global::Iceland_Moss.Droid.Resource.Attribute.backgroundTint;
+			global::com.ptdave.xamarin.Resource.Attribute.backgroundTintMode = global::Iceland_Moss.Droid.Resource.Attribute.backgroundTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.barLength = global::Iceland_Moss.Droid.Resource.Attribute.barLength;
+			global::com.ptdave.xamarin.Resource.Attribute.behavior_autoHide = global::Iceland_Moss.Droid.Resource.Attribute.behavior_autoHide;
+			global::com.ptdave.xamarin.Resource.Attribute.behavior_fitToContents = global::Iceland_Moss.Droid.Resource.Attribute.behavior_fitToContents;
+			global::com.ptdave.xamarin.Resource.Attribute.behavior_hideable = global::Iceland_Moss.Droid.Resource.Attribute.behavior_hideable;
+			global::com.ptdave.xamarin.Resource.Attribute.behavior_overlapTop = global::Iceland_Moss.Droid.Resource.Attribute.behavior_overlapTop;
+			global::com.ptdave.xamarin.Resource.Attribute.behavior_peekHeight = global::Iceland_Moss.Droid.Resource.Attribute.behavior_peekHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.behavior_skipCollapsed = global::Iceland_Moss.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::com.ptdave.xamarin.Resource.Attribute.borderlessButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.borderWidth = global::Iceland_Moss.Droid.Resource.Attribute.borderWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.bottomAppBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.bottomNavigationStyle = global::Iceland_Moss.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.bottomSheetDialogTheme = global::Iceland_Moss.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.bottomSheetStyle = global::Iceland_Moss.Droid.Resource.Attribute.bottomSheetStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.boxBackgroundColor = global::Iceland_Moss.Droid.Resource.Attribute.boxBackgroundColor;
+			global::com.ptdave.xamarin.Resource.Attribute.boxBackgroundMode = global::Iceland_Moss.Droid.Resource.Attribute.boxBackgroundMode;
+			global::com.ptdave.xamarin.Resource.Attribute.boxCollapsedPaddingTop = global::Iceland_Moss.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::com.ptdave.xamarin.Resource.Attribute.boxCornerRadiusBottomEnd = global::Iceland_Moss.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.boxCornerRadiusBottomStart = global::Iceland_Moss.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::com.ptdave.xamarin.Resource.Attribute.boxCornerRadiusTopEnd = global::Iceland_Moss.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.boxCornerRadiusTopStart = global::Iceland_Moss.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::com.ptdave.xamarin.Resource.Attribute.boxStrokeColor = global::Iceland_Moss.Droid.Resource.Attribute.boxStrokeColor;
+			global::com.ptdave.xamarin.Resource.Attribute.boxStrokeWidth = global::Iceland_Moss.Droid.Resource.Attribute.boxStrokeWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonBarButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonBarNegativeButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonBarNeutralButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonBarPositiveButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.buttonBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonGravity = global::Iceland_Moss.Droid.Resource.Attribute.buttonGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonIconDimen = global::Iceland_Moss.Droid.Resource.Attribute.buttonIconDimen;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonPanelSideLayout = global::Iceland_Moss.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonStyle = global::Iceland_Moss.Droid.Resource.Attribute.buttonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonStyleSmall = global::Iceland_Moss.Droid.Resource.Attribute.buttonStyleSmall;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonTint = global::Iceland_Moss.Droid.Resource.Attribute.buttonTint;
+			global::com.ptdave.xamarin.Resource.Attribute.buttonTintMode = global::Iceland_Moss.Droid.Resource.Attribute.buttonTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.cardBackgroundColor = global::Iceland_Moss.Droid.Resource.Attribute.cardBackgroundColor;
+			global::com.ptdave.xamarin.Resource.Attribute.cardCornerRadius = global::Iceland_Moss.Droid.Resource.Attribute.cardCornerRadius;
+			global::com.ptdave.xamarin.Resource.Attribute.cardElevation = global::Iceland_Moss.Droid.Resource.Attribute.cardElevation;
+			global::com.ptdave.xamarin.Resource.Attribute.cardMaxElevation = global::Iceland_Moss.Droid.Resource.Attribute.cardMaxElevation;
+			global::com.ptdave.xamarin.Resource.Attribute.cardPreventCornerOverlap = global::Iceland_Moss.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::com.ptdave.xamarin.Resource.Attribute.cardUseCompatPadding = global::Iceland_Moss.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.cardViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.cardViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.checkboxStyle = global::Iceland_Moss.Droid.Resource.Attribute.checkboxStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.checkedChip = global::Iceland_Moss.Droid.Resource.Attribute.checkedChip;
+			global::com.ptdave.xamarin.Resource.Attribute.checkedIcon = global::Iceland_Moss.Droid.Resource.Attribute.checkedIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.checkedIconEnabled = global::Iceland_Moss.Droid.Resource.Attribute.checkedIconEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.checkedIconVisible = global::Iceland_Moss.Droid.Resource.Attribute.checkedIconVisible;
+			global::com.ptdave.xamarin.Resource.Attribute.checkedTextViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.chipBackgroundColor = global::Iceland_Moss.Droid.Resource.Attribute.chipBackgroundColor;
+			global::com.ptdave.xamarin.Resource.Attribute.chipCornerRadius = global::Iceland_Moss.Droid.Resource.Attribute.chipCornerRadius;
+			global::com.ptdave.xamarin.Resource.Attribute.chipEndPadding = global::Iceland_Moss.Droid.Resource.Attribute.chipEndPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.chipGroupStyle = global::Iceland_Moss.Droid.Resource.Attribute.chipGroupStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.chipIcon = global::Iceland_Moss.Droid.Resource.Attribute.chipIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.chipIconEnabled = global::Iceland_Moss.Droid.Resource.Attribute.chipIconEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.chipIconSize = global::Iceland_Moss.Droid.Resource.Attribute.chipIconSize;
+			global::com.ptdave.xamarin.Resource.Attribute.chipIconTint = global::Iceland_Moss.Droid.Resource.Attribute.chipIconTint;
+			global::com.ptdave.xamarin.Resource.Attribute.chipIconVisible = global::Iceland_Moss.Droid.Resource.Attribute.chipIconVisible;
+			global::com.ptdave.xamarin.Resource.Attribute.chipMinHeight = global::Iceland_Moss.Droid.Resource.Attribute.chipMinHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.chipSpacing = global::Iceland_Moss.Droid.Resource.Attribute.chipSpacing;
+			global::com.ptdave.xamarin.Resource.Attribute.chipSpacingHorizontal = global::Iceland_Moss.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::com.ptdave.xamarin.Resource.Attribute.chipSpacingVertical = global::Iceland_Moss.Droid.Resource.Attribute.chipSpacingVertical;
+			global::com.ptdave.xamarin.Resource.Attribute.chipStandaloneStyle = global::Iceland_Moss.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.chipStartPadding = global::Iceland_Moss.Droid.Resource.Attribute.chipStartPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.chipStrokeColor = global::Iceland_Moss.Droid.Resource.Attribute.chipStrokeColor;
+			global::com.ptdave.xamarin.Resource.Attribute.chipStrokeWidth = global::Iceland_Moss.Droid.Resource.Attribute.chipStrokeWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.chipStyle = global::Iceland_Moss.Droid.Resource.Attribute.chipStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIcon = global::Iceland_Moss.Droid.Resource.Attribute.closeIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIconEnabled = global::Iceland_Moss.Droid.Resource.Attribute.closeIconEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIconEndPadding = global::Iceland_Moss.Droid.Resource.Attribute.closeIconEndPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIconSize = global::Iceland_Moss.Droid.Resource.Attribute.closeIconSize;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIconStartPadding = global::Iceland_Moss.Droid.Resource.Attribute.closeIconStartPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIconTint = global::Iceland_Moss.Droid.Resource.Attribute.closeIconTint;
+			global::com.ptdave.xamarin.Resource.Attribute.closeIconVisible = global::Iceland_Moss.Droid.Resource.Attribute.closeIconVisible;
+			global::com.ptdave.xamarin.Resource.Attribute.closeItemLayout = global::Iceland_Moss.Droid.Resource.Attribute.closeItemLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.collapseContentDescription = global::Iceland_Moss.Droid.Resource.Attribute.collapseContentDescription;
+			global::com.ptdave.xamarin.Resource.Attribute.collapsedTitleGravity = global::Iceland_Moss.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.collapsedTitleTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.collapseIcon = global::Iceland_Moss.Droid.Resource.Attribute.collapseIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.color = global::Iceland_Moss.Droid.Resource.Attribute.color;
+			global::com.ptdave.xamarin.Resource.Attribute.colorAccent = global::Iceland_Moss.Droid.Resource.Attribute.colorAccent;
+			global::com.ptdave.xamarin.Resource.Attribute.colorBackgroundFloating = global::Iceland_Moss.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::com.ptdave.xamarin.Resource.Attribute.colorButtonNormal = global::Iceland_Moss.Droid.Resource.Attribute.colorButtonNormal;
+			global::com.ptdave.xamarin.Resource.Attribute.colorControlActivated = global::Iceland_Moss.Droid.Resource.Attribute.colorControlActivated;
+			global::com.ptdave.xamarin.Resource.Attribute.colorControlHighlight = global::Iceland_Moss.Droid.Resource.Attribute.colorControlHighlight;
+			global::com.ptdave.xamarin.Resource.Attribute.colorControlNormal = global::Iceland_Moss.Droid.Resource.Attribute.colorControlNormal;
+			global::com.ptdave.xamarin.Resource.Attribute.colorError = global::Iceland_Moss.Droid.Resource.Attribute.colorError;
+			global::com.ptdave.xamarin.Resource.Attribute.colorPrimary = global::Iceland_Moss.Droid.Resource.Attribute.colorPrimary;
+			global::com.ptdave.xamarin.Resource.Attribute.colorPrimaryDark = global::Iceland_Moss.Droid.Resource.Attribute.colorPrimaryDark;
+			global::com.ptdave.xamarin.Resource.Attribute.colorSecondary = global::Iceland_Moss.Droid.Resource.Attribute.colorSecondary;
+			global::com.ptdave.xamarin.Resource.Attribute.colorSwitchThumbNormal = global::Iceland_Moss.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::com.ptdave.xamarin.Resource.Attribute.commitIcon = global::Iceland_Moss.Droid.Resource.Attribute.commitIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.contentDescription = global::Iceland_Moss.Droid.Resource.Attribute.contentDescription;
+			global::com.ptdave.xamarin.Resource.Attribute.contentInsetEnd = global::Iceland_Moss.Droid.Resource.Attribute.contentInsetEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.contentInsetEndWithActions = global::Iceland_Moss.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::com.ptdave.xamarin.Resource.Attribute.contentInsetLeft = global::Iceland_Moss.Droid.Resource.Attribute.contentInsetLeft;
+			global::com.ptdave.xamarin.Resource.Attribute.contentInsetRight = global::Iceland_Moss.Droid.Resource.Attribute.contentInsetRight;
+			global::com.ptdave.xamarin.Resource.Attribute.contentInsetStart = global::Iceland_Moss.Droid.Resource.Attribute.contentInsetStart;
+			global::com.ptdave.xamarin.Resource.Attribute.contentInsetStartWithNavigation = global::Iceland_Moss.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::com.ptdave.xamarin.Resource.Attribute.contentPadding = global::Iceland_Moss.Droid.Resource.Attribute.contentPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.contentPaddingBottom = global::Iceland_Moss.Droid.Resource.Attribute.contentPaddingBottom;
+			global::com.ptdave.xamarin.Resource.Attribute.contentPaddingLeft = global::Iceland_Moss.Droid.Resource.Attribute.contentPaddingLeft;
+			global::com.ptdave.xamarin.Resource.Attribute.contentPaddingRight = global::Iceland_Moss.Droid.Resource.Attribute.contentPaddingRight;
+			global::com.ptdave.xamarin.Resource.Attribute.contentPaddingTop = global::Iceland_Moss.Droid.Resource.Attribute.contentPaddingTop;
+			global::com.ptdave.xamarin.Resource.Attribute.contentScrim = global::Iceland_Moss.Droid.Resource.Attribute.contentScrim;
+			global::com.ptdave.xamarin.Resource.Attribute.controlBackground = global::Iceland_Moss.Droid.Resource.Attribute.controlBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.coordinatorLayoutStyle = global::Iceland_Moss.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.cornerRadius = global::Iceland_Moss.Droid.Resource.Attribute.cornerRadius;
+			global::com.ptdave.xamarin.Resource.Attribute.counterEnabled = global::Iceland_Moss.Droid.Resource.Attribute.counterEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.counterMaxLength = global::Iceland_Moss.Droid.Resource.Attribute.counterMaxLength;
+			global::com.ptdave.xamarin.Resource.Attribute.counterOverflowTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.counterTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.counterTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.customNavigationLayout = global::Iceland_Moss.Droid.Resource.Attribute.customNavigationLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.defaultQueryHint = global::Iceland_Moss.Droid.Resource.Attribute.defaultQueryHint;
+			global::com.ptdave.xamarin.Resource.Attribute.dialogCornerRadius = global::Iceland_Moss.Droid.Resource.Attribute.dialogCornerRadius;
+			global::com.ptdave.xamarin.Resource.Attribute.dialogPreferredPadding = global::Iceland_Moss.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.dialogTheme = global::Iceland_Moss.Droid.Resource.Attribute.dialogTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.displayOptions = global::Iceland_Moss.Droid.Resource.Attribute.displayOptions;
+			global::com.ptdave.xamarin.Resource.Attribute.divider = global::Iceland_Moss.Droid.Resource.Attribute.divider;
+			global::com.ptdave.xamarin.Resource.Attribute.dividerHorizontal = global::Iceland_Moss.Droid.Resource.Attribute.dividerHorizontal;
+			global::com.ptdave.xamarin.Resource.Attribute.dividerPadding = global::Iceland_Moss.Droid.Resource.Attribute.dividerPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.dividerVertical = global::Iceland_Moss.Droid.Resource.Attribute.dividerVertical;
+			global::com.ptdave.xamarin.Resource.Attribute.drawableSize = global::Iceland_Moss.Droid.Resource.Attribute.drawableSize;
+			global::com.ptdave.xamarin.Resource.Attribute.drawerArrowStyle = global::Iceland_Moss.Droid.Resource.Attribute.drawerArrowStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.dropdownListPreferredItemHeight = global::Iceland_Moss.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.dropDownListViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.editTextBackground = global::Iceland_Moss.Droid.Resource.Attribute.editTextBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.editTextColor = global::Iceland_Moss.Droid.Resource.Attribute.editTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.editTextStyle = global::Iceland_Moss.Droid.Resource.Attribute.editTextStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.elevation = global::Iceland_Moss.Droid.Resource.Attribute.elevation;
+			global::com.ptdave.xamarin.Resource.Attribute.enforceMaterialTheme = global::Iceland_Moss.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.enforceTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.enforceTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.errorEnabled = global::Iceland_Moss.Droid.Resource.Attribute.errorEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.errorTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.errorTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Iceland_Moss.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.expanded = global::Iceland_Moss.Droid.Resource.Attribute.expanded;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleGravity = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleMargin = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleMargin;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleMarginBottom = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleMarginEnd = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleMarginStart = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleMarginTop = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::com.ptdave.xamarin.Resource.Attribute.expandedTitleTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.fabAlignmentMode = global::Iceland_Moss.Droid.Resource.Attribute.fabAlignmentMode;
+			global::com.ptdave.xamarin.Resource.Attribute.fabCradleMargin = global::Iceland_Moss.Droid.Resource.Attribute.fabCradleMargin;
+			global::com.ptdave.xamarin.Resource.Attribute.fabCradleRoundedCornerRadius = global::Iceland_Moss.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::com.ptdave.xamarin.Resource.Attribute.fabCradleVerticalOffset = global::Iceland_Moss.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::com.ptdave.xamarin.Resource.Attribute.fabCustomSize = global::Iceland_Moss.Droid.Resource.Attribute.fabCustomSize;
+			global::com.ptdave.xamarin.Resource.Attribute.fabSize = global::Iceland_Moss.Droid.Resource.Attribute.fabSize;
+			global::com.ptdave.xamarin.Resource.Attribute.fastScrollEnabled = global::Iceland_Moss.Droid.Resource.Attribute.fastScrollEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Iceland_Moss.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Iceland_Moss.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Iceland_Moss.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Iceland_Moss.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.firstBaselineToTopHeight = global::Iceland_Moss.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.floatingActionButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.font = global::Iceland_Moss.Droid.Resource.Attribute.font;
+			global::com.ptdave.xamarin.Resource.Attribute.fontFamily = global::Iceland_Moss.Droid.Resource.Attribute.fontFamily;
+			global::com.ptdave.xamarin.Resource.Attribute.fontProviderAuthority = global::Iceland_Moss.Droid.Resource.Attribute.fontProviderAuthority;
+			global::com.ptdave.xamarin.Resource.Attribute.fontProviderCerts = global::Iceland_Moss.Droid.Resource.Attribute.fontProviderCerts;
+			global::com.ptdave.xamarin.Resource.Attribute.fontProviderFetchStrategy = global::Iceland_Moss.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::com.ptdave.xamarin.Resource.Attribute.fontProviderFetchTimeout = global::Iceland_Moss.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::com.ptdave.xamarin.Resource.Attribute.fontProviderPackage = global::Iceland_Moss.Droid.Resource.Attribute.fontProviderPackage;
+			global::com.ptdave.xamarin.Resource.Attribute.fontProviderQuery = global::Iceland_Moss.Droid.Resource.Attribute.fontProviderQuery;
+			global::com.ptdave.xamarin.Resource.Attribute.fontStyle = global::Iceland_Moss.Droid.Resource.Attribute.fontStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.fontVariationSettings = global::Iceland_Moss.Droid.Resource.Attribute.fontVariationSettings;
+			global::com.ptdave.xamarin.Resource.Attribute.fontWeight = global::Iceland_Moss.Droid.Resource.Attribute.fontWeight;
+			global::com.ptdave.xamarin.Resource.Attribute.foregroundInsidePadding = global::Iceland_Moss.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::com.ptdave.xamarin.Resource.Attribute.gapBetweenBars = global::Iceland_Moss.Droid.Resource.Attribute.gapBetweenBars;
+			global::com.ptdave.xamarin.Resource.Attribute.goIcon = global::Iceland_Moss.Droid.Resource.Attribute.goIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.headerLayout = global::Iceland_Moss.Droid.Resource.Attribute.headerLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.height = global::Iceland_Moss.Droid.Resource.Attribute.height;
+			global::com.ptdave.xamarin.Resource.Attribute.helperText = global::Iceland_Moss.Droid.Resource.Attribute.helperText;
+			global::com.ptdave.xamarin.Resource.Attribute.helperTextEnabled = global::Iceland_Moss.Droid.Resource.Attribute.helperTextEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.helperTextTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.hideMotionSpec = global::Iceland_Moss.Droid.Resource.Attribute.hideMotionSpec;
+			global::com.ptdave.xamarin.Resource.Attribute.hideOnContentScroll = global::Iceland_Moss.Droid.Resource.Attribute.hideOnContentScroll;
+			global::com.ptdave.xamarin.Resource.Attribute.hideOnScroll = global::Iceland_Moss.Droid.Resource.Attribute.hideOnScroll;
+			global::com.ptdave.xamarin.Resource.Attribute.hintAnimationEnabled = global::Iceland_Moss.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.hintEnabled = global::Iceland_Moss.Droid.Resource.Attribute.hintEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.hintTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.hintTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.homeAsUpIndicator = global::Iceland_Moss.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::com.ptdave.xamarin.Resource.Attribute.homeLayout = global::Iceland_Moss.Droid.Resource.Attribute.homeLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.hoveredFocusedTranslationZ = global::Iceland_Moss.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::com.ptdave.xamarin.Resource.Attribute.icon = global::Iceland_Moss.Droid.Resource.Attribute.icon;
+			global::com.ptdave.xamarin.Resource.Attribute.iconEndPadding = global::Iceland_Moss.Droid.Resource.Attribute.iconEndPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.iconGravity = global::Iceland_Moss.Droid.Resource.Attribute.iconGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.iconifiedByDefault = global::Iceland_Moss.Droid.Resource.Attribute.iconifiedByDefault;
+			global::com.ptdave.xamarin.Resource.Attribute.iconPadding = global::Iceland_Moss.Droid.Resource.Attribute.iconPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.iconSize = global::Iceland_Moss.Droid.Resource.Attribute.iconSize;
+			global::com.ptdave.xamarin.Resource.Attribute.iconStartPadding = global::Iceland_Moss.Droid.Resource.Attribute.iconStartPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.iconTint = global::Iceland_Moss.Droid.Resource.Attribute.iconTint;
+			global::com.ptdave.xamarin.Resource.Attribute.iconTintMode = global::Iceland_Moss.Droid.Resource.Attribute.iconTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.imageButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.imageButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.indeterminateProgressStyle = global::Iceland_Moss.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.initialActivityCount = global::Iceland_Moss.Droid.Resource.Attribute.initialActivityCount;
+			global::com.ptdave.xamarin.Resource.Attribute.insetForeground = global::Iceland_Moss.Droid.Resource.Attribute.insetForeground;
+			global::com.ptdave.xamarin.Resource.Attribute.isLightTheme = global::Iceland_Moss.Droid.Resource.Attribute.isLightTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.itemBackground = global::Iceland_Moss.Droid.Resource.Attribute.itemBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.itemHorizontalPadding = global::Iceland_Moss.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.itemHorizontalTranslationEnabled = global::Iceland_Moss.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.itemIconPadding = global::Iceland_Moss.Droid.Resource.Attribute.itemIconPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.itemIconSize = global::Iceland_Moss.Droid.Resource.Attribute.itemIconSize;
+			global::com.ptdave.xamarin.Resource.Attribute.itemIconTint = global::Iceland_Moss.Droid.Resource.Attribute.itemIconTint;
+			global::com.ptdave.xamarin.Resource.Attribute.itemPadding = global::Iceland_Moss.Droid.Resource.Attribute.itemPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.itemSpacing = global::Iceland_Moss.Droid.Resource.Attribute.itemSpacing;
+			global::com.ptdave.xamarin.Resource.Attribute.itemTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.itemTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.itemTextAppearanceActive = global::Iceland_Moss.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::com.ptdave.xamarin.Resource.Attribute.itemTextAppearanceInactive = global::Iceland_Moss.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::com.ptdave.xamarin.Resource.Attribute.itemTextColor = global::Iceland_Moss.Droid.Resource.Attribute.itemTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.keylines = global::Iceland_Moss.Droid.Resource.Attribute.keylines;
+			global::com.ptdave.xamarin.Resource.Attribute.labelVisibilityMode = global::Iceland_Moss.Droid.Resource.Attribute.labelVisibilityMode;
+			global::com.ptdave.xamarin.Resource.Attribute.lastBaselineToBottomHeight = global::Iceland_Moss.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.layout = global::Iceland_Moss.Droid.Resource.Attribute.layout;
+			global::com.ptdave.xamarin.Resource.Attribute.layoutManager = global::Iceland_Moss.Droid.Resource.Attribute.layoutManager;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_anchor = global::Iceland_Moss.Droid.Resource.Attribute.layout_anchor;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_anchorGravity = global::Iceland_Moss.Droid.Resource.Attribute.layout_anchorGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_behavior = global::Iceland_Moss.Droid.Resource.Attribute.layout_behavior;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_collapseMode = global::Iceland_Moss.Droid.Resource.Attribute.layout_collapseMode;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_collapseParallaxMultiplier = global::Iceland_Moss.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_dodgeInsetEdges = global::Iceland_Moss.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_insetEdge = global::Iceland_Moss.Droid.Resource.Attribute.layout_insetEdge;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_keyline = global::Iceland_Moss.Droid.Resource.Attribute.layout_keyline;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_scrollFlags = global::Iceland_Moss.Droid.Resource.Attribute.layout_scrollFlags;
+			global::com.ptdave.xamarin.Resource.Attribute.layout_scrollInterpolator = global::Iceland_Moss.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::com.ptdave.xamarin.Resource.Attribute.liftOnScroll = global::Iceland_Moss.Droid.Resource.Attribute.liftOnScroll;
+			global::com.ptdave.xamarin.Resource.Attribute.lineHeight = global::Iceland_Moss.Droid.Resource.Attribute.lineHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.lineSpacing = global::Iceland_Moss.Droid.Resource.Attribute.lineSpacing;
+			global::com.ptdave.xamarin.Resource.Attribute.listChoiceBackgroundIndicator = global::Iceland_Moss.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::com.ptdave.xamarin.Resource.Attribute.listDividerAlertDialog = global::Iceland_Moss.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::com.ptdave.xamarin.Resource.Attribute.listItemLayout = global::Iceland_Moss.Droid.Resource.Attribute.listItemLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.listLayout = global::Iceland_Moss.Droid.Resource.Attribute.listLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.listMenuViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.listMenuViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.listPopupWindowStyle = global::Iceland_Moss.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.listPreferredItemHeight = global::Iceland_Moss.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.listPreferredItemHeightLarge = global::Iceland_Moss.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::com.ptdave.xamarin.Resource.Attribute.listPreferredItemHeightSmall = global::Iceland_Moss.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::com.ptdave.xamarin.Resource.Attribute.listPreferredItemPaddingLeft = global::Iceland_Moss.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::com.ptdave.xamarin.Resource.Attribute.listPreferredItemPaddingRight = global::Iceland_Moss.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::com.ptdave.xamarin.Resource.Attribute.logo = global::Iceland_Moss.Droid.Resource.Attribute.logo;
+			global::com.ptdave.xamarin.Resource.Attribute.logoDescription = global::Iceland_Moss.Droid.Resource.Attribute.logoDescription;
+			global::com.ptdave.xamarin.Resource.Attribute.materialButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.materialButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.materialCardViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.materialCardViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.maxActionInlineWidth = global::Iceland_Moss.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.maxButtonHeight = global::Iceland_Moss.Droid.Resource.Attribute.maxButtonHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.maxImageSize = global::Iceland_Moss.Droid.Resource.Attribute.maxImageSize;
+			global::com.ptdave.xamarin.Resource.Attribute.measureWithLargestChild = global::Iceland_Moss.Droid.Resource.Attribute.measureWithLargestChild;
+			global::com.ptdave.xamarin.Resource.Attribute.menu = global::Iceland_Moss.Droid.Resource.Attribute.menu;
+			global::com.ptdave.xamarin.Resource.Attribute.multiChoiceItemLayout = global::Iceland_Moss.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.navigationContentDescription = global::Iceland_Moss.Droid.Resource.Attribute.navigationContentDescription;
+			global::com.ptdave.xamarin.Resource.Attribute.navigationIcon = global::Iceland_Moss.Droid.Resource.Attribute.navigationIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.navigationMode = global::Iceland_Moss.Droid.Resource.Attribute.navigationMode;
+			global::com.ptdave.xamarin.Resource.Attribute.navigationViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.navigationViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.numericModifiers = global::Iceland_Moss.Droid.Resource.Attribute.numericModifiers;
+			global::com.ptdave.xamarin.Resource.Attribute.overlapAnchor = global::Iceland_Moss.Droid.Resource.Attribute.overlapAnchor;
+			global::com.ptdave.xamarin.Resource.Attribute.paddingBottomNoButtons = global::Iceland_Moss.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::com.ptdave.xamarin.Resource.Attribute.paddingEnd = global::Iceland_Moss.Droid.Resource.Attribute.paddingEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.paddingStart = global::Iceland_Moss.Droid.Resource.Attribute.paddingStart;
+			global::com.ptdave.xamarin.Resource.Attribute.paddingTopNoTitle = global::Iceland_Moss.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::com.ptdave.xamarin.Resource.Attribute.panelBackground = global::Iceland_Moss.Droid.Resource.Attribute.panelBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.panelMenuListTheme = global::Iceland_Moss.Droid.Resource.Attribute.panelMenuListTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.panelMenuListWidth = global::Iceland_Moss.Droid.Resource.Attribute.panelMenuListWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.passwordToggleContentDescription = global::Iceland_Moss.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::com.ptdave.xamarin.Resource.Attribute.passwordToggleDrawable = global::Iceland_Moss.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::com.ptdave.xamarin.Resource.Attribute.passwordToggleEnabled = global::Iceland_Moss.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.passwordToggleTint = global::Iceland_Moss.Droid.Resource.Attribute.passwordToggleTint;
+			global::com.ptdave.xamarin.Resource.Attribute.passwordToggleTintMode = global::Iceland_Moss.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.popupMenuStyle = global::Iceland_Moss.Droid.Resource.Attribute.popupMenuStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.popupTheme = global::Iceland_Moss.Droid.Resource.Attribute.popupTheme;
+			global::com.ptdave.xamarin.Resource.Attribute.popupWindowStyle = global::Iceland_Moss.Droid.Resource.Attribute.popupWindowStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.preserveIconSpacing = global::Iceland_Moss.Droid.Resource.Attribute.preserveIconSpacing;
+			global::com.ptdave.xamarin.Resource.Attribute.pressedTranslationZ = global::Iceland_Moss.Droid.Resource.Attribute.pressedTranslationZ;
+			global::com.ptdave.xamarin.Resource.Attribute.progressBarPadding = global::Iceland_Moss.Droid.Resource.Attribute.progressBarPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.progressBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.progressBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.queryBackground = global::Iceland_Moss.Droid.Resource.Attribute.queryBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.queryHint = global::Iceland_Moss.Droid.Resource.Attribute.queryHint;
+			global::com.ptdave.xamarin.Resource.Attribute.radioButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.radioButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.ratingBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.ratingBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.ratingBarStyleIndicator = global::Iceland_Moss.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::com.ptdave.xamarin.Resource.Attribute.ratingBarStyleSmall = global::Iceland_Moss.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::com.ptdave.xamarin.Resource.Attribute.reverseLayout = global::Iceland_Moss.Droid.Resource.Attribute.reverseLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.rippleColor = global::Iceland_Moss.Droid.Resource.Attribute.rippleColor;
+			global::com.ptdave.xamarin.Resource.Attribute.scrimAnimationDuration = global::Iceland_Moss.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::com.ptdave.xamarin.Resource.Attribute.scrimBackground = global::Iceland_Moss.Droid.Resource.Attribute.scrimBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.scrimVisibleHeightTrigger = global::Iceland_Moss.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::com.ptdave.xamarin.Resource.Attribute.searchHintIcon = global::Iceland_Moss.Droid.Resource.Attribute.searchHintIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.searchIcon = global::Iceland_Moss.Droid.Resource.Attribute.searchIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.searchViewStyle = global::Iceland_Moss.Droid.Resource.Attribute.searchViewStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.seekBarStyle = global::Iceland_Moss.Droid.Resource.Attribute.seekBarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.selectableItemBackground = global::Iceland_Moss.Droid.Resource.Attribute.selectableItemBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.selectableItemBackgroundBorderless = global::Iceland_Moss.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::com.ptdave.xamarin.Resource.Attribute.showAsAction = global::Iceland_Moss.Droid.Resource.Attribute.showAsAction;
+			global::com.ptdave.xamarin.Resource.Attribute.showDividers = global::Iceland_Moss.Droid.Resource.Attribute.showDividers;
+			global::com.ptdave.xamarin.Resource.Attribute.showMotionSpec = global::Iceland_Moss.Droid.Resource.Attribute.showMotionSpec;
+			global::com.ptdave.xamarin.Resource.Attribute.showText = global::Iceland_Moss.Droid.Resource.Attribute.showText;
+			global::com.ptdave.xamarin.Resource.Attribute.showTitle = global::Iceland_Moss.Droid.Resource.Attribute.showTitle;
+			global::com.ptdave.xamarin.Resource.Attribute.singleChoiceItemLayout = global::Iceland_Moss.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.singleLine = global::Iceland_Moss.Droid.Resource.Attribute.singleLine;
+			global::com.ptdave.xamarin.Resource.Attribute.singleSelection = global::Iceland_Moss.Droid.Resource.Attribute.singleSelection;
+			global::com.ptdave.xamarin.Resource.Attribute.snackbarButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.snackbarStyle = global::Iceland_Moss.Droid.Resource.Attribute.snackbarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.spanCount = global::Iceland_Moss.Droid.Resource.Attribute.spanCount;
+			global::com.ptdave.xamarin.Resource.Attribute.spinBars = global::Iceland_Moss.Droid.Resource.Attribute.spinBars;
+			global::com.ptdave.xamarin.Resource.Attribute.spinnerDropDownItemStyle = global::Iceland_Moss.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.spinnerStyle = global::Iceland_Moss.Droid.Resource.Attribute.spinnerStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.splitTrack = global::Iceland_Moss.Droid.Resource.Attribute.splitTrack;
+			global::com.ptdave.xamarin.Resource.Attribute.srcCompat = global::Iceland_Moss.Droid.Resource.Attribute.srcCompat;
+			global::com.ptdave.xamarin.Resource.Attribute.stackFromEnd = global::Iceland_Moss.Droid.Resource.Attribute.stackFromEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.state_above_anchor = global::Iceland_Moss.Droid.Resource.Attribute.state_above_anchor;
+			global::com.ptdave.xamarin.Resource.Attribute.state_collapsed = global::Iceland_Moss.Droid.Resource.Attribute.state_collapsed;
+			global::com.ptdave.xamarin.Resource.Attribute.state_collapsible = global::Iceland_Moss.Droid.Resource.Attribute.state_collapsible;
+			global::com.ptdave.xamarin.Resource.Attribute.state_liftable = global::Iceland_Moss.Droid.Resource.Attribute.state_liftable;
+			global::com.ptdave.xamarin.Resource.Attribute.state_lifted = global::Iceland_Moss.Droid.Resource.Attribute.state_lifted;
+			global::com.ptdave.xamarin.Resource.Attribute.statusBarBackground = global::Iceland_Moss.Droid.Resource.Attribute.statusBarBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.statusBarScrim = global::Iceland_Moss.Droid.Resource.Attribute.statusBarScrim;
+			global::com.ptdave.xamarin.Resource.Attribute.strokeColor = global::Iceland_Moss.Droid.Resource.Attribute.strokeColor;
+			global::com.ptdave.xamarin.Resource.Attribute.strokeWidth = global::Iceland_Moss.Droid.Resource.Attribute.strokeWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.subMenuArrow = global::Iceland_Moss.Droid.Resource.Attribute.subMenuArrow;
+			global::com.ptdave.xamarin.Resource.Attribute.submitBackground = global::Iceland_Moss.Droid.Resource.Attribute.submitBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.subtitle = global::Iceland_Moss.Droid.Resource.Attribute.subtitle;
+			global::com.ptdave.xamarin.Resource.Attribute.subtitleTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.subtitleTextColor = global::Iceland_Moss.Droid.Resource.Attribute.subtitleTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.subtitleTextStyle = global::Iceland_Moss.Droid.Resource.Attribute.subtitleTextStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.suggestionRowLayout = global::Iceland_Moss.Droid.Resource.Attribute.suggestionRowLayout;
+			global::com.ptdave.xamarin.Resource.Attribute.switchMinWidth = global::Iceland_Moss.Droid.Resource.Attribute.switchMinWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.switchPadding = global::Iceland_Moss.Droid.Resource.Attribute.switchPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.switchStyle = global::Iceland_Moss.Droid.Resource.Attribute.switchStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.switchTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.switchTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.tabBackground = global::Iceland_Moss.Droid.Resource.Attribute.tabBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.tabContentStart = global::Iceland_Moss.Droid.Resource.Attribute.tabContentStart;
+			global::com.ptdave.xamarin.Resource.Attribute.tabGravity = global::Iceland_Moss.Droid.Resource.Attribute.tabGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIconTint = global::Iceland_Moss.Droid.Resource.Attribute.tabIconTint;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIconTintMode = global::Iceland_Moss.Droid.Resource.Attribute.tabIconTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIndicator = global::Iceland_Moss.Droid.Resource.Attribute.tabIndicator;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIndicatorAnimationDuration = global::Iceland_Moss.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIndicatorColor = global::Iceland_Moss.Droid.Resource.Attribute.tabIndicatorColor;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIndicatorFullWidth = global::Iceland_Moss.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIndicatorGravity = global::Iceland_Moss.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::com.ptdave.xamarin.Resource.Attribute.tabIndicatorHeight = global::Iceland_Moss.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::com.ptdave.xamarin.Resource.Attribute.tabInlineLabel = global::Iceland_Moss.Droid.Resource.Attribute.tabInlineLabel;
+			global::com.ptdave.xamarin.Resource.Attribute.tabMaxWidth = global::Iceland_Moss.Droid.Resource.Attribute.tabMaxWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.tabMinWidth = global::Iceland_Moss.Droid.Resource.Attribute.tabMinWidth;
+			global::com.ptdave.xamarin.Resource.Attribute.tabMode = global::Iceland_Moss.Droid.Resource.Attribute.tabMode;
+			global::com.ptdave.xamarin.Resource.Attribute.tabPadding = global::Iceland_Moss.Droid.Resource.Attribute.tabPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.tabPaddingBottom = global::Iceland_Moss.Droid.Resource.Attribute.tabPaddingBottom;
+			global::com.ptdave.xamarin.Resource.Attribute.tabPaddingEnd = global::Iceland_Moss.Droid.Resource.Attribute.tabPaddingEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.tabPaddingStart = global::Iceland_Moss.Droid.Resource.Attribute.tabPaddingStart;
+			global::com.ptdave.xamarin.Resource.Attribute.tabPaddingTop = global::Iceland_Moss.Droid.Resource.Attribute.tabPaddingTop;
+			global::com.ptdave.xamarin.Resource.Attribute.tabRippleColor = global::Iceland_Moss.Droid.Resource.Attribute.tabRippleColor;
+			global::com.ptdave.xamarin.Resource.Attribute.tabSelectedTextColor = global::Iceland_Moss.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.tabStyle = global::Iceland_Moss.Droid.Resource.Attribute.tabStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.tabTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.tabTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.tabTextColor = global::Iceland_Moss.Droid.Resource.Attribute.tabTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.tabUnboundedRipple = global::Iceland_Moss.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::com.ptdave.xamarin.Resource.Attribute.textAllCaps = global::Iceland_Moss.Droid.Resource.Attribute.textAllCaps;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceBody1 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceBody1;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceBody2 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceBody2;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceButton = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceButton;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceCaption = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceCaption;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceHeadline1 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceHeadline2 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceHeadline3 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceHeadline4 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceHeadline5 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceHeadline6 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceLargePopupMenu = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceListItem = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceListItem;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceListItemSecondary = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceListItemSmall = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceOverline = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceOverline;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearancePopupMenuHeader = global::Iceland_Moss.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceSearchResultTitle = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceSmallPopupMenu = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceSubtitle1 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::com.ptdave.xamarin.Resource.Attribute.textAppearanceSubtitle2 = global::Iceland_Moss.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::com.ptdave.xamarin.Resource.Attribute.textColorAlertDialogListItem = global::Iceland_Moss.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::com.ptdave.xamarin.Resource.Attribute.textColorSearchUrl = global::Iceland_Moss.Droid.Resource.Attribute.textColorSearchUrl;
+			global::com.ptdave.xamarin.Resource.Attribute.textEndPadding = global::Iceland_Moss.Droid.Resource.Attribute.textEndPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.textInputStyle = global::Iceland_Moss.Droid.Resource.Attribute.textInputStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.textStartPadding = global::Iceland_Moss.Droid.Resource.Attribute.textStartPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.theme = global::Iceland_Moss.Droid.Resource.Attribute.theme;
+			global::com.ptdave.xamarin.Resource.Attribute.thickness = global::Iceland_Moss.Droid.Resource.Attribute.thickness;
+			global::com.ptdave.xamarin.Resource.Attribute.thumbTextPadding = global::Iceland_Moss.Droid.Resource.Attribute.thumbTextPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.thumbTint = global::Iceland_Moss.Droid.Resource.Attribute.thumbTint;
+			global::com.ptdave.xamarin.Resource.Attribute.thumbTintMode = global::Iceland_Moss.Droid.Resource.Attribute.thumbTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.tickMark = global::Iceland_Moss.Droid.Resource.Attribute.tickMark;
+			global::com.ptdave.xamarin.Resource.Attribute.tickMarkTint = global::Iceland_Moss.Droid.Resource.Attribute.tickMarkTint;
+			global::com.ptdave.xamarin.Resource.Attribute.tickMarkTintMode = global::Iceland_Moss.Droid.Resource.Attribute.tickMarkTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.tint = global::Iceland_Moss.Droid.Resource.Attribute.tint;
+			global::com.ptdave.xamarin.Resource.Attribute.tintMode = global::Iceland_Moss.Droid.Resource.Attribute.tintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.title = global::Iceland_Moss.Droid.Resource.Attribute.title;
+			global::com.ptdave.xamarin.Resource.Attribute.titleEnabled = global::Iceland_Moss.Droid.Resource.Attribute.titleEnabled;
+			global::com.ptdave.xamarin.Resource.Attribute.titleMargin = global::Iceland_Moss.Droid.Resource.Attribute.titleMargin;
+			global::com.ptdave.xamarin.Resource.Attribute.titleMarginBottom = global::Iceland_Moss.Droid.Resource.Attribute.titleMarginBottom;
+			global::com.ptdave.xamarin.Resource.Attribute.titleMarginEnd = global::Iceland_Moss.Droid.Resource.Attribute.titleMarginEnd;
+			global::com.ptdave.xamarin.Resource.Attribute.titleMargins = global::Iceland_Moss.Droid.Resource.Attribute.titleMargins;
+			global::com.ptdave.xamarin.Resource.Attribute.titleMarginStart = global::Iceland_Moss.Droid.Resource.Attribute.titleMarginStart;
+			global::com.ptdave.xamarin.Resource.Attribute.titleMarginTop = global::Iceland_Moss.Droid.Resource.Attribute.titleMarginTop;
+			global::com.ptdave.xamarin.Resource.Attribute.titleTextAppearance = global::Iceland_Moss.Droid.Resource.Attribute.titleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Attribute.titleTextColor = global::Iceland_Moss.Droid.Resource.Attribute.titleTextColor;
+			global::com.ptdave.xamarin.Resource.Attribute.titleTextStyle = global::Iceland_Moss.Droid.Resource.Attribute.titleTextStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.toolbarId = global::Iceland_Moss.Droid.Resource.Attribute.toolbarId;
+			global::com.ptdave.xamarin.Resource.Attribute.toolbarNavigationButtonStyle = global::Iceland_Moss.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.toolbarStyle = global::Iceland_Moss.Droid.Resource.Attribute.toolbarStyle;
+			global::com.ptdave.xamarin.Resource.Attribute.tooltipForegroundColor = global::Iceland_Moss.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::com.ptdave.xamarin.Resource.Attribute.tooltipFrameBackground = global::Iceland_Moss.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::com.ptdave.xamarin.Resource.Attribute.tooltipText = global::Iceland_Moss.Droid.Resource.Attribute.tooltipText;
+			global::com.ptdave.xamarin.Resource.Attribute.track = global::Iceland_Moss.Droid.Resource.Attribute.track;
+			global::com.ptdave.xamarin.Resource.Attribute.trackTint = global::Iceland_Moss.Droid.Resource.Attribute.trackTint;
+			global::com.ptdave.xamarin.Resource.Attribute.trackTintMode = global::Iceland_Moss.Droid.Resource.Attribute.trackTintMode;
+			global::com.ptdave.xamarin.Resource.Attribute.ttcIndex = global::Iceland_Moss.Droid.Resource.Attribute.ttcIndex;
+			global::com.ptdave.xamarin.Resource.Attribute.useCompatPadding = global::Iceland_Moss.Droid.Resource.Attribute.useCompatPadding;
+			global::com.ptdave.xamarin.Resource.Attribute.viewInflaterClass = global::Iceland_Moss.Droid.Resource.Attribute.viewInflaterClass;
+			global::com.ptdave.xamarin.Resource.Attribute.voiceIcon = global::Iceland_Moss.Droid.Resource.Attribute.voiceIcon;
+			global::com.ptdave.xamarin.Resource.Attribute.windowActionBar = global::Iceland_Moss.Droid.Resource.Attribute.windowActionBar;
+			global::com.ptdave.xamarin.Resource.Attribute.windowActionBarOverlay = global::Iceland_Moss.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::com.ptdave.xamarin.Resource.Attribute.windowActionModeOverlay = global::Iceland_Moss.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::com.ptdave.xamarin.Resource.Attribute.windowFixedHeightMajor = global::Iceland_Moss.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::com.ptdave.xamarin.Resource.Attribute.windowFixedHeightMinor = global::Iceland_Moss.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::com.ptdave.xamarin.Resource.Attribute.windowFixedWidthMajor = global::Iceland_Moss.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::com.ptdave.xamarin.Resource.Attribute.windowFixedWidthMinor = global::Iceland_Moss.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::com.ptdave.xamarin.Resource.Attribute.windowMinWidthMajor = global::Iceland_Moss.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::com.ptdave.xamarin.Resource.Attribute.windowMinWidthMinor = global::Iceland_Moss.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::com.ptdave.xamarin.Resource.Attribute.windowNoTitle = global::Iceland_Moss.Droid.Resource.Attribute.windowNoTitle;
+			global::com.ptdave.xamarin.Resource.Boolean.abc_action_bar_embed_tabs = global::Iceland_Moss.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::com.ptdave.xamarin.Resource.Boolean.abc_allow_stacked_button_bar = global::Iceland_Moss.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::com.ptdave.xamarin.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Iceland_Moss.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::com.ptdave.xamarin.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Iceland_Moss.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::com.ptdave.xamarin.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Iceland_Moss.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.abc_background_cache_hint_selector_material_light = global::Iceland_Moss.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::com.ptdave.xamarin.Resource.Color.abc_btn_colored_borderless_text_material = global::Iceland_Moss.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::com.ptdave.xamarin.Resource.Color.abc_btn_colored_text_material = global::Iceland_Moss.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::com.ptdave.xamarin.Resource.Color.abc_color_highlight_material = global::Iceland_Moss.Droid.Resource.Color.abc_color_highlight_material;
+			global::com.ptdave.xamarin.Resource.Color.abc_hint_foreground_material_dark = global::Iceland_Moss.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.abc_hint_foreground_material_light = global::Iceland_Moss.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::com.ptdave.xamarin.Resource.Color.abc_input_method_navigation_guard = global::Iceland_Moss.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::com.ptdave.xamarin.Resource.Color.abc_primary_text_disable_only_material_dark = global::Iceland_Moss.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.abc_primary_text_disable_only_material_light = global::Iceland_Moss.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::com.ptdave.xamarin.Resource.Color.abc_primary_text_material_dark = global::Iceland_Moss.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.abc_primary_text_material_light = global::Iceland_Moss.Droid.Resource.Color.abc_primary_text_material_light;
+			global::com.ptdave.xamarin.Resource.Color.abc_search_url_text = global::Iceland_Moss.Droid.Resource.Color.abc_search_url_text;
+			global::com.ptdave.xamarin.Resource.Color.abc_search_url_text_normal = global::Iceland_Moss.Droid.Resource.Color.abc_search_url_text_normal;
+			global::com.ptdave.xamarin.Resource.Color.abc_search_url_text_pressed = global::Iceland_Moss.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::com.ptdave.xamarin.Resource.Color.abc_search_url_text_selected = global::Iceland_Moss.Droid.Resource.Color.abc_search_url_text_selected;
+			global::com.ptdave.xamarin.Resource.Color.abc_secondary_text_material_dark = global::Iceland_Moss.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.abc_secondary_text_material_light = global::Iceland_Moss.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::com.ptdave.xamarin.Resource.Color.abc_tint_btn_checkable = global::Iceland_Moss.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::com.ptdave.xamarin.Resource.Color.abc_tint_default = global::Iceland_Moss.Droid.Resource.Color.abc_tint_default;
+			global::com.ptdave.xamarin.Resource.Color.abc_tint_edittext = global::Iceland_Moss.Droid.Resource.Color.abc_tint_edittext;
+			global::com.ptdave.xamarin.Resource.Color.abc_tint_seek_thumb = global::Iceland_Moss.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::com.ptdave.xamarin.Resource.Color.abc_tint_spinner = global::Iceland_Moss.Droid.Resource.Color.abc_tint_spinner;
+			global::com.ptdave.xamarin.Resource.Color.abc_tint_switch_track = global::Iceland_Moss.Droid.Resource.Color.abc_tint_switch_track;
+			global::com.ptdave.xamarin.Resource.Color.accent_material_dark = global::Iceland_Moss.Droid.Resource.Color.accent_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.accent_material_light = global::Iceland_Moss.Droid.Resource.Color.accent_material_light;
+			global::com.ptdave.xamarin.Resource.Color.background_floating_material_dark = global::Iceland_Moss.Droid.Resource.Color.background_floating_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.background_floating_material_light = global::Iceland_Moss.Droid.Resource.Color.background_floating_material_light;
+			global::com.ptdave.xamarin.Resource.Color.background_material_dark = global::Iceland_Moss.Droid.Resource.Color.background_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.background_material_light = global::Iceland_Moss.Droid.Resource.Color.background_material_light;
+			global::com.ptdave.xamarin.Resource.Color.bright_foreground_disabled_material_dark = global::Iceland_Moss.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.bright_foreground_disabled_material_light = global::Iceland_Moss.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::com.ptdave.xamarin.Resource.Color.bright_foreground_inverse_material_dark = global::Iceland_Moss.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.bright_foreground_inverse_material_light = global::Iceland_Moss.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::com.ptdave.xamarin.Resource.Color.bright_foreground_material_dark = global::Iceland_Moss.Droid.Resource.Color.bright_foreground_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.bright_foreground_material_light = global::Iceland_Moss.Droid.Resource.Color.bright_foreground_material_light;
+			global::com.ptdave.xamarin.Resource.Color.browser_actions_bg_grey = global::Iceland_Moss.Droid.Resource.Color.browser_actions_bg_grey;
+			global::com.ptdave.xamarin.Resource.Color.browser_actions_divider_color = global::Iceland_Moss.Droid.Resource.Color.browser_actions_divider_color;
+			global::com.ptdave.xamarin.Resource.Color.browser_actions_text_color = global::Iceland_Moss.Droid.Resource.Color.browser_actions_text_color;
+			global::com.ptdave.xamarin.Resource.Color.browser_actions_title_color = global::Iceland_Moss.Droid.Resource.Color.browser_actions_title_color;
+			global::com.ptdave.xamarin.Resource.Color.button_material_dark = global::Iceland_Moss.Droid.Resource.Color.button_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.button_material_light = global::Iceland_Moss.Droid.Resource.Color.button_material_light;
+			global::com.ptdave.xamarin.Resource.Color.cardview_dark_background = global::Iceland_Moss.Droid.Resource.Color.cardview_dark_background;
+			global::com.ptdave.xamarin.Resource.Color.cardview_light_background = global::Iceland_Moss.Droid.Resource.Color.cardview_light_background;
+			global::com.ptdave.xamarin.Resource.Color.cardview_shadow_end_color = global::Iceland_Moss.Droid.Resource.Color.cardview_shadow_end_color;
+			global::com.ptdave.xamarin.Resource.Color.cardview_shadow_start_color = global::Iceland_Moss.Droid.Resource.Color.cardview_shadow_start_color;
+			global::com.ptdave.xamarin.Resource.Color.design_bottom_navigation_shadow_color = global::Iceland_Moss.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::com.ptdave.xamarin.Resource.Color.design_default_color_primary = global::Iceland_Moss.Droid.Resource.Color.design_default_color_primary;
+			global::com.ptdave.xamarin.Resource.Color.design_default_color_primary_dark = global::Iceland_Moss.Droid.Resource.Color.design_default_color_primary_dark;
+			global::com.ptdave.xamarin.Resource.Color.design_error = global::Iceland_Moss.Droid.Resource.Color.design_error;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_shadow_end_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_shadow_mid_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_shadow_start_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_stroke_end_inner_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_stroke_end_outer_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_stroke_top_inner_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::com.ptdave.xamarin.Resource.Color.design_fab_stroke_top_outer_color = global::Iceland_Moss.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::com.ptdave.xamarin.Resource.Color.design_snackbar_background_color = global::Iceland_Moss.Droid.Resource.Color.design_snackbar_background_color;
+			global::com.ptdave.xamarin.Resource.Color.design_tint_password_toggle = global::Iceland_Moss.Droid.Resource.Color.design_tint_password_toggle;
+			global::com.ptdave.xamarin.Resource.Color.dim_foreground_disabled_material_dark = global::Iceland_Moss.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.dim_foreground_disabled_material_light = global::Iceland_Moss.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::com.ptdave.xamarin.Resource.Color.dim_foreground_material_dark = global::Iceland_Moss.Droid.Resource.Color.dim_foreground_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.dim_foreground_material_light = global::Iceland_Moss.Droid.Resource.Color.dim_foreground_material_light;
+			global::com.ptdave.xamarin.Resource.Color.error_color_material_dark = global::Iceland_Moss.Droid.Resource.Color.error_color_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.error_color_material_light = global::Iceland_Moss.Droid.Resource.Color.error_color_material_light;
+			global::com.ptdave.xamarin.Resource.Color.foreground_material_dark = global::Iceland_Moss.Droid.Resource.Color.foreground_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.foreground_material_light = global::Iceland_Moss.Droid.Resource.Color.foreground_material_light;
+			global::com.ptdave.xamarin.Resource.Color.highlighted_text_material_dark = global::Iceland_Moss.Droid.Resource.Color.highlighted_text_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.highlighted_text_material_light = global::Iceland_Moss.Droid.Resource.Color.highlighted_text_material_light;
+			global::com.ptdave.xamarin.Resource.Color.material_blue_grey_800 = global::Iceland_Moss.Droid.Resource.Color.material_blue_grey_800;
+			global::com.ptdave.xamarin.Resource.Color.material_blue_grey_900 = global::Iceland_Moss.Droid.Resource.Color.material_blue_grey_900;
+			global::com.ptdave.xamarin.Resource.Color.material_blue_grey_950 = global::Iceland_Moss.Droid.Resource.Color.material_blue_grey_950;
+			global::com.ptdave.xamarin.Resource.Color.material_deep_teal_200 = global::Iceland_Moss.Droid.Resource.Color.material_deep_teal_200;
+			global::com.ptdave.xamarin.Resource.Color.material_deep_teal_500 = global::Iceland_Moss.Droid.Resource.Color.material_deep_teal_500;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_100 = global::Iceland_Moss.Droid.Resource.Color.material_grey_100;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_300 = global::Iceland_Moss.Droid.Resource.Color.material_grey_300;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_50 = global::Iceland_Moss.Droid.Resource.Color.material_grey_50;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_600 = global::Iceland_Moss.Droid.Resource.Color.material_grey_600;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_800 = global::Iceland_Moss.Droid.Resource.Color.material_grey_800;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_850 = global::Iceland_Moss.Droid.Resource.Color.material_grey_850;
+			global::com.ptdave.xamarin.Resource.Color.material_grey_900 = global::Iceland_Moss.Droid.Resource.Color.material_grey_900;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Iceland_Moss.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_bottom_nav_item_tint = global::Iceland_Moss.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_bg_color_disabled = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_bg_color_selector = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_ripple_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_stroke_color_selector = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_text_color_disabled = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_text_color_selector = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_btn_transparent_bg_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_chip_background_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_chip_background_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_chip_close_icon_tint = global::Iceland_Moss.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_chip_ripple_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_chip_text_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_chip_text_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_fab_ripple_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_scrim_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_scrim_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_tabs_colored_ripple_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_tabs_icon_color_selector = global::Iceland_Moss.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Iceland_Moss.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Iceland_Moss.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_tabs_ripple_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_textinput_disabled_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Iceland_Moss.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::com.ptdave.xamarin.Resource.Color.mtrl_text_btn_text_color_selector = global::Iceland_Moss.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::com.ptdave.xamarin.Resource.Color.notification_action_color_filter = global::Iceland_Moss.Droid.Resource.Color.notification_action_color_filter;
+			global::com.ptdave.xamarin.Resource.Color.notification_icon_bg_color = global::Iceland_Moss.Droid.Resource.Color.notification_icon_bg_color;
+			global::com.ptdave.xamarin.Resource.Color.notification_material_background_media_default_color = global::Iceland_Moss.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::com.ptdave.xamarin.Resource.Color.primary_dark_material_dark = global::Iceland_Moss.Droid.Resource.Color.primary_dark_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.primary_dark_material_light = global::Iceland_Moss.Droid.Resource.Color.primary_dark_material_light;
+			global::com.ptdave.xamarin.Resource.Color.primary_material_dark = global::Iceland_Moss.Droid.Resource.Color.primary_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.primary_material_light = global::Iceland_Moss.Droid.Resource.Color.primary_material_light;
+			global::com.ptdave.xamarin.Resource.Color.primary_text_default_material_dark = global::Iceland_Moss.Droid.Resource.Color.primary_text_default_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.primary_text_default_material_light = global::Iceland_Moss.Droid.Resource.Color.primary_text_default_material_light;
+			global::com.ptdave.xamarin.Resource.Color.primary_text_disabled_material_dark = global::Iceland_Moss.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.primary_text_disabled_material_light = global::Iceland_Moss.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::com.ptdave.xamarin.Resource.Color.ripple_material_dark = global::Iceland_Moss.Droid.Resource.Color.ripple_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.ripple_material_light = global::Iceland_Moss.Droid.Resource.Color.ripple_material_light;
+			global::com.ptdave.xamarin.Resource.Color.secondary_text_default_material_dark = global::Iceland_Moss.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.secondary_text_default_material_light = global::Iceland_Moss.Droid.Resource.Color.secondary_text_default_material_light;
+			global::com.ptdave.xamarin.Resource.Color.secondary_text_disabled_material_dark = global::Iceland_Moss.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.secondary_text_disabled_material_light = global::Iceland_Moss.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::com.ptdave.xamarin.Resource.Color.switch_thumb_disabled_material_dark = global::Iceland_Moss.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.switch_thumb_disabled_material_light = global::Iceland_Moss.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::com.ptdave.xamarin.Resource.Color.switch_thumb_material_dark = global::Iceland_Moss.Droid.Resource.Color.switch_thumb_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.switch_thumb_material_light = global::Iceland_Moss.Droid.Resource.Color.switch_thumb_material_light;
+			global::com.ptdave.xamarin.Resource.Color.switch_thumb_normal_material_dark = global::Iceland_Moss.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::com.ptdave.xamarin.Resource.Color.switch_thumb_normal_material_light = global::Iceland_Moss.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::com.ptdave.xamarin.Resource.Color.tooltip_background_dark = global::Iceland_Moss.Droid.Resource.Color.tooltip_background_dark;
+			global::com.ptdave.xamarin.Resource.Color.tooltip_background_light = global::Iceland_Moss.Droid.Resource.Color.tooltip_background_light;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_content_inset_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_default_height_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_elevation_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_stacked_max_height = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_button_min_height_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_button_min_width_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Iceland_Moss.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_alert_dialog_button_dimen = global::Iceland_Moss.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_button_inset_horizontal_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_button_inset_vertical_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_button_padding_horizontal_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_button_padding_vertical_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Iceland_Moss.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_config_prefDialogWidth = global::Iceland_Moss.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_control_corner_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_control_corner_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_control_inset_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_control_inset_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_control_padding_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_control_padding_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_corner_radius_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_fixed_height_major = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_fixed_height_minor = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_fixed_width_major = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_fixed_width_minor = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_min_width_major = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_min_width_minor = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_padding_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_padding_top_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dialog_title_divider_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_disabled_alpha_material_dark = global::Iceland_Moss.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_disabled_alpha_material_light = global::Iceland_Moss.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dropdownitem_icon_width = global::Iceland_Moss.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Iceland_Moss.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Iceland_Moss.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_edit_text_inset_top_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_floating_window_z = global::Iceland_Moss.Droid.Resource.Dimension.abc_floating_window_z;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_panel_menu_list_width = global::Iceland_Moss.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_progress_bar_height_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_search_view_preferred_height = global::Iceland_Moss.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_search_view_preferred_width = global::Iceland_Moss.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_seekbar_track_background_height_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_select_dialog_padding_start_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_switch_padding = global::Iceland_Moss.Droid.Resource.Dimension.abc_switch_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_body_1_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_body_2_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_button_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_caption_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_display_1_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_display_2_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_display_3_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_display_4_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_headline_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_large_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_medium_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_menu_header_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_menu_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_small_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_subhead_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_title_material = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::com.ptdave.xamarin.Resource.Dimension.abc_text_size_title_material_toolbar = global::Iceland_Moss.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::com.ptdave.xamarin.Resource.Dimension.browser_actions_context_menu_max_width = global::Iceland_Moss.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.browser_actions_context_menu_min_padding = global::Iceland_Moss.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.cardview_compat_inset_shadow = global::Iceland_Moss.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::com.ptdave.xamarin.Resource.Dimension.cardview_default_elevation = global::Iceland_Moss.Droid.Resource.Dimension.cardview_default_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.cardview_default_radius = global::Iceland_Moss.Droid.Resource.Dimension.cardview_default_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_button_inset_horizontal_material = global::Iceland_Moss.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_button_inset_vertical_material = global::Iceland_Moss.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_button_padding_horizontal_material = global::Iceland_Moss.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_button_padding_vertical_material = global::Iceland_Moss.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_control_corner_material = global::Iceland_Moss.Droid.Resource.Dimension.compat_control_corner_material;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_notification_large_icon_max_height = global::Iceland_Moss.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::com.ptdave.xamarin.Resource.Dimension.compat_notification_large_icon_max_width = global::Iceland_Moss.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_appbar_elevation = global::Iceland_Moss.Droid.Resource.Dimension.design_appbar_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_active_text_size = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_elevation = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_height = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_icon_size = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_item_max_width = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_item_min_width = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_margin = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_shadow_height = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_navigation_text_size = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Iceland_Moss.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_border_width = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_border_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_elevation = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_image_size = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_image_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_size_mini = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_size_mini;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_size_normal = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_size_normal;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::com.ptdave.xamarin.Resource.Dimension.design_fab_translation_z_pressed = global::Iceland_Moss.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_elevation = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_icon_padding = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_icon_size = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_item_horizontal_padding = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_item_icon_padding = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_max_width = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_padding_bottom = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::com.ptdave.xamarin.Resource.Dimension.design_navigation_separator_vertical_padding = global::Iceland_Moss.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_action_inline_max_width = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_background_corner_radius = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_elevation = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_max_width = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_min_width = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_padding_horizontal = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_padding_vertical = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::com.ptdave.xamarin.Resource.Dimension.design_snackbar_text_size = global::Iceland_Moss.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_tab_max_width = global::Iceland_Moss.Droid.Resource.Dimension.design_tab_max_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_tab_scrollable_min_width = global::Iceland_Moss.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::com.ptdave.xamarin.Resource.Dimension.design_tab_text_size = global::Iceland_Moss.Droid.Resource.Dimension.design_tab_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.design_tab_text_size_2line = global::Iceland_Moss.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::com.ptdave.xamarin.Resource.Dimension.design_textinput_caption_translate_y = global::Iceland_Moss.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::com.ptdave.xamarin.Resource.Dimension.disabled_alpha_material_dark = global::Iceland_Moss.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::com.ptdave.xamarin.Resource.Dimension.disabled_alpha_material_light = global::Iceland_Moss.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::com.ptdave.xamarin.Resource.Dimension.fastscroll_default_thickness = global::Iceland_Moss.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::com.ptdave.xamarin.Resource.Dimension.fastscroll_margin = global::Iceland_Moss.Droid.Resource.Dimension.fastscroll_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.fastscroll_minimum_range = global::Iceland_Moss.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::com.ptdave.xamarin.Resource.Dimension.highlight_alpha_material_colored = global::Iceland_Moss.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::com.ptdave.xamarin.Resource.Dimension.highlight_alpha_material_dark = global::Iceland_Moss.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::com.ptdave.xamarin.Resource.Dimension.highlight_alpha_material_light = global::Iceland_Moss.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::com.ptdave.xamarin.Resource.Dimension.hint_alpha_material_dark = global::Iceland_Moss.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::com.ptdave.xamarin.Resource.Dimension.hint_alpha_material_light = global::Iceland_Moss.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::com.ptdave.xamarin.Resource.Dimension.hint_pressed_alpha_material_dark = global::Iceland_Moss.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::com.ptdave.xamarin.Resource.Dimension.hint_pressed_alpha_material_light = global::Iceland_Moss.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::com.ptdave.xamarin.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Iceland_Moss.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::com.ptdave.xamarin.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Iceland_Moss.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::com.ptdave.xamarin.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Iceland_Moss.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_bottomappbar_height = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_corner_radius = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_disabled_elevation = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_disabled_z = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_elevation = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_focused_z = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_hovered_z = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_icon_padding = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_inset = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_letter_spacing = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_padding_bottom = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_padding_left = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_padding_right = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_padding_top = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_pressed_z = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_stroke_size = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_text_size = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_btn_z = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_btn_z;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_card_elevation = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_card_spacing = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_chip_text_size = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_fab_elevation = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_navigation_elevation = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_snackbar_margin = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_padding_end = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.mtrl_toolbar_default_height = global::Iceland_Moss.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_action_icon_size = global::Iceland_Moss.Droid.Resource.Dimension.notification_action_icon_size;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_action_text_size = global::Iceland_Moss.Droid.Resource.Dimension.notification_action_text_size;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_big_circle_margin = global::Iceland_Moss.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_content_margin_start = global::Iceland_Moss.Droid.Resource.Dimension.notification_content_margin_start;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_large_icon_height = global::Iceland_Moss.Droid.Resource.Dimension.notification_large_icon_height;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_large_icon_width = global::Iceland_Moss.Droid.Resource.Dimension.notification_large_icon_width;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_main_column_padding_top = global::Iceland_Moss.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_media_narrow_margin = global::Iceland_Moss.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_right_icon_size = global::Iceland_Moss.Droid.Resource.Dimension.notification_right_icon_size;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_right_side_padding_top = global::Iceland_Moss.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_small_icon_background_padding = global::Iceland_Moss.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_small_icon_size_as_large = global::Iceland_Moss.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_subtext_size = global::Iceland_Moss.Droid.Resource.Dimension.notification_subtext_size;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_top_pad = global::Iceland_Moss.Droid.Resource.Dimension.notification_top_pad;
+			global::com.ptdave.xamarin.Resource.Dimension.notification_top_pad_large_text = global::Iceland_Moss.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::com.ptdave.xamarin.Resource.Dimension.subtitle_corner_radius = global::Iceland_Moss.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.subtitle_outline_width = global::Iceland_Moss.Droid.Resource.Dimension.subtitle_outline_width;
+			global::com.ptdave.xamarin.Resource.Dimension.subtitle_shadow_offset = global::Iceland_Moss.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::com.ptdave.xamarin.Resource.Dimension.subtitle_shadow_radius = global::Iceland_Moss.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_corner_radius = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_horizontal_padding = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_margin = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_margin;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_precise_anchor_threshold = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_vertical_padding = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_y_offset_non_touch = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::com.ptdave.xamarin.Resource.Dimension.tooltip_y_offset_touch = global::Iceland_Moss.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_action_bar_item_background_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_borderless_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_check_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_check_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_colored_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_default_mtrl_shape = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_radio_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Iceland_Moss.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_cab_background_internal_bg = global::Iceland_Moss.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_cab_background_top_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_control_background_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_control_background_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_dialog_material_background = global::Iceland_Moss.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_edit_text_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_edit_text_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_ab_back_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_clear_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_go_search_api_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_menu_overflow_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_search_api_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_star_black_16dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_star_black_36dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_star_black_48dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_star_half_black_16dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_star_half_black_36dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_star_half_black_48dp = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ic_voice_search_api_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_item_background_holo_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_item_background_holo_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_divider_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_divider_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_focused_holo = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_longpressed_holo = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_pressed_holo_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_pressed_holo_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_selector_holo_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_list_selector_holo_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Iceland_Moss.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_popup_background_mtrl_mult = global::Iceland_Moss.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ratingbar_indicator_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ratingbar_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_ratingbar_small_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Iceland_Moss.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Iceland_Moss.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_seekbar_thumb_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_seekbar_tick_mark_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_seekbar_track_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_spinner_textfield_background_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_switch_thumb_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_tab_indicator_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Iceland_Moss.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_textfield_search_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_cursor_material = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Iceland_Moss.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::com.ptdave.xamarin.Resource.Drawable.abc_vector_test = global::Iceland_Moss.Droid.Resource.Drawable.abc_vector_test;
+			global::com.ptdave.xamarin.Resource.Drawable.avd_hide_password = global::Iceland_Moss.Droid.Resource.Drawable.avd_hide_password;
+			global::com.ptdave.xamarin.Resource.Drawable.avd_show_password = global::Iceland_Moss.Droid.Resource.Drawable.avd_show_password;
+			global::com.ptdave.xamarin.Resource.Drawable.design_bottom_navigation_item_background = global::Iceland_Moss.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::com.ptdave.xamarin.Resource.Drawable.design_fab_background = global::Iceland_Moss.Droid.Resource.Drawable.design_fab_background;
+			global::com.ptdave.xamarin.Resource.Drawable.design_ic_visibility = global::Iceland_Moss.Droid.Resource.Drawable.design_ic_visibility;
+			global::com.ptdave.xamarin.Resource.Drawable.design_ic_visibility_off = global::Iceland_Moss.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::com.ptdave.xamarin.Resource.Drawable.design_password_eye = global::Iceland_Moss.Droid.Resource.Drawable.design_password_eye;
+			global::com.ptdave.xamarin.Resource.Drawable.design_snackbar_background = global::Iceland_Moss.Droid.Resource.Drawable.design_snackbar_background;
+			global::com.ptdave.xamarin.Resource.Drawable.ic_mtrl_chip_checked_black = global::Iceland_Moss.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::com.ptdave.xamarin.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Iceland_Moss.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::com.ptdave.xamarin.Resource.Drawable.ic_mtrl_chip_close_circle = global::Iceland_Moss.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::com.ptdave.xamarin.Resource.Drawable.mtrl_snackbar_background = global::Iceland_Moss.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::com.ptdave.xamarin.Resource.Drawable.mtrl_tabs_default_indicator = global::Iceland_Moss.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::com.ptdave.xamarin.Resource.Drawable.navigation_empty_icon = global::Iceland_Moss.Droid.Resource.Drawable.navigation_empty_icon;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_action_background = global::Iceland_Moss.Droid.Resource.Drawable.notification_action_background;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_bg = global::Iceland_Moss.Droid.Resource.Drawable.notification_bg;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_bg_low = global::Iceland_Moss.Droid.Resource.Drawable.notification_bg_low;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_bg_low_normal = global::Iceland_Moss.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_bg_low_pressed = global::Iceland_Moss.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_bg_normal = global::Iceland_Moss.Droid.Resource.Drawable.notification_bg_normal;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_bg_normal_pressed = global::Iceland_Moss.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_icon_background = global::Iceland_Moss.Droid.Resource.Drawable.notification_icon_background;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_template_icon_bg = global::Iceland_Moss.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_template_icon_low_bg = global::Iceland_Moss.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::com.ptdave.xamarin.Resource.Drawable.notification_tile_bg = global::Iceland_Moss.Droid.Resource.Drawable.notification_tile_bg;
+			global::com.ptdave.xamarin.Resource.Drawable.notify_panel_notification_icon_bg = global::Iceland_Moss.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::com.ptdave.xamarin.Resource.Drawable.tooltip_frame_dark = global::Iceland_Moss.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::com.ptdave.xamarin.Resource.Drawable.tooltip_frame_light = global::Iceland_Moss.Droid.Resource.Drawable.tooltip_frame_light;
+			global::com.ptdave.xamarin.Resource.Id.action0 = global::Iceland_Moss.Droid.Resource.Id.action0;
+			global::com.ptdave.xamarin.Resource.Id.actions = global::Iceland_Moss.Droid.Resource.Id.actions;
+			global::com.ptdave.xamarin.Resource.Id.action_bar = global::Iceland_Moss.Droid.Resource.Id.action_bar;
+			global::com.ptdave.xamarin.Resource.Id.action_bar_activity_content = global::Iceland_Moss.Droid.Resource.Id.action_bar_activity_content;
+			global::com.ptdave.xamarin.Resource.Id.action_bar_container = global::Iceland_Moss.Droid.Resource.Id.action_bar_container;
+			global::com.ptdave.xamarin.Resource.Id.action_bar_root = global::Iceland_Moss.Droid.Resource.Id.action_bar_root;
+			global::com.ptdave.xamarin.Resource.Id.action_bar_spinner = global::Iceland_Moss.Droid.Resource.Id.action_bar_spinner;
+			global::com.ptdave.xamarin.Resource.Id.action_bar_subtitle = global::Iceland_Moss.Droid.Resource.Id.action_bar_subtitle;
+			global::com.ptdave.xamarin.Resource.Id.action_bar_title = global::Iceland_Moss.Droid.Resource.Id.action_bar_title;
+			global::com.ptdave.xamarin.Resource.Id.action_container = global::Iceland_Moss.Droid.Resource.Id.action_container;
+			global::com.ptdave.xamarin.Resource.Id.action_context_bar = global::Iceland_Moss.Droid.Resource.Id.action_context_bar;
+			global::com.ptdave.xamarin.Resource.Id.action_divider = global::Iceland_Moss.Droid.Resource.Id.action_divider;
+			global::com.ptdave.xamarin.Resource.Id.action_image = global::Iceland_Moss.Droid.Resource.Id.action_image;
+			global::com.ptdave.xamarin.Resource.Id.action_menu_divider = global::Iceland_Moss.Droid.Resource.Id.action_menu_divider;
+			global::com.ptdave.xamarin.Resource.Id.action_menu_presenter = global::Iceland_Moss.Droid.Resource.Id.action_menu_presenter;
+			global::com.ptdave.xamarin.Resource.Id.action_mode_bar = global::Iceland_Moss.Droid.Resource.Id.action_mode_bar;
+			global::com.ptdave.xamarin.Resource.Id.action_mode_bar_stub = global::Iceland_Moss.Droid.Resource.Id.action_mode_bar_stub;
+			global::com.ptdave.xamarin.Resource.Id.action_mode_close_button = global::Iceland_Moss.Droid.Resource.Id.action_mode_close_button;
+			global::com.ptdave.xamarin.Resource.Id.action_text = global::Iceland_Moss.Droid.Resource.Id.action_text;
+			global::com.ptdave.xamarin.Resource.Id.activity_chooser_view_content = global::Iceland_Moss.Droid.Resource.Id.activity_chooser_view_content;
+			global::com.ptdave.xamarin.Resource.Id.add = global::Iceland_Moss.Droid.Resource.Id.add;
+			global::com.ptdave.xamarin.Resource.Id.alertTitle = global::Iceland_Moss.Droid.Resource.Id.alertTitle;
+			global::com.ptdave.xamarin.Resource.Id.all = global::Iceland_Moss.Droid.Resource.Id.all;
+			global::com.ptdave.xamarin.Resource.Id.ALT = global::Iceland_Moss.Droid.Resource.Id.ALT;
+			global::com.ptdave.xamarin.Resource.Id.always = global::Iceland_Moss.Droid.Resource.Id.always;
+			global::com.ptdave.xamarin.Resource.Id.async = global::Iceland_Moss.Droid.Resource.Id.async;
+			global::com.ptdave.xamarin.Resource.Id.auto = global::Iceland_Moss.Droid.Resource.Id.auto;
+			global::com.ptdave.xamarin.Resource.Id.beginning = global::Iceland_Moss.Droid.Resource.Id.beginning;
+			global::com.ptdave.xamarin.Resource.Id.blocking = global::Iceland_Moss.Droid.Resource.Id.blocking;
+			global::com.ptdave.xamarin.Resource.Id.bottom = global::Iceland_Moss.Droid.Resource.Id.bottom;
+			global::com.ptdave.xamarin.Resource.Id.bottomtab_navarea = global::Iceland_Moss.Droid.Resource.Id.bottomtab_navarea;
+			global::com.ptdave.xamarin.Resource.Id.bottomtab_tabbar = global::Iceland_Moss.Droid.Resource.Id.bottomtab_tabbar;
+			global::com.ptdave.xamarin.Resource.Id.browser_actions_header_text = global::Iceland_Moss.Droid.Resource.Id.browser_actions_header_text;
+			global::com.ptdave.xamarin.Resource.Id.browser_actions_menu_items = global::Iceland_Moss.Droid.Resource.Id.browser_actions_menu_items;
+			global::com.ptdave.xamarin.Resource.Id.browser_actions_menu_item_icon = global::Iceland_Moss.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::com.ptdave.xamarin.Resource.Id.browser_actions_menu_item_text = global::Iceland_Moss.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::com.ptdave.xamarin.Resource.Id.browser_actions_menu_view = global::Iceland_Moss.Droid.Resource.Id.browser_actions_menu_view;
+			global::com.ptdave.xamarin.Resource.Id.buttonPanel = global::Iceland_Moss.Droid.Resource.Id.buttonPanel;
+			global::com.ptdave.xamarin.Resource.Id.cancel_action = global::Iceland_Moss.Droid.Resource.Id.cancel_action;
+			global::com.ptdave.xamarin.Resource.Id.center = global::Iceland_Moss.Droid.Resource.Id.center;
+			global::com.ptdave.xamarin.Resource.Id.center_horizontal = global::Iceland_Moss.Droid.Resource.Id.center_horizontal;
+			global::com.ptdave.xamarin.Resource.Id.center_vertical = global::Iceland_Moss.Droid.Resource.Id.center_vertical;
+			global::com.ptdave.xamarin.Resource.Id.checkbox = global::Iceland_Moss.Droid.Resource.Id.checkbox;
+			global::com.ptdave.xamarin.Resource.Id.chronometer = global::Iceland_Moss.Droid.Resource.Id.chronometer;
+			global::com.ptdave.xamarin.Resource.Id.clip_horizontal = global::Iceland_Moss.Droid.Resource.Id.clip_horizontal;
+			global::com.ptdave.xamarin.Resource.Id.clip_vertical = global::Iceland_Moss.Droid.Resource.Id.clip_vertical;
+			global::com.ptdave.xamarin.Resource.Id.collapseActionView = global::Iceland_Moss.Droid.Resource.Id.collapseActionView;
+			global::com.ptdave.xamarin.Resource.Id.container = global::Iceland_Moss.Droid.Resource.Id.container;
+			global::com.ptdave.xamarin.Resource.Id.content = global::Iceland_Moss.Droid.Resource.Id.content;
+			global::com.ptdave.xamarin.Resource.Id.contentPanel = global::Iceland_Moss.Droid.Resource.Id.contentPanel;
+			global::com.ptdave.xamarin.Resource.Id.coordinator = global::Iceland_Moss.Droid.Resource.Id.coordinator;
+			global::com.ptdave.xamarin.Resource.Id.CTRL = global::Iceland_Moss.Droid.Resource.Id.CTRL;
+			global::com.ptdave.xamarin.Resource.Id.custom = global::Iceland_Moss.Droid.Resource.Id.custom;
+			global::com.ptdave.xamarin.Resource.Id.customPanel = global::Iceland_Moss.Droid.Resource.Id.customPanel;
+			global::com.ptdave.xamarin.Resource.Id.decor_content_parent = global::Iceland_Moss.Droid.Resource.Id.decor_content_parent;
+			global::com.ptdave.xamarin.Resource.Id.default_activity_button = global::Iceland_Moss.Droid.Resource.Id.default_activity_button;
+			global::com.ptdave.xamarin.Resource.Id.design_bottom_sheet = global::Iceland_Moss.Droid.Resource.Id.design_bottom_sheet;
+			global::com.ptdave.xamarin.Resource.Id.design_menu_item_action_area = global::Iceland_Moss.Droid.Resource.Id.design_menu_item_action_area;
+			global::com.ptdave.xamarin.Resource.Id.design_menu_item_action_area_stub = global::Iceland_Moss.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::com.ptdave.xamarin.Resource.Id.design_menu_item_text = global::Iceland_Moss.Droid.Resource.Id.design_menu_item_text;
+			global::com.ptdave.xamarin.Resource.Id.design_navigation_view = global::Iceland_Moss.Droid.Resource.Id.design_navigation_view;
+			global::com.ptdave.xamarin.Resource.Id.disableHome = global::Iceland_Moss.Droid.Resource.Id.disableHome;
+			global::com.ptdave.xamarin.Resource.Id.edit_query = global::Iceland_Moss.Droid.Resource.Id.edit_query;
+			global::com.ptdave.xamarin.Resource.Id.end = global::Iceland_Moss.Droid.Resource.Id.end;
+			global::com.ptdave.xamarin.Resource.Id.end_padder = global::Iceland_Moss.Droid.Resource.Id.end_padder;
+			global::com.ptdave.xamarin.Resource.Id.enterAlways = global::Iceland_Moss.Droid.Resource.Id.enterAlways;
+			global::com.ptdave.xamarin.Resource.Id.enterAlwaysCollapsed = global::Iceland_Moss.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::com.ptdave.xamarin.Resource.Id.exitUntilCollapsed = global::Iceland_Moss.Droid.Resource.Id.exitUntilCollapsed;
+			global::com.ptdave.xamarin.Resource.Id.expanded_menu = global::Iceland_Moss.Droid.Resource.Id.expanded_menu;
+			global::com.ptdave.xamarin.Resource.Id.expand_activities_button = global::Iceland_Moss.Droid.Resource.Id.expand_activities_button;
+			global::com.ptdave.xamarin.Resource.Id.fill = global::Iceland_Moss.Droid.Resource.Id.fill;
+			global::com.ptdave.xamarin.Resource.Id.filled = global::Iceland_Moss.Droid.Resource.Id.filled;
+			global::com.ptdave.xamarin.Resource.Id.fill_horizontal = global::Iceland_Moss.Droid.Resource.Id.fill_horizontal;
+			global::com.ptdave.xamarin.Resource.Id.fill_vertical = global::Iceland_Moss.Droid.Resource.Id.fill_vertical;
+			global::com.ptdave.xamarin.Resource.Id.@fixed = global::Iceland_Moss.Droid.Resource.Id.@fixed;
+			global::com.ptdave.xamarin.Resource.Id.flyoutcontent_appbar = global::Iceland_Moss.Droid.Resource.Id.flyoutcontent_appbar;
+			global::com.ptdave.xamarin.Resource.Id.flyoutcontent_recycler = global::Iceland_Moss.Droid.Resource.Id.flyoutcontent_recycler;
+			global::com.ptdave.xamarin.Resource.Id.forever = global::Iceland_Moss.Droid.Resource.Id.forever;
+			global::com.ptdave.xamarin.Resource.Id.FUNCTION = global::Iceland_Moss.Droid.Resource.Id.FUNCTION;
+			global::com.ptdave.xamarin.Resource.Id.ghost_view = global::Iceland_Moss.Droid.Resource.Id.ghost_view;
+			global::com.ptdave.xamarin.Resource.Id.group_divider = global::Iceland_Moss.Droid.Resource.Id.group_divider;
+			global::com.ptdave.xamarin.Resource.Id.home = global::Iceland_Moss.Droid.Resource.Id.home;
+			global::com.ptdave.xamarin.Resource.Id.homeAsUp = global::Iceland_Moss.Droid.Resource.Id.homeAsUp;
+			global::com.ptdave.xamarin.Resource.Id.icon = global::Iceland_Moss.Droid.Resource.Id.icon;
+			global::com.ptdave.xamarin.Resource.Id.icon_group = global::Iceland_Moss.Droid.Resource.Id.icon_group;
+			global::com.ptdave.xamarin.Resource.Id.ifRoom = global::Iceland_Moss.Droid.Resource.Id.ifRoom;
+			global::com.ptdave.xamarin.Resource.Id.image = global::Iceland_Moss.Droid.Resource.Id.image;
+			global::com.ptdave.xamarin.Resource.Id.info = global::Iceland_Moss.Droid.Resource.Id.info;
+			global::com.ptdave.xamarin.Resource.Id.italic = global::Iceland_Moss.Droid.Resource.Id.italic;
+			global::com.ptdave.xamarin.Resource.Id.item_touch_helper_previous_elevation = global::Iceland_Moss.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::com.ptdave.xamarin.Resource.Id.labeled = global::Iceland_Moss.Droid.Resource.Id.labeled;
+			global::com.ptdave.xamarin.Resource.Id.largeLabel = global::Iceland_Moss.Droid.Resource.Id.largeLabel;
+			global::com.ptdave.xamarin.Resource.Id.left = global::Iceland_Moss.Droid.Resource.Id.left;
+			global::com.ptdave.xamarin.Resource.Id.line1 = global::Iceland_Moss.Droid.Resource.Id.line1;
+			global::com.ptdave.xamarin.Resource.Id.line3 = global::Iceland_Moss.Droid.Resource.Id.line3;
+			global::com.ptdave.xamarin.Resource.Id.listMode = global::Iceland_Moss.Droid.Resource.Id.listMode;
+			global::com.ptdave.xamarin.Resource.Id.list_item = global::Iceland_Moss.Droid.Resource.Id.list_item;
+			global::com.ptdave.xamarin.Resource.Id.main_appbar = global::Iceland_Moss.Droid.Resource.Id.main_appbar;
+			global::com.ptdave.xamarin.Resource.Id.main_tablayout = global::Iceland_Moss.Droid.Resource.Id.main_tablayout;
+			global::com.ptdave.xamarin.Resource.Id.main_toolbar = global::Iceland_Moss.Droid.Resource.Id.main_toolbar;
+			global::com.ptdave.xamarin.Resource.Id.main_viewpager = global::Iceland_Moss.Droid.Resource.Id.main_viewpager;
+			global::com.ptdave.xamarin.Resource.Id.masked = global::Iceland_Moss.Droid.Resource.Id.masked;
+			global::com.ptdave.xamarin.Resource.Id.media_actions = global::Iceland_Moss.Droid.Resource.Id.media_actions;
+			global::com.ptdave.xamarin.Resource.Id.message = global::Iceland_Moss.Droid.Resource.Id.message;
+			global::com.ptdave.xamarin.Resource.Id.META = global::Iceland_Moss.Droid.Resource.Id.META;
+			global::com.ptdave.xamarin.Resource.Id.middle = global::Iceland_Moss.Droid.Resource.Id.middle;
+			global::com.ptdave.xamarin.Resource.Id.mini = global::Iceland_Moss.Droid.Resource.Id.mini;
+			global::com.ptdave.xamarin.Resource.Id.mtrl_child_content_container = global::Iceland_Moss.Droid.Resource.Id.mtrl_child_content_container;
+			global::com.ptdave.xamarin.Resource.Id.mtrl_internal_children_alpha_tag = global::Iceland_Moss.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::com.ptdave.xamarin.Resource.Id.multiply = global::Iceland_Moss.Droid.Resource.Id.multiply;
+			global::com.ptdave.xamarin.Resource.Id.navigation_header_container = global::Iceland_Moss.Droid.Resource.Id.navigation_header_container;
+			global::com.ptdave.xamarin.Resource.Id.never = global::Iceland_Moss.Droid.Resource.Id.never;
+			global::com.ptdave.xamarin.Resource.Id.none = global::Iceland_Moss.Droid.Resource.Id.none;
+			global::com.ptdave.xamarin.Resource.Id.normal = global::Iceland_Moss.Droid.Resource.Id.normal;
+			global::com.ptdave.xamarin.Resource.Id.notification_background = global::Iceland_Moss.Droid.Resource.Id.notification_background;
+			global::com.ptdave.xamarin.Resource.Id.notification_main_column = global::Iceland_Moss.Droid.Resource.Id.notification_main_column;
+			global::com.ptdave.xamarin.Resource.Id.notification_main_column_container = global::Iceland_Moss.Droid.Resource.Id.notification_main_column_container;
+			global::com.ptdave.xamarin.Resource.Id.outline = global::Iceland_Moss.Droid.Resource.Id.outline;
+			global::com.ptdave.xamarin.Resource.Id.parallax = global::Iceland_Moss.Droid.Resource.Id.parallax;
+			global::com.ptdave.xamarin.Resource.Id.parentPanel = global::Iceland_Moss.Droid.Resource.Id.parentPanel;
+			global::com.ptdave.xamarin.Resource.Id.parent_matrix = global::Iceland_Moss.Droid.Resource.Id.parent_matrix;
+			global::com.ptdave.xamarin.Resource.Id.pin = global::Iceland_Moss.Droid.Resource.Id.pin;
+			global::com.ptdave.xamarin.Resource.Id.progress_circular = global::Iceland_Moss.Droid.Resource.Id.progress_circular;
+			global::com.ptdave.xamarin.Resource.Id.progress_horizontal = global::Iceland_Moss.Droid.Resource.Id.progress_horizontal;
+			global::com.ptdave.xamarin.Resource.Id.radio = global::Iceland_Moss.Droid.Resource.Id.radio;
+			global::com.ptdave.xamarin.Resource.Id.right = global::Iceland_Moss.Droid.Resource.Id.right;
+			global::com.ptdave.xamarin.Resource.Id.right_icon = global::Iceland_Moss.Droid.Resource.Id.right_icon;
+			global::com.ptdave.xamarin.Resource.Id.right_side = global::Iceland_Moss.Droid.Resource.Id.right_side;
+			global::com.ptdave.xamarin.Resource.Id.save_non_transition_alpha = global::Iceland_Moss.Droid.Resource.Id.save_non_transition_alpha;
+			global::com.ptdave.xamarin.Resource.Id.screen = global::Iceland_Moss.Droid.Resource.Id.screen;
+			global::com.ptdave.xamarin.Resource.Id.scroll = global::Iceland_Moss.Droid.Resource.Id.scroll;
+			global::com.ptdave.xamarin.Resource.Id.scrollable = global::Iceland_Moss.Droid.Resource.Id.scrollable;
+			global::com.ptdave.xamarin.Resource.Id.scrollIndicatorDown = global::Iceland_Moss.Droid.Resource.Id.scrollIndicatorDown;
+			global::com.ptdave.xamarin.Resource.Id.scrollIndicatorUp = global::Iceland_Moss.Droid.Resource.Id.scrollIndicatorUp;
+			global::com.ptdave.xamarin.Resource.Id.scrollView = global::Iceland_Moss.Droid.Resource.Id.scrollView;
+			global::com.ptdave.xamarin.Resource.Id.search_badge = global::Iceland_Moss.Droid.Resource.Id.search_badge;
+			global::com.ptdave.xamarin.Resource.Id.search_bar = global::Iceland_Moss.Droid.Resource.Id.search_bar;
+			global::com.ptdave.xamarin.Resource.Id.search_button = global::Iceland_Moss.Droid.Resource.Id.search_button;
+			global::com.ptdave.xamarin.Resource.Id.search_close_btn = global::Iceland_Moss.Droid.Resource.Id.search_close_btn;
+			global::com.ptdave.xamarin.Resource.Id.search_edit_frame = global::Iceland_Moss.Droid.Resource.Id.search_edit_frame;
+			global::com.ptdave.xamarin.Resource.Id.search_go_btn = global::Iceland_Moss.Droid.Resource.Id.search_go_btn;
+			global::com.ptdave.xamarin.Resource.Id.search_mag_icon = global::Iceland_Moss.Droid.Resource.Id.search_mag_icon;
+			global::com.ptdave.xamarin.Resource.Id.search_plate = global::Iceland_Moss.Droid.Resource.Id.search_plate;
+			global::com.ptdave.xamarin.Resource.Id.search_src_text = global::Iceland_Moss.Droid.Resource.Id.search_src_text;
+			global::com.ptdave.xamarin.Resource.Id.search_voice_btn = global::Iceland_Moss.Droid.Resource.Id.search_voice_btn;
+			global::com.ptdave.xamarin.Resource.Id.selected = global::Iceland_Moss.Droid.Resource.Id.selected;
+			global::com.ptdave.xamarin.Resource.Id.select_dialog_listview = global::Iceland_Moss.Droid.Resource.Id.select_dialog_listview;
+			global::com.ptdave.xamarin.Resource.Id.shellcontent_appbar = global::Iceland_Moss.Droid.Resource.Id.shellcontent_appbar;
+			global::com.ptdave.xamarin.Resource.Id.shellcontent_toolbar = global::Iceland_Moss.Droid.Resource.Id.shellcontent_toolbar;
+			global::com.ptdave.xamarin.Resource.Id.SHIFT = global::Iceland_Moss.Droid.Resource.Id.SHIFT;
+			global::com.ptdave.xamarin.Resource.Id.shortcut = global::Iceland_Moss.Droid.Resource.Id.shortcut;
+			global::com.ptdave.xamarin.Resource.Id.showCustom = global::Iceland_Moss.Droid.Resource.Id.showCustom;
+			global::com.ptdave.xamarin.Resource.Id.showHome = global::Iceland_Moss.Droid.Resource.Id.showHome;
+			global::com.ptdave.xamarin.Resource.Id.showTitle = global::Iceland_Moss.Droid.Resource.Id.showTitle;
+			global::com.ptdave.xamarin.Resource.Id.smallLabel = global::Iceland_Moss.Droid.Resource.Id.smallLabel;
+			global::com.ptdave.xamarin.Resource.Id.snackbar_action = global::Iceland_Moss.Droid.Resource.Id.snackbar_action;
+			global::com.ptdave.xamarin.Resource.Id.snackbar_text = global::Iceland_Moss.Droid.Resource.Id.snackbar_text;
+			global::com.ptdave.xamarin.Resource.Id.snap = global::Iceland_Moss.Droid.Resource.Id.snap;
+			global::com.ptdave.xamarin.Resource.Id.snapMargins = global::Iceland_Moss.Droid.Resource.Id.snapMargins;
+			global::com.ptdave.xamarin.Resource.Id.spacer = global::Iceland_Moss.Droid.Resource.Id.spacer;
+			global::com.ptdave.xamarin.Resource.Id.split_action_bar = global::Iceland_Moss.Droid.Resource.Id.split_action_bar;
+			global::com.ptdave.xamarin.Resource.Id.src_atop = global::Iceland_Moss.Droid.Resource.Id.src_atop;
+			global::com.ptdave.xamarin.Resource.Id.src_in = global::Iceland_Moss.Droid.Resource.Id.src_in;
+			global::com.ptdave.xamarin.Resource.Id.src_over = global::Iceland_Moss.Droid.Resource.Id.src_over;
+			global::com.ptdave.xamarin.Resource.Id.start = global::Iceland_Moss.Droid.Resource.Id.start;
+			global::com.ptdave.xamarin.Resource.Id.status_bar_latest_event_content = global::Iceland_Moss.Droid.Resource.Id.status_bar_latest_event_content;
+			global::com.ptdave.xamarin.Resource.Id.stretch = global::Iceland_Moss.Droid.Resource.Id.stretch;
+			global::com.ptdave.xamarin.Resource.Id.submenuarrow = global::Iceland_Moss.Droid.Resource.Id.submenuarrow;
+			global::com.ptdave.xamarin.Resource.Id.submit_area = global::Iceland_Moss.Droid.Resource.Id.submit_area;
+			global::com.ptdave.xamarin.Resource.Id.SYM = global::Iceland_Moss.Droid.Resource.Id.SYM;
+			global::com.ptdave.xamarin.Resource.Id.tabMode = global::Iceland_Moss.Droid.Resource.Id.tabMode;
+			global::com.ptdave.xamarin.Resource.Id.tag_transition_group = global::Iceland_Moss.Droid.Resource.Id.tag_transition_group;
+			global::com.ptdave.xamarin.Resource.Id.tag_unhandled_key_event_manager = global::Iceland_Moss.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::com.ptdave.xamarin.Resource.Id.tag_unhandled_key_listeners = global::Iceland_Moss.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::com.ptdave.xamarin.Resource.Id.text = global::Iceland_Moss.Droid.Resource.Id.text;
+			global::com.ptdave.xamarin.Resource.Id.text2 = global::Iceland_Moss.Droid.Resource.Id.text2;
+			global::com.ptdave.xamarin.Resource.Id.textinput_counter = global::Iceland_Moss.Droid.Resource.Id.textinput_counter;
+			global::com.ptdave.xamarin.Resource.Id.textinput_error = global::Iceland_Moss.Droid.Resource.Id.textinput_error;
+			global::com.ptdave.xamarin.Resource.Id.textinput_helper_text = global::Iceland_Moss.Droid.Resource.Id.textinput_helper_text;
+			global::com.ptdave.xamarin.Resource.Id.textSpacerNoButtons = global::Iceland_Moss.Droid.Resource.Id.textSpacerNoButtons;
+			global::com.ptdave.xamarin.Resource.Id.textSpacerNoTitle = global::Iceland_Moss.Droid.Resource.Id.textSpacerNoTitle;
+			global::com.ptdave.xamarin.Resource.Id.textStart = global::Iceland_Moss.Droid.Resource.Id.textStart;
+			global::com.ptdave.xamarin.Resource.Id.text_input_password_toggle = global::Iceland_Moss.Droid.Resource.Id.text_input_password_toggle;
+			global::com.ptdave.xamarin.Resource.Id.time = global::Iceland_Moss.Droid.Resource.Id.time;
+			global::com.ptdave.xamarin.Resource.Id.title = global::Iceland_Moss.Droid.Resource.Id.title;
+			global::com.ptdave.xamarin.Resource.Id.titleDividerNoCustom = global::Iceland_Moss.Droid.Resource.Id.titleDividerNoCustom;
+			global::com.ptdave.xamarin.Resource.Id.title_template = global::Iceland_Moss.Droid.Resource.Id.title_template;
+			global::com.ptdave.xamarin.Resource.Id.top = global::Iceland_Moss.Droid.Resource.Id.top;
+			global::com.ptdave.xamarin.Resource.Id.topPanel = global::Iceland_Moss.Droid.Resource.Id.topPanel;
+			global::com.ptdave.xamarin.Resource.Id.touch_outside = global::Iceland_Moss.Droid.Resource.Id.touch_outside;
+			global::com.ptdave.xamarin.Resource.Id.transition_current_scene = global::Iceland_Moss.Droid.Resource.Id.transition_current_scene;
+			global::com.ptdave.xamarin.Resource.Id.transition_layout_save = global::Iceland_Moss.Droid.Resource.Id.transition_layout_save;
+			global::com.ptdave.xamarin.Resource.Id.transition_position = global::Iceland_Moss.Droid.Resource.Id.transition_position;
+			global::com.ptdave.xamarin.Resource.Id.transition_scene_layoutid_cache = global::Iceland_Moss.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::com.ptdave.xamarin.Resource.Id.transition_transform = global::Iceland_Moss.Droid.Resource.Id.transition_transform;
+			global::com.ptdave.xamarin.Resource.Id.uniform = global::Iceland_Moss.Droid.Resource.Id.uniform;
+			global::com.ptdave.xamarin.Resource.Id.unlabeled = global::Iceland_Moss.Droid.Resource.Id.unlabeled;
+			global::com.ptdave.xamarin.Resource.Id.up = global::Iceland_Moss.Droid.Resource.Id.up;
+			global::com.ptdave.xamarin.Resource.Id.useLogo = global::Iceland_Moss.Droid.Resource.Id.useLogo;
+			global::com.ptdave.xamarin.Resource.Id.view_offset_helper = global::Iceland_Moss.Droid.Resource.Id.view_offset_helper;
+			global::com.ptdave.xamarin.Resource.Id.visible = global::Iceland_Moss.Droid.Resource.Id.visible;
+			global::com.ptdave.xamarin.Resource.Id.withText = global::Iceland_Moss.Droid.Resource.Id.withText;
+			global::com.ptdave.xamarin.Resource.Id.wrap_content = global::Iceland_Moss.Droid.Resource.Id.wrap_content;
+			global::com.ptdave.xamarin.Resource.Integer.abc_config_activityDefaultDur = global::Iceland_Moss.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::com.ptdave.xamarin.Resource.Integer.abc_config_activityShortDur = global::Iceland_Moss.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::com.ptdave.xamarin.Resource.Integer.app_bar_elevation_anim_duration = global::Iceland_Moss.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::com.ptdave.xamarin.Resource.Integer.bottom_sheet_slide_duration = global::Iceland_Moss.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::com.ptdave.xamarin.Resource.Integer.cancel_button_image_alpha = global::Iceland_Moss.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::com.ptdave.xamarin.Resource.Integer.config_tooltipAnimTime = global::Iceland_Moss.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::com.ptdave.xamarin.Resource.Integer.design_snackbar_text_max_lines = global::Iceland_Moss.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::com.ptdave.xamarin.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Iceland_Moss.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::com.ptdave.xamarin.Resource.Integer.hide_password_duration = global::Iceland_Moss.Droid.Resource.Integer.hide_password_duration;
+			global::com.ptdave.xamarin.Resource.Integer.mtrl_btn_anim_delay_ms = global::Iceland_Moss.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::com.ptdave.xamarin.Resource.Integer.mtrl_btn_anim_duration_ms = global::Iceland_Moss.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::com.ptdave.xamarin.Resource.Integer.mtrl_chip_anim_duration = global::Iceland_Moss.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::com.ptdave.xamarin.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Iceland_Moss.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::com.ptdave.xamarin.Resource.Integer.show_password_duration = global::Iceland_Moss.Droid.Resource.Integer.show_password_duration;
+			global::com.ptdave.xamarin.Resource.Integer.status_bar_notification_info_maxnum = global::Iceland_Moss.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::com.ptdave.xamarin.Resource.Interpolator.mtrl_fast_out_linear_in = global::Iceland_Moss.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::com.ptdave.xamarin.Resource.Interpolator.mtrl_fast_out_slow_in = global::Iceland_Moss.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::com.ptdave.xamarin.Resource.Interpolator.mtrl_linear = global::Iceland_Moss.Droid.Resource.Interpolator.mtrl_linear;
+			global::com.ptdave.xamarin.Resource.Interpolator.mtrl_linear_out_slow_in = global::Iceland_Moss.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::com.ptdave.xamarin.Resource.Layout.abc_action_bar_title_item = global::Iceland_Moss.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::com.ptdave.xamarin.Resource.Layout.abc_action_bar_up_container = global::Iceland_Moss.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::com.ptdave.xamarin.Resource.Layout.abc_action_menu_item_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_action_menu_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_action_menu_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_action_mode_bar = global::Iceland_Moss.Droid.Resource.Layout.abc_action_mode_bar;
+			global::com.ptdave.xamarin.Resource.Layout.abc_action_mode_close_item_material = global::Iceland_Moss.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::com.ptdave.xamarin.Resource.Layout.abc_activity_chooser_view = global::Iceland_Moss.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::com.ptdave.xamarin.Resource.Layout.abc_activity_chooser_view_list_item = global::Iceland_Moss.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::com.ptdave.xamarin.Resource.Layout.abc_alert_dialog_button_bar_material = global::Iceland_Moss.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::com.ptdave.xamarin.Resource.Layout.abc_alert_dialog_material = global::Iceland_Moss.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::com.ptdave.xamarin.Resource.Layout.abc_alert_dialog_title_material = global::Iceland_Moss.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::com.ptdave.xamarin.Resource.Layout.abc_cascading_menu_item_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_dialog_title_material = global::Iceland_Moss.Droid.Resource.Layout.abc_dialog_title_material;
+			global::com.ptdave.xamarin.Resource.Layout.abc_expanded_menu_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_list_menu_item_checkbox = global::Iceland_Moss.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::com.ptdave.xamarin.Resource.Layout.abc_list_menu_item_icon = global::Iceland_Moss.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::com.ptdave.xamarin.Resource.Layout.abc_list_menu_item_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_list_menu_item_radio = global::Iceland_Moss.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::com.ptdave.xamarin.Resource.Layout.abc_popup_menu_header_item_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_popup_menu_item_layout = global::Iceland_Moss.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::com.ptdave.xamarin.Resource.Layout.abc_screen_content_include = global::Iceland_Moss.Droid.Resource.Layout.abc_screen_content_include;
+			global::com.ptdave.xamarin.Resource.Layout.abc_screen_simple = global::Iceland_Moss.Droid.Resource.Layout.abc_screen_simple;
+			global::com.ptdave.xamarin.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Iceland_Moss.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::com.ptdave.xamarin.Resource.Layout.abc_screen_toolbar = global::Iceland_Moss.Droid.Resource.Layout.abc_screen_toolbar;
+			global::com.ptdave.xamarin.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Iceland_Moss.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::com.ptdave.xamarin.Resource.Layout.abc_search_view = global::Iceland_Moss.Droid.Resource.Layout.abc_search_view;
+			global::com.ptdave.xamarin.Resource.Layout.abc_select_dialog_material = global::Iceland_Moss.Droid.Resource.Layout.abc_select_dialog_material;
+			global::com.ptdave.xamarin.Resource.Layout.abc_tooltip = global::Iceland_Moss.Droid.Resource.Layout.abc_tooltip;
+			global::com.ptdave.xamarin.Resource.Layout.BottomTabLayout = global::Iceland_Moss.Droid.Resource.Layout.BottomTabLayout;
+			global::com.ptdave.xamarin.Resource.Layout.browser_actions_context_menu_page = global::Iceland_Moss.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::com.ptdave.xamarin.Resource.Layout.browser_actions_context_menu_row = global::Iceland_Moss.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::com.ptdave.xamarin.Resource.Layout.design_bottom_navigation_item = global::Iceland_Moss.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::com.ptdave.xamarin.Resource.Layout.design_bottom_sheet_dialog = global::Iceland_Moss.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::com.ptdave.xamarin.Resource.Layout.design_layout_snackbar = global::Iceland_Moss.Droid.Resource.Layout.design_layout_snackbar;
+			global::com.ptdave.xamarin.Resource.Layout.design_layout_snackbar_include = global::Iceland_Moss.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::com.ptdave.xamarin.Resource.Layout.design_layout_tab_icon = global::Iceland_Moss.Droid.Resource.Layout.design_layout_tab_icon;
+			global::com.ptdave.xamarin.Resource.Layout.design_layout_tab_text = global::Iceland_Moss.Droid.Resource.Layout.design_layout_tab_text;
+			global::com.ptdave.xamarin.Resource.Layout.design_menu_item_action_area = global::Iceland_Moss.Droid.Resource.Layout.design_menu_item_action_area;
+			global::com.ptdave.xamarin.Resource.Layout.design_navigation_item = global::Iceland_Moss.Droid.Resource.Layout.design_navigation_item;
+			global::com.ptdave.xamarin.Resource.Layout.design_navigation_item_header = global::Iceland_Moss.Droid.Resource.Layout.design_navigation_item_header;
+			global::com.ptdave.xamarin.Resource.Layout.design_navigation_item_separator = global::Iceland_Moss.Droid.Resource.Layout.design_navigation_item_separator;
+			global::com.ptdave.xamarin.Resource.Layout.design_navigation_item_subheader = global::Iceland_Moss.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::com.ptdave.xamarin.Resource.Layout.design_navigation_menu = global::Iceland_Moss.Droid.Resource.Layout.design_navigation_menu;
+			global::com.ptdave.xamarin.Resource.Layout.design_navigation_menu_item = global::Iceland_Moss.Droid.Resource.Layout.design_navigation_menu_item;
+			global::com.ptdave.xamarin.Resource.Layout.design_text_input_password_icon = global::Iceland_Moss.Droid.Resource.Layout.design_text_input_password_icon;
+			global::com.ptdave.xamarin.Resource.Layout.FlyoutContent = global::Iceland_Moss.Droid.Resource.Layout.FlyoutContent;
+			global::com.ptdave.xamarin.Resource.Layout.mtrl_layout_snackbar = global::Iceland_Moss.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::com.ptdave.xamarin.Resource.Layout.mtrl_layout_snackbar_include = global::Iceland_Moss.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::com.ptdave.xamarin.Resource.Layout.notification_action = global::Iceland_Moss.Droid.Resource.Layout.notification_action;
+			global::com.ptdave.xamarin.Resource.Layout.notification_action_tombstone = global::Iceland_Moss.Droid.Resource.Layout.notification_action_tombstone;
+			global::com.ptdave.xamarin.Resource.Layout.notification_media_action = global::Iceland_Moss.Droid.Resource.Layout.notification_media_action;
+			global::com.ptdave.xamarin.Resource.Layout.notification_media_cancel_action = global::Iceland_Moss.Droid.Resource.Layout.notification_media_cancel_action;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_big_media = global::Iceland_Moss.Droid.Resource.Layout.notification_template_big_media;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_big_media_custom = global::Iceland_Moss.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_big_media_narrow = global::Iceland_Moss.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_big_media_narrow_custom = global::Iceland_Moss.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_custom_big = global::Iceland_Moss.Droid.Resource.Layout.notification_template_custom_big;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_icon_group = global::Iceland_Moss.Droid.Resource.Layout.notification_template_icon_group;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_lines_media = global::Iceland_Moss.Droid.Resource.Layout.notification_template_lines_media;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_media = global::Iceland_Moss.Droid.Resource.Layout.notification_template_media;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_media_custom = global::Iceland_Moss.Droid.Resource.Layout.notification_template_media_custom;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_part_chronometer = global::Iceland_Moss.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::com.ptdave.xamarin.Resource.Layout.notification_template_part_time = global::Iceland_Moss.Droid.Resource.Layout.notification_template_part_time;
+			global::com.ptdave.xamarin.Resource.Layout.RootLayout = global::Iceland_Moss.Droid.Resource.Layout.RootLayout;
+			global::com.ptdave.xamarin.Resource.Layout.select_dialog_item_material = global::Iceland_Moss.Droid.Resource.Layout.select_dialog_item_material;
+			global::com.ptdave.xamarin.Resource.Layout.select_dialog_multichoice_material = global::Iceland_Moss.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::com.ptdave.xamarin.Resource.Layout.select_dialog_singlechoice_material = global::Iceland_Moss.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::com.ptdave.xamarin.Resource.Layout.ShellContent = global::Iceland_Moss.Droid.Resource.Layout.ShellContent;
+			global::com.ptdave.xamarin.Resource.Layout.support_simple_spinner_dropdown_item = global::Iceland_Moss.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::com.ptdave.xamarin.Resource.String.abc_action_bar_home_description = global::Iceland_Moss.Droid.Resource.String.abc_action_bar_home_description;
+			global::com.ptdave.xamarin.Resource.String.abc_action_bar_up_description = global::Iceland_Moss.Droid.Resource.String.abc_action_bar_up_description;
+			global::com.ptdave.xamarin.Resource.String.abc_action_menu_overflow_description = global::Iceland_Moss.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::com.ptdave.xamarin.Resource.String.abc_action_mode_done = global::Iceland_Moss.Droid.Resource.String.abc_action_mode_done;
+			global::com.ptdave.xamarin.Resource.String.abc_activitychooserview_choose_application = global::Iceland_Moss.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::com.ptdave.xamarin.Resource.String.abc_activity_chooser_view_see_all = global::Iceland_Moss.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::com.ptdave.xamarin.Resource.String.abc_capital_off = global::Iceland_Moss.Droid.Resource.String.abc_capital_off;
+			global::com.ptdave.xamarin.Resource.String.abc_capital_on = global::Iceland_Moss.Droid.Resource.String.abc_capital_on;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_alt_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_ctrl_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_delete_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_enter_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_function_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_meta_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_shift_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_space_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_menu_sym_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_prepend_shortcut_label = global::Iceland_Moss.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::com.ptdave.xamarin.Resource.String.abc_searchview_description_clear = global::Iceland_Moss.Droid.Resource.String.abc_searchview_description_clear;
+			global::com.ptdave.xamarin.Resource.String.abc_searchview_description_query = global::Iceland_Moss.Droid.Resource.String.abc_searchview_description_query;
+			global::com.ptdave.xamarin.Resource.String.abc_searchview_description_search = global::Iceland_Moss.Droid.Resource.String.abc_searchview_description_search;
+			global::com.ptdave.xamarin.Resource.String.abc_searchview_description_submit = global::Iceland_Moss.Droid.Resource.String.abc_searchview_description_submit;
+			global::com.ptdave.xamarin.Resource.String.abc_searchview_description_voice = global::Iceland_Moss.Droid.Resource.String.abc_searchview_description_voice;
+			global::com.ptdave.xamarin.Resource.String.abc_search_hint = global::Iceland_Moss.Droid.Resource.String.abc_search_hint;
+			global::com.ptdave.xamarin.Resource.String.abc_shareactionprovider_share_with = global::Iceland_Moss.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::com.ptdave.xamarin.Resource.String.abc_shareactionprovider_share_with_application = global::Iceland_Moss.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::com.ptdave.xamarin.Resource.String.abc_toolbar_collapse_description = global::Iceland_Moss.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::com.ptdave.xamarin.Resource.String.appbar_scrolling_view_behavior = global::Iceland_Moss.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::com.ptdave.xamarin.Resource.String.bottom_sheet_behavior = global::Iceland_Moss.Droid.Resource.String.bottom_sheet_behavior;
+			global::com.ptdave.xamarin.Resource.String.character_counter_content_description = global::Iceland_Moss.Droid.Resource.String.character_counter_content_description;
+			global::com.ptdave.xamarin.Resource.String.character_counter_pattern = global::Iceland_Moss.Droid.Resource.String.character_counter_pattern;
+			global::com.ptdave.xamarin.Resource.String.fab_transformation_scrim_behavior = global::Iceland_Moss.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::com.ptdave.xamarin.Resource.String.fab_transformation_sheet_behavior = global::Iceland_Moss.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::com.ptdave.xamarin.Resource.String.hide_bottom_view_on_scroll_behavior = global::Iceland_Moss.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::com.ptdave.xamarin.Resource.String.mtrl_chip_close_icon_content_description = global::Iceland_Moss.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::com.ptdave.xamarin.Resource.String.password_toggle_content_description = global::Iceland_Moss.Droid.Resource.String.password_toggle_content_description;
+			global::com.ptdave.xamarin.Resource.String.path_password_eye = global::Iceland_Moss.Droid.Resource.String.path_password_eye;
+			global::com.ptdave.xamarin.Resource.String.path_password_eye_mask_strike_through = global::Iceland_Moss.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::com.ptdave.xamarin.Resource.String.path_password_eye_mask_visible = global::Iceland_Moss.Droid.Resource.String.path_password_eye_mask_visible;
+			global::com.ptdave.xamarin.Resource.String.path_password_strike_through = global::Iceland_Moss.Droid.Resource.String.path_password_strike_through;
+			global::com.ptdave.xamarin.Resource.String.search_menu_title = global::Iceland_Moss.Droid.Resource.String.search_menu_title;
+			global::com.ptdave.xamarin.Resource.String.status_bar_notification_info_overflow = global::Iceland_Moss.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::com.ptdave.xamarin.Resource.Style.AlertDialog_AppCompat = global::Iceland_Moss.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.AlertDialog_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Animation_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Animation_AppCompat_DropDownUp = global::Iceland_Moss.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::com.ptdave.xamarin.Resource.Style.Animation_AppCompat_Tooltip = global::Iceland_Moss.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::com.ptdave.xamarin.Resource.Style.Animation_Design_BottomSheetDialog = global::Iceland_Moss.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_AlertDialog_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_Animation_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Iceland_Moss.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::com.ptdave.xamarin.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Iceland_Moss.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::com.ptdave.xamarin.Resource.Style.Base_CardView = global::Iceland_Moss.Droid.Resource.Style.Base_CardView;
+			global::com.ptdave.xamarin.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Iceland_Moss.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::com.ptdave.xamarin.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V21_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V22_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V23_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V26_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Iceland_Moss.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::com.ptdave.xamarin.Resource.Style.Base_V28_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::com.ptdave.xamarin.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Iceland_Moss.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Button = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_EditText = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ListView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_SearchView = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Spinner = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_Design_TabLayout = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::com.ptdave.xamarin.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Iceland_Moss.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::com.ptdave.xamarin.Resource.Style.CardView = global::Iceland_Moss.Droid.Resource.Style.CardView;
+			global::com.ptdave.xamarin.Resource.Style.CardView_Dark = global::Iceland_Moss.Droid.Resource.Style.CardView_Dark;
+			global::com.ptdave.xamarin.Resource.Style.CardView_Light = global::Iceland_Moss.Droid.Resource.Style.CardView_Light;
+			global::com.ptdave.xamarin.Resource.Style.Platform_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Platform_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Platform_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Platform_MaterialComponents = global::Iceland_Moss.Droid.Resource.Style.Platform_MaterialComponents;
+			global::com.ptdave.xamarin.Resource.Style.Platform_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Platform_MaterialComponents_Light = global::Iceland_Moss.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::com.ptdave.xamarin.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Iceland_Moss.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::com.ptdave.xamarin.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Platform_V21_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Platform_V21_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Platform_V25_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Platform_V25_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Iceland_Moss.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::com.ptdave.xamarin.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Iceland_Moss.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::com.ptdave.xamarin.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Iceland_Moss.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::com.ptdave.xamarin.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Iceland_Moss.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Body1 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Body2 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Button = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Caption = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Display1 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Display2 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Display3 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Display4 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Headline = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Large = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Medium = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Menu = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Small = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Subhead = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Info = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Media = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Time = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_Counter = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_Error = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_HelperText = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_Hint = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Design_Tab = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Button = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.ptdave.xamarin.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Iceland_Moss.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::com.ptdave.xamarin.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Iceland_Moss.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_CompactMenu = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Dialog = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_AppCompat_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_Design = global::Iceland_Moss.Droid.Resource.Style.Theme_Design;
+			global::com.ptdave.xamarin.Resource.Style.Theme_Design_BottomSheetDialog = global::Iceland_Moss.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_Design_Light = global::Iceland_Moss.Droid.Resource.Style.Theme_Design_Light;
+			global::com.ptdave.xamarin.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Iceland_Moss.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_Design_Light_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_Design_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Bridge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Dialog = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Iceland_Moss.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionButton = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActionMode = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Button = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ButtonBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Button_Borderless = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Button_Colored = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Button_Small = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_EditText = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ImageButton = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_SearchView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ListMenuView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ListView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ListView_Menu = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_PopupMenu = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_PopupWindow = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ProgressBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_RatingBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_SearchView = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_SeekBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Spinner = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Toolbar = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Iceland_Moss.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Compat_NotificationActionContainer = global::Iceland_Moss.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Compat_NotificationActionText = global::Iceland_Moss.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_AppBarLayout = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_BottomNavigationView = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_BottomSheet_Modal = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_CollapsingToolbar = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_FloatingActionButton = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_NavigationView = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_Snackbar = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_TabLayout = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Design_TextInputLayout = global::Iceland_Moss.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_CardView = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_NavigationView = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Snackbar = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TabLayout = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::com.ptdave.xamarin.Resource.Style.Widget_MaterialComponents_Toolbar = global::Iceland_Moss.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::com.ptdave.xamarin.Resource.Style.Widget_Support_CoordinatorLayout = global::Iceland_Moss.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBarLayout = global::Iceland_Moss.Droid.Resource.Styleable.ActionBarLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Iceland_Moss.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_background = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_background;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_backgroundSplit = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_backgroundStacked = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_contentInsetEnd = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_contentInsetLeft = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_contentInsetRight = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_contentInsetStart = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_customNavigationLayout = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_displayOptions = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_divider = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_divider;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_elevation = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_elevation;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_height = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_height;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_hideOnContentScroll = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_homeLayout = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_icon = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_icon;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_itemPadding = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_logo = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_logo;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_navigationMode = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_popupTheme = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_progressBarPadding = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_progressBarStyle = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_subtitle = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_subtitleTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_title = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_title;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionBar_titleTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMenuItemView = global::Iceland_Moss.Droid.Resource.Styleable.ActionMenuItemView;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Iceland_Moss.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMenuView = global::Iceland_Moss.Droid.Resource.Styleable.ActionMenuView;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode_background = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode_background;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode_backgroundSplit = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode_closeItemLayout = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode_height = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode_height;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode_subtitleTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActionMode_titleTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.ActivityChooserView = global::Iceland_Moss.Droid.Resource.Styleable.ActivityChooserView;
+			global::com.ptdave.xamarin.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Iceland_Moss.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Iceland_Moss.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_android_layout = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_buttonIconDimen = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_listItemLayout = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_listLayout = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_showTitle = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::com.ptdave.xamarin.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Iceland_Moss.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableItem = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableTransition = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::com.ptdave.xamarin.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Iceland_Moss.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayoutStates = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_android_background = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_elevation = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_expanded = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_Layout = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::com.ptdave.xamarin.Resource.Styleable.AppBarLayout_liftOnScroll = global::Iceland_Moss.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatImageView = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatImageView;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatImageView_android_src = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatImageView_srcCompat = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatImageView_tint = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatImageView_tintMode = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatSeekBar = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatSeekBar_tickMark = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_fontFamily = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_lineHeight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTextView_textAllCaps = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarSize = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorAccent = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorError = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorPrimary = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_controlBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dialogTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dividerVertical = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_editTextBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_editTextColor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_editTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_panelBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_switchStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowActionBar = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::com.ptdave.xamarin.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Iceland_Moss.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar_backgroundTint = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomAppBar_hideOnScroll = global::Iceland_Moss.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_elevation = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemBackground = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemIconSize = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemIconTint = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_itemTextColor = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomNavigationView_menu = global::Iceland_Moss.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomSheetBehavior_Layout = global::Iceland_Moss.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Iceland_Moss.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Iceland_Moss.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Iceland_Moss.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Iceland_Moss.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::com.ptdave.xamarin.Resource.Styleable.ButtonBarLayout = global::Iceland_Moss.Droid.Resource.Styleable.ButtonBarLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ButtonBarLayout_allowStacking = global::Iceland_Moss.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView = global::Iceland_Moss.Droid.Resource.Styleable.CardView;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_android_minHeight = global::Iceland_Moss.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_android_minWidth = global::Iceland_Moss.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_cardBackgroundColor = global::Iceland_Moss.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_cardCornerRadius = global::Iceland_Moss.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_cardElevation = global::Iceland_Moss.Droid.Resource.Styleable.CardView_cardElevation;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_cardMaxElevation = global::Iceland_Moss.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Iceland_Moss.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_cardUseCompatPadding = global::Iceland_Moss.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_contentPadding = global::Iceland_Moss.Droid.Resource.Styleable.CardView_contentPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_contentPaddingBottom = global::Iceland_Moss.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_contentPaddingLeft = global::Iceland_Moss.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_contentPaddingRight = global::Iceland_Moss.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::com.ptdave.xamarin.Resource.Styleable.CardView_contentPaddingTop = global::Iceland_Moss.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip = global::Iceland_Moss.Droid.Resource.Styleable.Chip;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup_checkedChip = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup_chipSpacing = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup_singleLine = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::com.ptdave.xamarin.Resource.Styleable.ChipGroup_singleSelection = global::Iceland_Moss.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_android_checkable = global::Iceland_Moss.Droid.Resource.Styleable.Chip_android_checkable;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_android_ellipsize = global::Iceland_Moss.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_android_maxWidth = global::Iceland_Moss.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_android_text = global::Iceland_Moss.Droid.Resource.Styleable.Chip_android_text;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_android_textAppearance = global::Iceland_Moss.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_checkedIcon = global::Iceland_Moss.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_checkedIconEnabled = global::Iceland_Moss.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_checkedIconVisible = global::Iceland_Moss.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipBackgroundColor = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipCornerRadius = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipEndPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipIcon = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipIconEnabled = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipIconSize = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipIconTint = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipIconVisible = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipMinHeight = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipStartPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipStrokeColor = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_chipStrokeWidth = global::Iceland_Moss.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIcon = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIconEnabled = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIconEndPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIconSize = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIconStartPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIconTint = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_closeIconVisible = global::Iceland_Moss.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_hideMotionSpec = global::Iceland_Moss.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_iconEndPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_iconStartPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_rippleColor = global::Iceland_Moss.Droid.Resource.Styleable.Chip_rippleColor;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_showMotionSpec = global::Iceland_Moss.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_textEndPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.Chip_textStartPadding = global::Iceland_Moss.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_title = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Iceland_Moss.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::com.ptdave.xamarin.Resource.Styleable.ColorStateListItem = global::Iceland_Moss.Droid.Resource.Styleable.ColorStateListItem;
+			global::com.ptdave.xamarin.Resource.Styleable.ColorStateListItem_alpha = global::Iceland_Moss.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::com.ptdave.xamarin.Resource.Styleable.ColorStateListItem_android_alpha = global::Iceland_Moss.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::com.ptdave.xamarin.Resource.Styleable.ColorStateListItem_android_color = global::Iceland_Moss.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::com.ptdave.xamarin.Resource.Styleable.CompoundButton = global::Iceland_Moss.Droid.Resource.Styleable.CompoundButton;
+			global::com.ptdave.xamarin.Resource.Styleable.CompoundButton_android_button = global::Iceland_Moss.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::com.ptdave.xamarin.Resource.Styleable.CompoundButton_buttonTint = global::Iceland_Moss.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::com.ptdave.xamarin.Resource.Styleable.CompoundButton_buttonTintMode = global::Iceland_Moss.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_keylines = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::com.ptdave.xamarin.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Iceland_Moss.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.DesignTheme = global::Iceland_Moss.Droid.Resource.Styleable.DesignTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Iceland_Moss.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Iceland_Moss.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_barLength = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_color = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_spinBars = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::com.ptdave.xamarin.Resource.Styleable.DrawerArrowToggle_thickness = global::Iceland_Moss.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_backgroundTint = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_borderWidth = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_elevation = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_fabSize = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_maxImageSize = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_rippleColor = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::com.ptdave.xamarin.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Iceland_Moss.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.FlowLayout = global::Iceland_Moss.Droid.Resource.Styleable.FlowLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.FlowLayout_itemSpacing = global::Iceland_Moss.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::com.ptdave.xamarin.Resource.Styleable.FlowLayout_lineSpacing = global::Iceland_Moss.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_android_font = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_font = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_fontStyle = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_fontWeight = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamilyFont_ttcIndex = global::Iceland_Moss.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily_fontProviderAuthority = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily_fontProviderCerts = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily_fontProviderPackage = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::com.ptdave.xamarin.Resource.Styleable.FontFamily_fontProviderQuery = global::Iceland_Moss.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::com.ptdave.xamarin.Resource.Styleable.ForegroundLinearLayout = global::Iceland_Moss.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Iceland_Moss.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::com.ptdave.xamarin.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Iceland_Moss.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Iceland_Moss.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColorItem = global::Iceland_Moss.Droid.Resource.Styleable.GradientColorItem;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColorItem_android_color = global::Iceland_Moss.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColorItem_android_offset = global::Iceland_Moss.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_centerColor = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_centerX = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_centerY = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_endColor = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_endX = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_endY = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_gradientRadius = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_startColor = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_startX = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_startY = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_tileMode = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::com.ptdave.xamarin.Resource.Styleable.GradientColor_android_type = global::Iceland_Moss.Droid.Resource.Styleable.GradientColor_android_type;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_divider = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_Layout = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::com.ptdave.xamarin.Resource.Styleable.LinearLayoutCompat_showDividers = global::Iceland_Moss.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::com.ptdave.xamarin.Resource.Styleable.ListPopupWindow = global::Iceland_Moss.Droid.Resource.Styleable.ListPopupWindow;
+			global::com.ptdave.xamarin.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Iceland_Moss.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::com.ptdave.xamarin.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Iceland_Moss.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_android_insetBottom = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_android_insetLeft = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_android_insetRight = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_android_insetTop = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_backgroundTint = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_backgroundTintMode = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_cornerRadius = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_icon = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_icon;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_iconGravity = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_iconPadding = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_iconSize = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_iconTint = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_iconTintMode = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_rippleColor = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_strokeColor = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialButton_strokeWidth = global::Iceland_Moss.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialCardView = global::Iceland_Moss.Droid.Resource.Styleable.MaterialCardView;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialCardView_strokeColor = global::Iceland_Moss.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialCardView_strokeWidth = global::Iceland_Moss.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::com.ptdave.xamarin.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Iceland_Moss.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup_android_enabled = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup_android_id = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup_android_menuCategory = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup_android_orderInCategory = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuGroup_android_visible = global::Iceland_Moss.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_actionLayout = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_actionProviderClass = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_actionViewClass = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_alphabeticModifiers = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_checkable = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_checked = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_enabled = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_icon = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_id = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_id;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_menuCategory = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_numericShortcut = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_onClick = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_orderInCategory = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_title = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_title;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_titleCondensed = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_android_visible = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_contentDescription = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_iconTint = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_iconTintMode = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_numericModifiers = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_showAsAction = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuItem_tooltipText = global::Iceland_Moss.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView = global::Iceland_Moss.Droid.Resource.Styleable.MenuView;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_headerBackground = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_horizontalDivider = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_itemBackground = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_itemTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_verticalDivider = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_preserveIconSpacing = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::com.ptdave.xamarin.Resource.Styleable.MenuView_subMenuArrow = global::Iceland_Moss.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_android_background = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_android_background;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_android_maxWidth = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_elevation = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_elevation;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_headerLayout = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_itemBackground = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_itemIconPadding = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_itemIconTint = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_itemTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_itemTextColor = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.NavigationView_menu = global::Iceland_Moss.Droid.Resource.Styleable.NavigationView_menu;
+			global::com.ptdave.xamarin.Resource.Styleable.PopupWindow = global::Iceland_Moss.Droid.Resource.Styleable.PopupWindow;
+			global::com.ptdave.xamarin.Resource.Styleable.PopupWindowBackgroundState = global::Iceland_Moss.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::com.ptdave.xamarin.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Iceland_Moss.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::com.ptdave.xamarin.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Iceland_Moss.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.PopupWindow_android_popupBackground = global::Iceland_Moss.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.PopupWindow_overlapAnchor = global::Iceland_Moss.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::com.ptdave.xamarin.Resource.Styleable.RecycleListView = global::Iceland_Moss.Droid.Resource.Styleable.RecycleListView;
+			global::com.ptdave.xamarin.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Iceland_Moss.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::com.ptdave.xamarin.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Iceland_Moss.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_android_orientation = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_layoutManager = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_reverseLayout = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_spanCount = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::com.ptdave.xamarin.Resource.Styleable.RecyclerView_stackFromEnd = global::Iceland_Moss.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.ScrimInsetsFrameLayout = global::Iceland_Moss.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Iceland_Moss.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::com.ptdave.xamarin.Resource.Styleable.ScrollingViewBehavior_Layout = global::Iceland_Moss.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::com.ptdave.xamarin.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Iceland_Moss.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView = global::Iceland_Moss.Droid.Resource.Styleable.SearchView;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_android_focusable = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_android_imeOptions = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_android_inputType = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_android_maxWidth = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_closeIcon = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_commitIcon = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_defaultQueryHint = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_goIcon = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_goIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_iconifiedByDefault = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_layout = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_layout;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_queryBackground = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_queryHint = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_queryHint;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_searchHintIcon = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_searchIcon = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_submitBackground = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_suggestionRowLayout = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.SearchView_voiceIcon = global::Iceland_Moss.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.Snackbar = global::Iceland_Moss.Droid.Resource.Styleable.Snackbar;
+			global::com.ptdave.xamarin.Resource.Styleable.SnackbarLayout = global::Iceland_Moss.Droid.Resource.Styleable.SnackbarLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Iceland_Moss.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.SnackbarLayout_elevation = global::Iceland_Moss.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::com.ptdave.xamarin.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Iceland_Moss.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Iceland_Moss.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.Snackbar_snackbarStyle = global::Iceland_Moss.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.Spinner = global::Iceland_Moss.Droid.Resource.Styleable.Spinner;
+			global::com.ptdave.xamarin.Resource.Styleable.Spinner_android_dropDownWidth = global::Iceland_Moss.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.Spinner_android_entries = global::Iceland_Moss.Droid.Resource.Styleable.Spinner_android_entries;
+			global::com.ptdave.xamarin.Resource.Styleable.Spinner_android_popupBackground = global::Iceland_Moss.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.Spinner_android_prompt = global::Iceland_Moss.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::com.ptdave.xamarin.Resource.Styleable.Spinner_popupTheme = global::Iceland_Moss.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawableItem = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawableItem;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawableItem_android_drawable = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable_android_constantSize = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable_android_dither = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable_android_variablePadding = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::com.ptdave.xamarin.Resource.Styleable.StateListDrawable_android_visible = global::Iceland_Moss.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_android_textOff = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_android_textOn = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_android_thumb = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_showText = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_splitTrack = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_switchMinWidth = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_switchPadding = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_thumbTint = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_thumbTintMode = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_track = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_track;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_trackTint = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::com.ptdave.xamarin.Resource.Styleable.SwitchCompat_trackTintMode = global::Iceland_Moss.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.TabItem = global::Iceland_Moss.Droid.Resource.Styleable.TabItem;
+			global::com.ptdave.xamarin.Resource.Styleable.TabItem_android_icon = global::Iceland_Moss.Droid.Resource.Styleable.TabItem_android_icon;
+			global::com.ptdave.xamarin.Resource.Styleable.TabItem_android_layout = global::Iceland_Moss.Droid.Resource.Styleable.TabItem_android_layout;
+			global::com.ptdave.xamarin.Resource.Styleable.TabItem_android_text = global::Iceland_Moss.Droid.Resource.Styleable.TabItem_android_text;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabBackground = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabContentStart = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabGravity = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIconTint = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIconTintMode = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIndicator = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIndicatorColor = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabInlineLabel = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabMaxWidth = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabMinWidth = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabMode = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabPadding = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabPaddingBottom = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabPaddingEnd = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabPaddingStart = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabPaddingTop = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabRippleColor = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabTextColor = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Iceland_Moss.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_fontFamily = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_shadowColor = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_shadowDx = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_shadowDy = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_shadowRadius = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_textColor = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_textColorHint = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_textColorLink = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_textSize = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_textStyle = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_android_typeface = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_fontFamily = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::com.ptdave.xamarin.Resource.Styleable.TextAppearance_textAllCaps = global::Iceland_Moss.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_android_hint = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_android_textColorHint = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_counterEnabled = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_counterMaxLength = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_errorEnabled = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_helperText = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_hintEnabled = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::com.ptdave.xamarin.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Iceland_Moss.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.ThemeEnforcement = global::Iceland_Moss.Droid.Resource.Styleable.ThemeEnforcement;
+			global::com.ptdave.xamarin.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Iceland_Moss.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Iceland_Moss.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_android_gravity = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_android_minHeight = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_buttonGravity = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_collapseContentDescription = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_collapseIcon = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_contentInsetEnd = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_contentInsetLeft = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_contentInsetRight = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_contentInsetStart = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_logo = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_logo;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_logoDescription = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_maxButtonHeight = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_navigationContentDescription = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_navigationIcon = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_popupTheme = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_subtitle = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_subtitleTextColor = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_title = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_title;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleMargin = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleMarginBottom = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleMarginEnd = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleMargins = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleMarginStart = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleMarginTop = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleTextAppearance = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::com.ptdave.xamarin.Resource.Styleable.Toolbar_titleTextColor = global::Iceland_Moss.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::com.ptdave.xamarin.Resource.Styleable.View = global::Iceland_Moss.Droid.Resource.Styleable.View;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewBackgroundHelper = global::Iceland_Moss.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewBackgroundHelper_android_background = global::Iceland_Moss.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Iceland_Moss.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Iceland_Moss.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewStubCompat = global::Iceland_Moss.Droid.Resource.Styleable.ViewStubCompat;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewStubCompat_android_id = global::Iceland_Moss.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Iceland_Moss.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::com.ptdave.xamarin.Resource.Styleable.ViewStubCompat_android_layout = global::Iceland_Moss.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::com.ptdave.xamarin.Resource.Styleable.View_android_focusable = global::Iceland_Moss.Droid.Resource.Styleable.View_android_focusable;
+			global::com.ptdave.xamarin.Resource.Styleable.View_android_theme = global::Iceland_Moss.Droid.Resource.Styleable.View_android_theme;
+			global::com.ptdave.xamarin.Resource.Styleable.View_paddingEnd = global::Iceland_Moss.Droid.Resource.Styleable.View_paddingEnd;
+			global::com.ptdave.xamarin.Resource.Styleable.View_paddingStart = global::Iceland_Moss.Droid.Resource.Styleable.View_paddingStart;
+			global::com.ptdave.xamarin.Resource.Styleable.View_theme = global::Iceland_Moss.Droid.Resource.Styleable.View_theme;
 			global::Prism.Resource.Animation.abc_fade_in = global::Iceland_Moss.Droid.Resource.Animation.abc_fade_in;
 			global::Prism.Resource.Animation.abc_fade_out = global::Iceland_Moss.Droid.Resource.Animation.abc_fade_out;
 			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::Iceland_Moss.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -10807,733 +13367,742 @@ namespace Iceland_Moss.Droid
 			public const int avd_show_password = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int btn_checkbox_checked_mtrl = 2131165282;
+			public const int back_arrow = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165283;
+			public const int btn_checkbox_checked_mtrl = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int btn_checkbox_unchecked_mtrl = 2131165284;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165285;
+			public const int btn_checkbox_unchecked_mtrl = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int btn_radio_off_mtrl = 2131165286;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165287;
+			public const int btn_radio_off_mtrl = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int btn_radio_on_mtrl = 2131165288;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165289;
+			public const int btn_radio_on_mtrl = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_bottom_navigation_item_background = 2131165290;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int design_fab_background = 2131165291;
+			public const int design_bottom_navigation_item_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int design_ic_visibility = 2131165292;
+			public const int design_fab_background = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int design_ic_visibility_off = 2131165293;
+			public const int design_ic_visibility = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int design_password_eye = 2131165294;
+			public const int design_ic_visibility_off = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int design_snackbar_background = 2131165295;
+			public const int design_password_eye = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int design_snackbar_background = 2131165296;
 			
 			// aapt resource value: 0x7F070006
 			public const int Hambuerger_Icon = 2131165190;
 			
-			// aapt resource value: 0x7F070070
-			public const int ic_audiotrack_dark = 2131165296;
-			
 			// aapt resource value: 0x7F070071
-			public const int ic_audiotrack_light = 2131165297;
+			public const int heart = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_checked_checkbox = 2131165298;
+			public const int heart_ = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int ic_dialog_close_dark = 2131165299;
+			public const int ic_audiotrack_dark = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int ic_dialog_close_light = 2131165300;
+			public const int ic_audiotrack_light = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int ic_group_collapse_00 = 2131165301;
+			public const int ic_checked_checkbox = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int ic_group_collapse_01 = 2131165302;
+			public const int ic_dialog_close_dark = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int ic_group_collapse_02 = 2131165303;
+			public const int ic_dialog_close_light = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int ic_group_collapse_03 = 2131165304;
+			public const int ic_group_collapse_00 = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int ic_group_collapse_04 = 2131165305;
+			public const int ic_group_collapse_01 = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int ic_group_collapse_05 = 2131165306;
+			public const int ic_group_collapse_02 = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int ic_group_collapse_06 = 2131165307;
+			public const int ic_group_collapse_03 = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int ic_group_collapse_07 = 2131165308;
+			public const int ic_group_collapse_04 = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int ic_group_collapse_08 = 2131165309;
+			public const int ic_group_collapse_05 = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int ic_group_collapse_09 = 2131165310;
+			public const int ic_group_collapse_06 = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int ic_group_collapse_10 = 2131165311;
+			public const int ic_group_collapse_07 = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int ic_group_collapse_11 = 2131165312;
+			public const int ic_group_collapse_08 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_group_collapse_12 = 2131165313;
+			public const int ic_group_collapse_09 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_group_collapse_13 = 2131165314;
+			public const int ic_group_collapse_10 = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_group_collapse_14 = 2131165315;
+			public const int ic_group_collapse_11 = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_group_collapse_15 = 2131165316;
+			public const int ic_group_collapse_12 = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_group_expand_00 = 2131165317;
+			public const int ic_group_collapse_13 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_group_expand_01 = 2131165318;
+			public const int ic_group_collapse_14 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_group_expand_02 = 2131165319;
+			public const int ic_group_collapse_15 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_group_expand_03 = 2131165320;
+			public const int ic_group_expand_00 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_group_expand_04 = 2131165321;
+			public const int ic_group_expand_01 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_group_expand_05 = 2131165322;
+			public const int ic_group_expand_02 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_expand_06 = 2131165323;
+			public const int ic_group_expand_03 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_expand_07 = 2131165324;
+			public const int ic_group_expand_04 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_expand_08 = 2131165325;
+			public const int ic_group_expand_05 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_expand_09 = 2131165326;
+			public const int ic_group_expand_06 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_expand_10 = 2131165327;
+			public const int ic_group_expand_07 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_expand_11 = 2131165328;
+			public const int ic_group_expand_08 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_expand_12 = 2131165329;
+			public const int ic_group_expand_09 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_expand_13 = 2131165330;
+			public const int ic_group_expand_10 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_expand_14 = 2131165331;
+			public const int ic_group_expand_11 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_expand_15 = 2131165332;
+			public const int ic_group_expand_12 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_media_pause_dark = 2131165333;
+			public const int ic_group_expand_13 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_media_pause_light = 2131165334;
+			public const int ic_group_expand_14 = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_media_play_dark = 2131165335;
+			public const int ic_group_expand_15 = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_media_play_light = 2131165336;
+			public const int ic_media_pause_dark = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_media_stop_dark = 2131165337;
+			public const int ic_media_pause_light = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_media_stop_light = 2131165338;
+			public const int ic_media_play_dark = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_mr_button_connected_00_dark = 2131165339;
+			public const int ic_media_play_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_mr_button_connected_00_light = 2131165340;
+			public const int ic_media_stop_dark = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_mr_button_connected_01_dark = 2131165341;
+			public const int ic_media_stop_light = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_mr_button_connected_01_light = 2131165342;
+			public const int ic_mr_button_connected_00_dark = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_mr_button_connected_02_dark = 2131165343;
+			public const int ic_mr_button_connected_00_light = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_mr_button_connected_02_light = 2131165344;
+			public const int ic_mr_button_connected_01_dark = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_mr_button_connected_03_dark = 2131165345;
+			public const int ic_mr_button_connected_01_light = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_mr_button_connected_03_light = 2131165346;
+			public const int ic_mr_button_connected_02_dark = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_mr_button_connected_04_dark = 2131165347;
+			public const int ic_mr_button_connected_02_light = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_04_light = 2131165348;
+			public const int ic_mr_button_connected_03_dark = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_05_dark = 2131165349;
+			public const int ic_mr_button_connected_03_light = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_05_light = 2131165350;
+			public const int ic_mr_button_connected_04_dark = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_06_dark = 2131165351;
+			public const int ic_mr_button_connected_04_light = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_06_light = 2131165352;
+			public const int ic_mr_button_connected_05_dark = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_07_dark = 2131165353;
+			public const int ic_mr_button_connected_05_light = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_07_light = 2131165354;
+			public const int ic_mr_button_connected_06_dark = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_08_dark = 2131165355;
+			public const int ic_mr_button_connected_06_light = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_08_light = 2131165356;
+			public const int ic_mr_button_connected_07_dark = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_09_dark = 2131165357;
+			public const int ic_mr_button_connected_07_light = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_09_light = 2131165358;
+			public const int ic_mr_button_connected_08_dark = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_10_dark = 2131165359;
+			public const int ic_mr_button_connected_08_light = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_10_light = 2131165360;
+			public const int ic_mr_button_connected_09_dark = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_11_dark = 2131165361;
+			public const int ic_mr_button_connected_09_light = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_11_light = 2131165362;
+			public const int ic_mr_button_connected_10_dark = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_12_dark = 2131165363;
+			public const int ic_mr_button_connected_10_light = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_12_light = 2131165364;
+			public const int ic_mr_button_connected_11_dark = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_13_dark = 2131165365;
+			public const int ic_mr_button_connected_11_light = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_13_light = 2131165366;
+			public const int ic_mr_button_connected_12_dark = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_14_dark = 2131165367;
+			public const int ic_mr_button_connected_12_light = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_14_light = 2131165368;
+			public const int ic_mr_button_connected_13_dark = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_15_dark = 2131165369;
+			public const int ic_mr_button_connected_13_light = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_15_light = 2131165370;
+			public const int ic_mr_button_connected_14_dark = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_16_dark = 2131165371;
+			public const int ic_mr_button_connected_14_light = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_16_light = 2131165372;
+			public const int ic_mr_button_connected_15_dark = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_17_dark = 2131165373;
+			public const int ic_mr_button_connected_15_light = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_17_light = 2131165374;
+			public const int ic_mr_button_connected_16_dark = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_18_dark = 2131165375;
+			public const int ic_mr_button_connected_16_light = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_18_light = 2131165376;
+			public const int ic_mr_button_connected_17_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_19_dark = 2131165377;
+			public const int ic_mr_button_connected_17_light = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_19_light = 2131165378;
+			public const int ic_mr_button_connected_18_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_20_dark = 2131165379;
+			public const int ic_mr_button_connected_18_light = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_20_light = 2131165380;
+			public const int ic_mr_button_connected_19_dark = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_21_dark = 2131165381;
+			public const int ic_mr_button_connected_19_light = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_21_light = 2131165382;
+			public const int ic_mr_button_connected_20_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_22_dark = 2131165383;
+			public const int ic_mr_button_connected_20_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_22_light = 2131165384;
+			public const int ic_mr_button_connected_21_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_23_dark = 2131165385;
+			public const int ic_mr_button_connected_21_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_23_light = 2131165386;
+			public const int ic_mr_button_connected_22_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_24_dark = 2131165387;
+			public const int ic_mr_button_connected_22_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_24_light = 2131165388;
+			public const int ic_mr_button_connected_23_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_25_dark = 2131165389;
+			public const int ic_mr_button_connected_23_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_25_light = 2131165390;
+			public const int ic_mr_button_connected_24_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_26_dark = 2131165391;
+			public const int ic_mr_button_connected_24_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_26_light = 2131165392;
+			public const int ic_mr_button_connected_25_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_27_dark = 2131165393;
+			public const int ic_mr_button_connected_25_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_27_light = 2131165394;
+			public const int ic_mr_button_connected_26_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_28_dark = 2131165395;
+			public const int ic_mr_button_connected_26_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_28_light = 2131165396;
+			public const int ic_mr_button_connected_27_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_29_dark = 2131165397;
+			public const int ic_mr_button_connected_27_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_29_light = 2131165398;
+			public const int ic_mr_button_connected_28_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_30_dark = 2131165399;
+			public const int ic_mr_button_connected_28_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_30_light = 2131165400;
+			public const int ic_mr_button_connected_29_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connecting_00_dark = 2131165401;
+			public const int ic_mr_button_connected_29_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connecting_00_light = 2131165402;
+			public const int ic_mr_button_connected_30_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connecting_01_dark = 2131165403;
+			public const int ic_mr_button_connected_30_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connecting_01_light = 2131165404;
+			public const int ic_mr_button_connecting_00_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connecting_02_dark = 2131165405;
+			public const int ic_mr_button_connecting_00_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connecting_02_light = 2131165406;
+			public const int ic_mr_button_connecting_01_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connecting_03_dark = 2131165407;
+			public const int ic_mr_button_connecting_01_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connecting_03_light = 2131165408;
+			public const int ic_mr_button_connecting_02_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connecting_04_dark = 2131165409;
+			public const int ic_mr_button_connecting_02_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_04_light = 2131165410;
+			public const int ic_mr_button_connecting_03_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_05_dark = 2131165411;
+			public const int ic_mr_button_connecting_03_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_05_light = 2131165412;
+			public const int ic_mr_button_connecting_04_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_06_dark = 2131165413;
+			public const int ic_mr_button_connecting_04_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_06_light = 2131165414;
+			public const int ic_mr_button_connecting_05_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_07_dark = 2131165415;
+			public const int ic_mr_button_connecting_05_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_07_light = 2131165416;
+			public const int ic_mr_button_connecting_06_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_08_dark = 2131165417;
+			public const int ic_mr_button_connecting_06_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_08_light = 2131165418;
+			public const int ic_mr_button_connecting_07_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_09_dark = 2131165419;
+			public const int ic_mr_button_connecting_07_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_09_light = 2131165420;
+			public const int ic_mr_button_connecting_08_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_10_dark = 2131165421;
+			public const int ic_mr_button_connecting_08_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_10_light = 2131165422;
+			public const int ic_mr_button_connecting_09_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_11_dark = 2131165423;
+			public const int ic_mr_button_connecting_09_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_11_light = 2131165424;
+			public const int ic_mr_button_connecting_10_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_12_dark = 2131165425;
+			public const int ic_mr_button_connecting_10_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_12_light = 2131165426;
+			public const int ic_mr_button_connecting_11_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_13_dark = 2131165427;
+			public const int ic_mr_button_connecting_11_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_13_light = 2131165428;
+			public const int ic_mr_button_connecting_12_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_14_dark = 2131165429;
+			public const int ic_mr_button_connecting_12_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_14_light = 2131165430;
+			public const int ic_mr_button_connecting_13_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_15_dark = 2131165431;
+			public const int ic_mr_button_connecting_13_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_15_light = 2131165432;
+			public const int ic_mr_button_connecting_14_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_16_dark = 2131165433;
+			public const int ic_mr_button_connecting_14_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_16_light = 2131165434;
+			public const int ic_mr_button_connecting_15_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_17_dark = 2131165435;
+			public const int ic_mr_button_connecting_15_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_17_light = 2131165436;
+			public const int ic_mr_button_connecting_16_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_18_dark = 2131165437;
+			public const int ic_mr_button_connecting_16_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_18_light = 2131165438;
+			public const int ic_mr_button_connecting_17_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_19_dark = 2131165439;
+			public const int ic_mr_button_connecting_17_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_19_light = 2131165440;
+			public const int ic_mr_button_connecting_18_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_20_dark = 2131165441;
+			public const int ic_mr_button_connecting_18_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_20_light = 2131165442;
+			public const int ic_mr_button_connecting_19_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_21_dark = 2131165443;
+			public const int ic_mr_button_connecting_19_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_21_light = 2131165444;
+			public const int ic_mr_button_connecting_20_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_22_dark = 2131165445;
+			public const int ic_mr_button_connecting_20_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_22_light = 2131165446;
+			public const int ic_mr_button_connecting_21_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_23_dark = 2131165447;
+			public const int ic_mr_button_connecting_21_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_23_light = 2131165448;
+			public const int ic_mr_button_connecting_22_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_24_dark = 2131165449;
+			public const int ic_mr_button_connecting_22_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_24_light = 2131165450;
+			public const int ic_mr_button_connecting_23_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_25_dark = 2131165451;
+			public const int ic_mr_button_connecting_23_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_25_light = 2131165452;
+			public const int ic_mr_button_connecting_24_dark = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_26_dark = 2131165453;
+			public const int ic_mr_button_connecting_24_light = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_26_light = 2131165454;
+			public const int ic_mr_button_connecting_25_dark = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_27_dark = 2131165455;
+			public const int ic_mr_button_connecting_25_light = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_27_light = 2131165456;
+			public const int ic_mr_button_connecting_26_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_28_dark = 2131165457;
+			public const int ic_mr_button_connecting_26_light = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_28_light = 2131165458;
+			public const int ic_mr_button_connecting_27_dark = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_29_dark = 2131165459;
+			public const int ic_mr_button_connecting_27_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_29_light = 2131165460;
+			public const int ic_mr_button_connecting_28_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_30_dark = 2131165461;
+			public const int ic_mr_button_connecting_28_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_30_light = 2131165462;
+			public const int ic_mr_button_connecting_29_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_disabled_dark = 2131165463;
+			public const int ic_mr_button_connecting_29_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_disabled_light = 2131165464;
+			public const int ic_mr_button_connecting_30_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_disconnected_dark = 2131165465;
+			public const int ic_mr_button_connecting_30_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_disconnected_light = 2131165466;
+			public const int ic_mr_button_disabled_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_grey = 2131165467;
+			public const int ic_mr_button_disabled_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mtrl_chip_checked_black = 2131165468;
+			public const int ic_mr_button_disconnected_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mtrl_chip_checked_circle = 2131165469;
+			public const int ic_mr_button_disconnected_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mtrl_chip_close_circle = 2131165470;
+			public const int ic_mr_button_grey = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_unchecked_checkbox = 2131165471;
+			public const int ic_mtrl_chip_checked_black = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_vol_mute = 2131165472;
+			public const int ic_mtrl_chip_checked_circle = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_vol_type_speaker_dark = 2131165473;
+			public const int ic_mtrl_chip_close_circle = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_vol_type_speaker_group_dark = 2131165474;
+			public const int ic_unchecked_checkbox = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_vol_type_speaker_group_light = 2131165475;
+			public const int ic_vol_mute = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_vol_type_speaker_light = 2131165476;
+			public const int ic_vol_type_speaker_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_vol_type_tv_dark = 2131165477;
+			public const int ic_vol_type_speaker_group_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_vol_type_tv_light = 2131165478;
+			public const int ic_vol_type_speaker_group_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_vol_unmute = 2131165479;
+			public const int ic_vol_type_speaker_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int moss = 2131165480;
+			public const int ic_vol_type_tv_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int mr_button_connected_dark = 2131165481;
+			public const int ic_vol_type_tv_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int mr_button_connected_light = 2131165482;
+			public const int ic_vol_unmute = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int mr_button_connecting_dark = 2131165483;
+			public const int moss = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int mr_button_connecting_light = 2131165484;
+			public const int mr_button_connected_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int mr_button_dark = 2131165485;
+			public const int mr_button_connected_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int mr_button_dark_static = 2131165486;
+			public const int mr_button_connecting_dark = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int mr_button_light = 2131165487;
+			public const int mr_button_connecting_light = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mr_button_light_static = 2131165488;
+			public const int mr_button_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mr_cast_checkbox = 2131165489;
+			public const int mr_button_dark_static = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mr_cast_group_seekbar_track = 2131165490;
+			public const int mr_button_light = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mr_cast_mute_button = 2131165491;
+			public const int mr_button_light_static = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mr_cast_route_seekbar_track = 2131165492;
+			public const int mr_cast_checkbox = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mr_cast_stop = 2131165493;
+			public const int mr_cast_group_seekbar_track = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mr_cast_thumb = 2131165494;
+			public const int mr_cast_mute_button = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mr_dialog_close_dark = 2131165495;
+			public const int mr_cast_route_seekbar_track = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_dialog_close_light = 2131165496;
+			public const int mr_cast_stop = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_dialog_material_background_dark = 2131165497;
+			public const int mr_cast_thumb = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_dialog_material_background_light = 2131165498;
+			public const int mr_dialog_close_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_group_collapse = 2131165499;
+			public const int mr_dialog_close_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_group_expand = 2131165500;
+			public const int mr_dialog_material_background_dark = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_media_pause_dark = 2131165501;
+			public const int mr_dialog_material_background_light = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mr_media_pause_light = 2131165502;
+			public const int mr_group_collapse = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mr_media_play_dark = 2131165503;
+			public const int mr_group_expand = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mr_media_play_light = 2131165504;
+			public const int mr_media_pause_dark = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mr_media_stop_dark = 2131165505;
+			public const int mr_media_pause_light = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mr_media_stop_light = 2131165506;
+			public const int mr_media_play_dark = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_vol_type_audiotrack_dark = 2131165507;
+			public const int mr_media_play_light = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mr_vol_type_audiotrack_light = 2131165508;
+			public const int mr_media_stop_dark = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mtrl_snackbar_background = 2131165509;
+			public const int mr_media_stop_light = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int mtrl_tabs_default_indicator = 2131165510;
+			public const int mr_vol_type_audiotrack_dark = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int navigation_empty_icon = 2131165511;
+			public const int mr_vol_type_audiotrack_light = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int notification_action_background = 2131165512;
+			public const int mtrl_snackbar_background = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int notification_bg = 2131165513;
+			public const int mtrl_tabs_default_indicator = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int notification_bg_low = 2131165514;
+			public const int navigation_empty_icon = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int notification_bg_low_normal = 2131165515;
+			public const int notification_action_background = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int notification_bg_low_pressed = 2131165516;
+			public const int notification_bg = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int notification_bg_normal = 2131165517;
+			public const int notification_bg_low = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int notification_bg_normal_pressed = 2131165518;
+			public const int notification_bg_low_normal = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int notification_icon_background = 2131165519;
+			public const int notification_bg_low_pressed = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int notification_template_icon_bg = 2131165520;
+			public const int notification_bg_normal = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int notification_template_icon_low_bg = 2131165521;
+			public const int notification_bg_normal_pressed = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int notification_tile_bg = 2131165522;
+			public const int notification_icon_background = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int notify_panel_notification_icon_bg = 2131165523;
+			public const int notification_template_icon_bg = 2131165523;
+			
+			// aapt resource value: 0x7F070154
+			public const int notification_template_icon_low_bg = 2131165524;
+			
+			// aapt resource value: 0x7F070155
+			public const int notification_tile_bg = 2131165525;
+			
+			// aapt resource value: 0x7F070156
+			public const int notify_panel_notification_icon_bg = 2131165526;
 			
 			// aapt resource value: 0x7F070007
 			public const int Search_Icon = 2131165191;
@@ -11544,11 +14113,11 @@ namespace Iceland_Moss.Droid
 			// aapt resource value: 0x7F070009
 			public const int ShoppingBag_Icon = 2131165193;
 			
-			// aapt resource value: 0x7F070154
-			public const int tooltip_frame_dark = 2131165524;
+			// aapt resource value: 0x7F070157
+			public const int tooltip_frame_dark = 2131165527;
 			
-			// aapt resource value: 0x7F070155
-			public const int tooltip_frame_light = 2131165525;
+			// aapt resource value: 0x7F070158
+			public const int tooltip_frame_light = 2131165528;
 			
 			static Drawable()
 			{

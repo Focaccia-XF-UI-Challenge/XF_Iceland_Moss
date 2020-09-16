@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+
     <pancake:PancakeView
         Margin="10"
         BackgroundColor="{Binding HeroColor}"
@@ -40,7 +41,7 @@
                     Text="{Binding Name}"
                     TextColor="White"
                     VerticalOptions="Center" />
-                <StackLayout Margin="10,0,0,0">
+                <StackLayout Margin="10,0,0,0" IsVisible="false">
                     <Label
                         x:Name="SortLabel"
                         FontSize="40"
@@ -66,11 +67,10 @@
                 </StackLayout>
             </StackLayout>
             <Image
-                HorizontalOptions="End"
+                x:Name="ProductImage"
+                HorizontalOptions="Center"
                 Source="moss.png"
-                TranslationX="40"
-                TranslationY="30"
-                VerticalOptions="End" />
+                VerticalOptions="Start" />
         </Grid>
     </pancake:PancakeView>
 </ContentView>

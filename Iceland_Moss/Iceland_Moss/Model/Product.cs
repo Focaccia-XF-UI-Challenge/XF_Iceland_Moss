@@ -14,6 +14,5 @@ namespace Iceland_Moss.Model
         public bool IsFeatured { get; set; }
         public double Height { get; set; }
 
-        //todo - 
     }
 }
