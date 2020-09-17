@@ -11,7 +11,7 @@
     <AssemblyName>Iceland_Moss.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -124,9 +124,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="com.ptdave.xamarin">
-      <Version>1.0.11</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
     <PackageReference Include="Resizetizer.NT">
       <Version>0.1.0</Version>
@@ -149,7 +146,9 @@
   <ItemGroup>
     <Content Include="Assets\Montserrat-Medium.ttf" />
     <Content Include="Assets\Montserrat-Light.ttf" />
-    <Content Include="Assets\fas.otf" />
+    <Content Include="Assets\FontAwesome5Brands.otf" />
+    <Content Include="Assets\FontAwesome5Regular.otf" />
+    <Content Include="Assets\FontAwesome5Solid.otf" />
     <None Include="Iceland_Moss.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

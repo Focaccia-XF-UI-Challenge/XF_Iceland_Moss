@@ -12,6 +12,7 @@
 2. Xamarin.Forms.PancakeView
    - 用來畫方塊
 3. [Resizetizer.NT](#Resizetizer.NT)
+4. [com.ptdave.xamarin](#com.ptdave.xamarin)
 
 ---
 
@@ -121,5 +122,28 @@
 
 
 
+#### com.ptdave.xamarin
 
+---
 
+透過這個套件使用 Font awesome 
+
+可以使用的平台
+
+- Android
+
+- UWP(version:16299)
+
+  
+
+或是可以直接加入一個FontAwesomeIcons.cs 自己呼叫也是可以的(不會有UWP版本的問題)
+
+可以參考文章[Font Awesome](https://medium.com/@tsjdevapps/use-fontawesome-in-a-xamarin-forms-app-2edf25311db4)
+
+注意! 於App.xaml
+
+```xaml
+ <On Platform="UWP" Value="/Assets/FontAwesome5Brands.otf#Font Awesome 5 free" />
+```
+
+#後面一定要這樣寫不然會顯示不出來

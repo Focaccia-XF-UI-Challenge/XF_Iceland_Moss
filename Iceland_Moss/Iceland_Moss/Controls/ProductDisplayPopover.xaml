@@ -3,7 +3,7 @@
     x:Class="Iceland_Moss.Controls.ProductDisplayPopover"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:dave="clr-namespace:com.ptdave.xamarin.FontHelpers;assembly=com.ptdave.xamarin">
+    xmlns:fas="clr-namespace:FontAwesome">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
@@ -101,9 +101,9 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span
-                                    FontFamily="{StaticResource FontAwesome5FreeSolid}"
+                                    FontFamily="{StaticResource FontAwesomeSolid}"
                                     FontSize="10"
-                                    Text="{Static dave:FAS.Tint}"
+                                    Text="{Static fas:FontAwesomeIcons.Tint}"
                                     TextColor="#AAAAAA" />
                                 <Span Text=" " />
                                 <Span FontSize="10" TextColor="#AAAAAA">Humidity</Span>
@@ -121,9 +121,9 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span
-                                    FontFamily="{StaticResource FontAwesome5FreeSolid}"
+                                    FontFamily="{StaticResource FontAwesomeSolid}"
                                     FontSize="10"
-                                    Text="{Static dave:FAS.Sun}"
+                                    Text="{Static fas:FontAwesomeIcons.Sun}"
                                     TextColor="#AAAAAA" />
                                 <Span Text=" " />
                                 <Span FontSize="10" TextColor="#AAAAAA">
@@ -143,10 +143,11 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span
-                                    FontFamily="{StaticResource FontAwesome5FreeSolid}"
+                                    FontFamily="{StaticResource FontAwesomeSolid}"
                                     FontSize="10"
-                                    Text="{Static dave:FAS.TemperatureHigh}"
+                                    Text="{x:Static fas:FontAwesomeIcons.TemperatureHigh}"
                                     TextColor="#AAAAAA" />
+
                                 <Span Text=" " />
                                 <Span FontSize="10" TextColor="#AAAAAA">Humidity</Span>
                             </FormattedString>
