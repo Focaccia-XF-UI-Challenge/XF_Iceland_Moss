@@ -52,6 +52,11 @@ namespace Iceland_Moss.Controls
 
         const uint animationSpeed = 500;
 
+        /// <summary>
+        /// 點了方塊之後會長彈出並顯示於全螢幕
+        /// </summary>
+        /// <param name="bounds"></param>
+        /// <returns></returns>
         internal async Task ExpanToFill(Rectangle bounds)
         {
             AddBackground.Opacity = .5;
@@ -85,7 +90,9 @@ namespace Iceland_Moss.Controls
             _ = ProductImage.ScaleTo(1.1, animationSpeed * 2);
             _ = ProductImage.TranslateTo(0, 80, animationSpeed * 2);
             await this.LayoutTo(bounds.Inflate(50, 50), (int)(animationSpeed * 1.5), Easing.SinInOut);
-
+            //於Part4 1:50 加入了 Popover後會被蓋住所以加入下面這段
+            Rectangle expandedBounds = bounds.Inflate(50, 50);
+            AbsoluteLayout.SetLayoutBounds(this, expandedBounds);
 
         }
     }

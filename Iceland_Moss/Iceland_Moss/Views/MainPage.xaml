@@ -112,7 +112,11 @@
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
                 </controls:ProductDisplay.GestureRecognizers>
             </controls:ProductDisplay>
-            <controls:ProductDisplayPopover AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+            <controls:ProductDisplayPopover
+                x:Name="PagePopover"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All"
+                IsVisible="false" />
             <!--<BoxView
             x:Name="AnimationTest"
             AbsoluteLayout.LayoutBounds="20,200,300,48"

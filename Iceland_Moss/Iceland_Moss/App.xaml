@@ -42,6 +42,7 @@
 
             <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
             <Color x:Key="TextColor">#313643</Color>
+            <Color x:Key="LightTextColor">#B2B2B2</Color>
 
             <converters:BoolToStringConverter
                 x:Key="FeaturedHeightConverter"
@@ -60,11 +61,22 @@
                 <Setter Property="TextColor" Value="{StaticResource TextColor}" />
             </Style>
             <!--#endregion-->
-
             <Style x:Key="ButtonStyle" TargetType="ImageButton">
                 <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
                 <Setter Property="CornerRadius" Value="14" />
                 <Setter Property="Padding" Value="10" />
+            </Style>
+
+            <Style x:Key="BodyFontMedium" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratMedium}" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+            </Style>
+
+            <Style x:Key="BodyFontLight" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratLight}" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
             </Style>
 
             <!--  GridView預設都會有空格可以透過以下設定移除他  -->

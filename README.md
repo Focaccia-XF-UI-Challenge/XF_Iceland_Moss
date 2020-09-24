@@ -27,13 +27,69 @@
 ### (Part2)
 
 - 4.畫面翻轉寬度調整(OnSizeAllocated)
+  
   - 只要畫面改變都會觸發的事件
   - 異動為寫在OnAppearing SizeChanged中(因為會出現錯誤訊息好像是個不太好的寫法所以改掉了)
+  
 - [5.Storyboard](#Storyboard)
 
+  
 
+### (Part4)
 
+- 6.加入了一個PopOverPage
 
+- 7.小技巧:每次都要記得如果元件是可重複使用的記得包出來變成一個元件，可參考 InfoPanel.xaml
+
+  - 加入了Snippet:bprop
+
+  - 建立了 1.Title 2.TitleIcon 3. Value 可綁定的屬性使用起來就真的比較簡潔
+
+  - ```xaml
+    <controls:InfoPanel
+                        Title="Humidity"
+                        Grid.Column="0"
+                        TitleIcon="{Static fas:FontAwesomeIcons.Subscript}"
+                        Value="50-75%" />
+    <controls:InfoPanel
+                        Title="Light"
+                        Grid.Column="1"
+                        TitleIcon="{Static fas:FontAwesomeIcons.Sun}"
+                        Value="5K - 10K lux" />
+    
+    <controls:InfoPanel
+                        Title="Temperature"
+                        Grid.Column="2"
+                        TitleIcon="{Static fas:FontAwesomeIcons.TemperatureHigh}"
+                        Value="18 - 27 °C" />
+    ```
+
+- 8.彈出ProductDisplayPopover.xaml 頁面後使用返回鍵要關閉頁面，但物件是在ParenPage定義的所以加入了 ViewExtension.cs
+
+- 9.技巧 非同步 
+
+  - 可以使用  Task.WhenAll 確定所有都完成再做別的事情
+
+    ```c#
+    internal async void HidePopover()
+            {
+                //Fade Out(慢慢透明) 元件
+                await Task.WhenAll(
+                    new Task[]
+                    {
+                        FakeProduct.FadeTo(0),
+                        PagePopover.FadeTo(0)
+                    });
+    
+                //確定都透明了再做別的事
+                //1.隱藏假的產品
+                FakeProduct.IsVisible = false;
+                //2.隱藏Popupover
+                PagePopover.IsVisible = false;
+            }
+    ```
+
+    
 
 #### Converter
 

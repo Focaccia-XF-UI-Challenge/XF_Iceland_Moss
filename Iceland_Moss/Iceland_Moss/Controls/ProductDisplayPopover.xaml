@@ -3,24 +3,27 @@
     x:Class="Iceland_Moss.Controls.ProductDisplayPopover"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:fas="clr-namespace:FontAwesome">
+    xmlns:controls="clr-namespace:Iceland_Moss.Controls"
+    xmlns:fas="clr-namespace:FontAwesome"
+    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <BoxView Grid.RowSpan="3" BackgroundColor="Purple" />
+        <BoxView Grid.RowSpan="3" />
         <BoxView
+            x:Name="BackgroundPannel"
             Grid.Row="2"
             BackgroundColor="White"
             CornerRadius="30,30,0,0"
-            HeightRequest="300"
-            VerticalOptions="End" />
+            VerticalOptions="Fill" />
         <ImageButton
             Margin="20"
             Padding="10"
             BackgroundColor="Transparent"
+            Clicked="ImageButton_Clicked"
             HeightRequest="48"
             HorizontalOptions="Start"
             Source="back_arrow.png"
@@ -38,6 +41,7 @@
             WidthRequest="48" />
 
         <Grid
+            x:Name="ProductPopoverGrid"
             Grid.Row="2"
             Margin="20"
             RowSpacing="20"
@@ -66,8 +70,12 @@
                     </Grid.ColumnDefinitions>
                     <Button
                         Grid.Column="0"
-                        Style="{StaticResource ButtonStyle}"
-                        Text="-" />
+                        CornerRadius="14"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource ButtonBackgroundColor}"
+                        Text="-"
+                        VerticalOptions="Center"
+                        WidthRequest="48" />
                     <Label
                         Grid.Column="1"
                         HorizontalOptions="Center"
@@ -76,8 +84,12 @@
                         VerticalOptions="Center" />
                     <Button
                         Grid.Column="2"
-                        Style="{StaticResource ButtonStyle}"
-                        Text="+" />
+                        CornerRadius="14"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource ButtonBackgroundColor}"
+                        Text="+"
+                        VerticalOptions="Center"
+                        WidthRequest="48" />
                 </Grid>
 
                 <Label
@@ -96,71 +108,56 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <StackLayout Grid.Column="0" Orientation="Vertical">
-                    <Label>
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span
-                                    FontFamily="{StaticResource FontAwesomeSolid}"
-                                    FontSize="10"
-                                    Text="{Static fas:FontAwesomeIcons.Tint}"
-                                    TextColor="#AAAAAA" />
-                                <Span Text=" " />
-                                <Span FontSize="10" TextColor="#AAAAAA">Humidity</Span>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="12"
-                        Style="{StaticResource HeaderFontMedium}"
-                        Text="50-75%" />
-                </StackLayout>
-                <StackLayout Grid.Column="1" Orientation="Vertical">
-                    <Label>
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span
-                                    FontFamily="{StaticResource FontAwesomeSolid}"
-                                    FontSize="10"
-                                    Text="{Static fas:FontAwesomeIcons.Sun}"
-                                    TextColor="#AAAAAA" />
-                                <Span Text=" " />
-                                <Span FontSize="10" TextColor="#AAAAAA">
-                                    Light
-                                </Span>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="12"
-                        Style="{StaticResource HeaderFontMedium}"
-                        Text="50-75%" />
-                </StackLayout>
-                <StackLayout Grid.Column="2" Orientation="Vertical">
-                    <Label>
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span
-                                    FontFamily="{StaticResource FontAwesomeSolid}"
-                                    FontSize="10"
-                                    Text="{x:Static fas:FontAwesomeIcons.TemperatureHigh}"
-                                    TextColor="#AAAAAA" />
+                <controls:InfoPanel
+                    Title="Humidity"
+                    Grid.Column="0"
+                    TitleIcon="{Static fas:FontAwesomeIcons.Subscript}"
+                    Value="50-75%" />
+                <controls:InfoPanel
+                    Title="Light"
+                    Grid.Column="1"
+                    TitleIcon="{Static fas:FontAwesomeIcons.Sun}"
+                    Value="5K - 10K lux" />
 
-                                <Span Text=" " />
-                                <Span FontSize="10" TextColor="#AAAAAA">Humidity</Span>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="12"
-                        Style="{StaticResource HeaderFontMedium}"
-                        Text="50-75%" />
-                </StackLayout>
+                <controls:InfoPanel
+                    Title="Temperature"
+                    Grid.Column="2"
+                    TitleIcon="{Static fas:FontAwesomeIcons.TemperatureHigh}"
+                    Value="18 - 27 °C" />
             </Grid>
             <!--  相關資訊(包含FontAwesome) End  -->
+            <!--  說明 Start  -->
+            <StackLayout Grid.Row="3">
+                <Label Style="{StaticResource BodyFontLight}" Text="Contained in glass polygonal florarium." />
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource BodyFontMedium}" Text="Size: " />
+                            <Span Style="{StaticResource BodyFontLight}" Text="150 * 150 mm." />
+                            <Span Text="   " />
+                            <Span Style="{StaticResource BodyFontMedium}" Text="Diameter: " />
+                            <Span Style="{StaticResource BodyFontLight}" Text="190mm." />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+            <!--  說明 End  -->
+
+            <!--  按鈕 Start  -->
+            <pancake:PancakeView
+                x:Name="btnAddToCart"
+                Grid.Row="4"
+                BackgroundColor="#FB9B63"
+                CornerRadius="10"
+                HeightRequest="60">
+                <Label
+                    FontSize="20"
+                    HorizontalOptions="Center"
+                    Text="Add to Cart"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+            </pancake:PancakeView>
+            <!--  按鈕 End  -->
         </Grid>
 
 

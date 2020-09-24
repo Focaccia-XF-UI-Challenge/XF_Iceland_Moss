@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="Iceland_Moss.Controls.InfoPanel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fas="clr-namespace:FontAwesome">
+    <StackLayout Orientation="Vertical">
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span
+                        x:Name="TitleIconSpan"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        FontSize="10"
+                        TextColor="#AAAAAA" />
+                    <Span Text=" " />
+                    <Span
+                        x:Name="TitleLabel"
+                        FontSize="10"
+                        TextColor="#AAAAAA" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label
+            x:Name="ValueLabel"
+            FontAttributes="Bold"
+            FontSize="12"
+            Style="{StaticResource HeaderFontMedium}" />
+    </StackLayout>
+
+</ContentView>

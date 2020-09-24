@@ -13,11 +13,17 @@ namespace Iceland_Moss.ViewModels
     public class MainPageViewModel : ViewModelBase
     {
         private IList<Product> _products;
-
         public IList<Product> Products
         {
             get { return _products; }
             set { SetProperty(ref _products, value); }
+        }
+
+        private ProductViewModel _seletedProduct;
+        public ProductViewModel SeletedProduct
+        {
+            get { return _seletedProduct; }
+            set { SetProperty(ref _seletedProduct, value); }
         }
 
         public MainPageViewModel(INavigationService navigationService) : base(navigationService)
@@ -37,7 +43,6 @@ namespace Iceland_Moss.ViewModels
         }
 
         private DelegateCommand _navigationCommand;
-
         public DelegateCommand NavigationCommand =>
             _navigationCommand ?? (_navigationCommand = new DelegateCommand(ExecuteNavigationCommand));
 

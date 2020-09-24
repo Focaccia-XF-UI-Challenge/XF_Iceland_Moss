@@ -9,6 +9,7 @@ using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.Markup;
 using Xamarin.Forms.PancakeView;
 
 namespace Iceland_Moss.Views
@@ -30,6 +31,7 @@ namespace Iceland_Moss.Views
         {
             InitializeComponent();
         }
+
 
 
 
@@ -239,6 +241,7 @@ namespace Iceland_Moss.Views
             //再次定位
             FakeProduct.ImageOffsetX = element.ImageOffsetX;
             FakeProduct.ImageOffsetY = element.ImageOffsetY;
+            FakeProduct.Opacity = 1;
             FakeProduct.IsVisible = true;
 
             var ySctoll = scrollContainer.ScaleY;
@@ -255,6 +258,11 @@ namespace Iceland_Moss.Views
             element.Opacity = 0.01;
             await FakeProduct.ExpanToFill(this.Bounds);
             element.Opacity = 1;
+
+            //顯示Popover Page
+            PagePopover.Opacity = 0;
+            PagePopover.IsVisible = true;
+            await PagePopover.Expand();
         }
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
@@ -262,5 +270,21 @@ namespace Iceland_Moss.Views
             ((View)sender).IsVisible = false;
         }
 
+        internal async void HidePopover()
+        {
+            //Fade Out(慢慢透明) 元件
+            await Task.WhenAll(
+                new Task[]
+                {
+                    FakeProduct.FadeTo(0),
+                    PagePopover.FadeTo(0)
+                });
+
+            //確定都透明了再做別的事
+            //1.隱藏假的產品
+            FakeProduct.IsVisible = false;
+            //2.隱藏Popupover
+            PagePopover.IsVisible = false;
+        }
     }
 }
