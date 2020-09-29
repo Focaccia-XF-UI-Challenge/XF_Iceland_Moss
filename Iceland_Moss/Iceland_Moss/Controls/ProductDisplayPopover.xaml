@@ -54,7 +54,7 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Label Style="{StaticResource HeaderFontLight}" Text="Lavender" />
+            <Label Style="{StaticResource HeaderFontLight}" Text="{Binding SeletedProduct.Name}" />
             <!--  設定數量&金額 Start  -->
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
@@ -70,9 +70,10 @@
                     </Grid.ColumnDefinitions>
                     <Button
                         Grid.Column="0"
+                        Clicked="DecreaseQuanitiy_Clicked"
                         CornerRadius="14"
                         HorizontalOptions="Center"
-                        Style="{StaticResource ButtonBackgroundColor}"
+                        Style="{StaticResource ButtonStyle}"
                         Text="-"
                         VerticalOptions="Center"
                         WidthRequest="48" />
@@ -84,17 +85,37 @@
                         VerticalOptions="Center" />
                     <Button
                         Grid.Column="2"
+                        Clicked="IncreaseQuanitiy_Clicked"
                         CornerRadius="14"
                         HorizontalOptions="Center"
-                        Style="{StaticResource ButtonBackgroundColor}"
+                        Style="{StaticResource ButtonStyle}"
                         Text="+"
                         VerticalOptions="Center"
                         WidthRequest="48" />
                 </Grid>
+                <StackLayout
+                    x:Name="PriceLabel"
+                    Grid.Column="1"
+                    Margin="10,0"
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    Spacing="4">
+                    <Label
+                        FontSize="14"
+                        Text="$"
+                        TranslationY="11" />
+                    <Label
+                        FontSize="40"
+                        HorizontalOptions="Start"
+                        Style="{StaticResource HeaderFontLight}"
+                        Text="19"
+                        VerticalOptions="Start" />
 
+                </StackLayout>
                 <Label
                     Grid.Column="1"
                     HorizontalOptions="Center"
+                    IsVisible="false"
                     Style="{StaticResource HeaderFontLight}"
                     Text="$19"
                     VerticalOptions="Center" />

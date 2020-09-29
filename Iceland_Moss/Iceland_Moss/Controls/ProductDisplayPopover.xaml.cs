@@ -45,5 +45,15 @@ namespace Iceland_Moss.Controls
             //Step2:隱藏 PopOverPage
             ((MainPage)this.GetParentPage()).HidePopover();
         }
+
+        private void DecreaseQuanitiy_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IncreaseQuanitiy_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

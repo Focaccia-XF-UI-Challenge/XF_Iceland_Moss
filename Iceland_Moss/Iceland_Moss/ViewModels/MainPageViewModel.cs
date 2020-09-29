@@ -19,8 +19,8 @@ namespace Iceland_Moss.ViewModels
             set { SetProperty(ref _products, value); }
         }
 
-        private ProductViewModel _seletedProduct;
-        public ProductViewModel SeletedProduct
+        private Product _seletedProduct;
+        public Product SeletedProduct
         {
             get { return _seletedProduct; }
             set { SetProperty(ref _seletedProduct, value); }

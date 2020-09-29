@@ -94,12 +94,6 @@ namespace Iceland_Moss.Controls
             set => SetValue(ValueProperty, value);
         }
         #endregion
-
-
-
-
-
-        //todo [part4] 51:52
         public InfoPanel()
         {
             InitializeComponent();

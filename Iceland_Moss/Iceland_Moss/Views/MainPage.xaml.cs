@@ -1,4 +1,5 @@
-﻿using Iceland_Moss.ViewModels;
+﻿using Iceland_Moss.Model;
+using Iceland_Moss.ViewModels;
 using Prism.Navigation;
 using System;
 using System.Collections.Generic;
@@ -243,6 +244,9 @@ namespace Iceland_Moss.Views
             FakeProduct.ImageOffsetY = element.ImageOffsetY;
             FakeProduct.Opacity = 1;
             FakeProduct.IsVisible = true;
+
+            //把點到是哪個頁面資訊(BindingContext)傳到自訂的頁面 [part4 2:37:44]
+            ((MainPageViewModel)this.BindingContext).SeletedProduct = element.BindingContext as Product;
 
             var ySctoll = scrollContainer.ScaleY;
 
