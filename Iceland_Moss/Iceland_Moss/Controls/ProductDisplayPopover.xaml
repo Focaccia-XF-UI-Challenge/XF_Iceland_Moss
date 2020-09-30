@@ -78,6 +78,7 @@
                         VerticalOptions="Center"
                         WidthRequest="48" />
                     <Label
+                        x:Name="QuantityDisplay"
                         Grid.Column="1"
                         HorizontalOptions="Center"
                         Style="{StaticResource HeaderFontLight}"
@@ -105,10 +106,11 @@
                         Text="$"
                         TranslationY="11" />
                     <Label
+                        x:Name="QuantityDisplayValue"
                         FontSize="40"
                         HorizontalOptions="Start"
                         Style="{StaticResource HeaderFontLight}"
-                        Text="19"
+                        Text="{Binding SeletedProduct.Price}"
                         VerticalOptions="Start" />
 
                 </StackLayout>

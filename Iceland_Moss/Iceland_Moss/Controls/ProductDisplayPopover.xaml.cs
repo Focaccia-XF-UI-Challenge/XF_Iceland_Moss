@@ -1,4 +1,5 @@
 ﻿using Iceland_Moss.Extensions;
+using Iceland_Moss.ViewModels;
 using Iceland_Moss.Views;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace Iceland_Moss.Controls
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductDisplayPopover : ContentView
     {
+        int quantityCount = 1;
+
         public ProductDisplayPopover()
         {
             InitializeComponent();
@@ -37,6 +40,10 @@ namespace Iceland_Moss.Controls
                 new Animation(t =>
                 btnAddToCart.ScaleX = t, 0, 1, Easing.SpringOut));
             animation.Commit(this, "ButtonAnimation", 16, 800);
+
+            //設定金額
+            quantityCount = 1;
+            UpdateDisplay();
         }
 
         private void ImageButton_Clicked(object sender, EventArgs e)
@@ -46,14 +53,27 @@ namespace Iceland_Moss.Controls
             ((MainPage)this.GetParentPage()).HidePopover();
         }
 
+
         private void DecreaseQuanitiy_Clicked(object sender, EventArgs e)
         {
-
+            quantityCount--;
+            if (quantityCount < 1)
+                quantityCount = 1;
+            UpdateDisplay();
         }
 
         private void IncreaseQuanitiy_Clicked(object sender, EventArgs e)
         {
+            quantityCount++;
+            UpdateDisplay();
+        }
 
+        private void UpdateDisplay()
+        {
+            QuantityDisplay.Text = quantityCount.ToString();
+            QuantityDisplayValue.Text = quantityCount.ToString();
+            var unitPrice = ((MainPageViewModel)this.BindingContext).SeletedProduct.Price;
+            QuantityDisplayValue.Text = (unitPrice * quantityCount).ToString();
         }
     }
 }
