@@ -1,4 +1,5 @@
-﻿using Iceland_Moss.Model;
+﻿using Iceland_Moss.Controls;
+using Iceland_Moss.Model;
 using Iceland_Moss.ViewModels;
 using Prism.Navigation;
 using System;
@@ -289,6 +290,25 @@ namespace Iceland_Moss.Views
             FakeProduct.IsVisible = false;
             //2.隱藏Popupover
             PagePopover.IsVisible = false;
+        }
+
+        /// <summary>
+        /// 實作加入購物車相關事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ProductDisplay_AddToCartClick(object sender, EventArgs e)
+        {
+            //取得選到的資料
+            ProductDisplay element = sender as ProductDisplay;
+            Product item = element.BindingContext as Product;
+
+            ((MainPageViewModel)this.BindingContext).ShoppingCart.IncrementOrder(item);
+
+            //((MainPageViewModel)this.BindingContext).ShoppingCart.Items.Add(new ShoppingCart()
+            //{
+            //    Product = item
+            //});
         }
     }
 }

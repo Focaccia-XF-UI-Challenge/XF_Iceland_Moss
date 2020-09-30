@@ -26,6 +26,8 @@ namespace Iceland_Moss.ViewModels
             set { SetProperty(ref _seletedProduct, value); }
         }
 
+        public ShoppingCartViewModel ShoppingCart { get; set; }
+
         public MainPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Main Page";
@@ -40,6 +42,8 @@ namespace Iceland_Moss.ViewModels
                 new Product(){Sort=6,Name="Orange Life ",HeroColor="#F4BA51",ImageUrl="",Price=10,IsFeatured=false},
                 new Product(){Sort=7,Name="Pink Life ",HeroColor="#FCA4B4",ImageUrl="",Price=10,IsFeatured=false},
             };
+
+            ShoppingCart = new ShoppingCartViewModel();
         }
 
         private DelegateCommand _navigationCommand;

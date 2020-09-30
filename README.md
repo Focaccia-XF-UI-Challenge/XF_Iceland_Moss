@@ -89,7 +89,18 @@
             }
     ```
 
-    
+
+### (Part5)
+
+------
+
+- 技巧 於Content頁面建立event供MainPage呼叫。
+
+- [52:51] 時出現UI相關比較難理解的狀況，因為這一整塊都可以觸發點擊的事件 ，當 右上方+號新增了自己的事件後卻不會觸發，這邊的解法是 針對這個大區塊 加入  屬性    CascadeInputTransparent="True"  &     InputTransparent="True"  這段有點難理解
+
+  
+
+![MEMO_1](D:\simon\XF_Challenge\Prism_Iceland_Moss\readme\MEMO_1.png)
 
 #### Converter
 

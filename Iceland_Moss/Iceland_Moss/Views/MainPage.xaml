@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:Iceland_Moss.Controls"
     xmlns:converters_MainPage="clr-namespace:Iceland_Moss.Converter"
+    xmlns:pancke="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     xmlns:prism="http://prismlibrary.com"
     Title="{Binding Title}"
     prism:ViewModelLocator.AutowireViewModel="True"
@@ -53,6 +54,27 @@
                 Source="ShoppingBag_Icon.png"
                 Style="{StaticResource ButtonStyle}" />
 
+            <!--  購物車數量  -->
+            <pancke:PancakeView
+                AbsoluteLayout.LayoutBounds="380,20,14,14"
+                BackgroundColor="Black"
+                CornerRadius="7">
+                <pancke:PancakeView.Triggers>
+                    <DataTrigger
+                        Binding="{Binding ShoppingCart.Items.Count}"
+                        TargetType="pancke:PancakeView"
+                        Value="0">
+                        <Setter Property="IsVisible" Value="false" />
+                    </DataTrigger>
+                </pancke:PancakeView.Triggers>
+                <Label
+                    FontSize="10"
+                    HorizontalOptions="Center"
+                    Text="{Binding ShoppingCart.Items.Count}"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+            </pancke:PancakeView>
+
             <StackLayout x:Name="Header" AbsoluteLayout.LayoutBounds="20,100,340,100">
                 <Label Style="{StaticResource HeaderFontLight}" Text="Choose your new" />
                 <Label Style="{StaticResource HeaderFontMedium}" Text="green friend" />
@@ -95,12 +117,15 @@
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
                             <controls:ProductDisplay
+                                AddToCartClick="ProductDisplay_AddToCartClick"
                                 HeightRequest="{Binding IsFeatured, Converter={StaticResource FeaturedHeightConverter}}"
                                 ImageOffsetX="{Binding IsFeatured, Converter={StaticResource FeaturedOffsetXConverter}}"
-                                ImageOffsetY="{Binding IsFeatured, Converter={StaticResource FeaturedOffsetYConverter}}">
-                                <controls:ProductDisplay.GestureRecognizers>
+                                ImageOffsetY="{Binding IsFeatured, Converter={StaticResource FeaturedOffsetYConverter}}"
+                                ProductClick="TapGestureRecognizer_Tapped">
+                                <!--  搬到ProductDisplay實作  -->
+                                <!--<controls:ProductDisplay.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                                </controls:ProductDisplay.GestureRecognizers>
+                                </controls:ProductDisplay.GestureRecognizers>-->
                             </controls:ProductDisplay>
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>

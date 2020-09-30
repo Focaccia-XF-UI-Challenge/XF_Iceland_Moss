@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -50,6 +51,10 @@ namespace Iceland_Moss.Controls
                 ProductImage.TranslationX = ImageOffsetX;
         }
 
+
+
+
+
         const uint animationSpeed = 500;
 
         /// <summary>
@@ -94,6 +99,34 @@ namespace Iceland_Moss.Controls
             Rectangle expandedBounds = bounds.Inflate(50, 50);
             AbsoluteLayout.SetLayoutBounds(this, expandedBounds);
 
+        }
+
+        //當點擊了+要新增到購物車
+        //建立一個可以觸發的事件
+        public event EventHandler AddToCartClick;
+        public event EventHandler ProductClick;
+
+        /// <summary>
+        /// 建立觸發件供MainPage 觸發
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TapProductGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            EventHandler handler = ProductClick;
+            handler?.Invoke(this, new EventArgs());
+        }
+
+        /// <summary>
+        /// 建立觸發件供MainPage 觸發
+        /// + 號 加入購物車
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TapAddProductGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            EventHandler handler = AddToCartClick;
+            handler?.Invoke(this, new EventArgs());
         }
     }
 }
