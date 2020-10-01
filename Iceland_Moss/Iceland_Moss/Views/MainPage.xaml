@@ -48,9 +48,11 @@
                 IsVisible="false"
                 Text="Click_Alert"
                 WidthRequest="200" />
+
             <ImageButton
                 x:Name="icon購物"
                 AbsoluteLayout.LayoutBounds="340,20,48,48"
+                Clicked="icon購物_Clicked"
                 Source="ShoppingBag_Icon.png"
                 Style="{StaticResource ButtonStyle}" />
 
@@ -142,6 +144,12 @@
                 AbsoluteLayout.LayoutBounds="0,0,1,1"
                 AbsoluteLayout.LayoutFlags="All"
                 IsVisible="false" />
+
+            <controls:ShoppingCartPopover
+                x:Name="CartPopover"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All"
+                IsVisible="False " />
             <!--<BoxView
             x:Name="AnimationTest"
             AbsoluteLayout.LayoutBounds="20,200,300,48"

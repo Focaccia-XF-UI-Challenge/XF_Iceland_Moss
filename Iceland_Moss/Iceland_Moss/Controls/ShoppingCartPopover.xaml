@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="Iceland_Moss.Controls.ShoppingCartPopover"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ImageButton
+            Margin="20"
+            Padding="9"
+            Clicked="ImageButton_Clicked"
+            HeightRequest="48"
+            HorizontalOptions="Start"
+            Source="back_arrow.png"
+            Style="{StaticResource ButtonStyle}"
+            VerticalOptions="Center"
+            WidthRequest="48" />
+
+        <StackLayout Grid.Row="1" Padding="20,0,20,20">
+            <Label Style="{StaticResource HeaderFontLight}" Text="Order Details" />
+        </StackLayout>
+        <BoxView
+            Grid.Row="2"
+            BackgroundColor="#75D59F"
+            CornerRadius="30,30,0,0" />
+
+        <Grid Grid.Row="2" Margin="30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Row="0"
+                Style="{StaticResource HeaderFontMedium}"
+                Text="Shopping Cart"
+                TextColor="White" />
+            <CollectionView
+                Grid.Row="1"
+                BackgroundColor="Green"
+                ItemsSource="{Binding ShoppingCart.Items}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Label Text="{Binding Product.Name}" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Grid Grid.Row="2" Margin="0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label
+                    FontSize="20"
+                    Style="{StaticResource BodyFontMedium}"
+                    Text="Total"
+                    TextColor="White" />
+            </Grid>
+            <pancake:PancakeView
+                x:Name="CheckOutButton"
+                Grid.Row="3"
+                BackgroundColor="White"
+                CornerRadius="10"
+                HeightRequest="60">
+                <Label
+                    FontSize="20"
+                    HorizontalOptions="Center"
+                    Text="Checkout"
+                    TextColor="Black"
+                    VerticalOptions="Center" />
+            </pancake:PancakeView>
+        </Grid>
+    </Grid>
+</ContentView>

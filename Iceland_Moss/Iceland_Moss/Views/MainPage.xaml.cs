@@ -310,5 +310,10 @@ namespace Iceland_Moss.Views
             //    Product = item
             //});
         }
+
+        private void icon購物_Clicked(object sender, EventArgs e)
+        {
+            CartPopover.IsVisible = true;
+        }
     }
 }

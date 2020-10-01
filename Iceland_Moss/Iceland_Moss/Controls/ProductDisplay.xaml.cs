@@ -101,6 +101,7 @@ namespace Iceland_Moss.Controls
 
         }
 
+        #region Event Handler
         //當點擊了+要新增到購物車
         //建立一個可以觸發的事件
         public event EventHandler AddToCartClick;
@@ -128,5 +129,8 @@ namespace Iceland_Moss.Controls
             EventHandler handler = AddToCartClick;
             handler?.Invoke(this, new EventArgs());
         }
+        #endregion
+
+
     }
 }
