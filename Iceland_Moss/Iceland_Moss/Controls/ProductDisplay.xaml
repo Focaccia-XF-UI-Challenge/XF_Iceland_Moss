@@ -84,7 +84,7 @@
                 x:Name="ProductImage"
                 HorizontalOptions="Center"
                 InputTransparent="True"
-                Source="moss.png"
+                Source="{Binding ImageUrl}"
                 VerticalOptions="Start" />
         </Grid>
     </pancake:PancakeView>

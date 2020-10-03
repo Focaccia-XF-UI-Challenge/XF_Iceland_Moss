@@ -4,6 +4,19 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+
+
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ShoppingCartItemLable" TargetType="Label">
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Style" Value="{StaticResource BodyFontMedium}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
     <Grid BackgroundColor="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -41,14 +54,50 @@
                 Style="{StaticResource HeaderFontMedium}"
                 Text="Shopping Cart"
                 TextColor="White" />
-            <CollectionView
-                Grid.Row="1"
-                BackgroundColor="Green"
-                ItemsSource="{Binding ShoppingCart.Items}">
+            <CollectionView Grid.Row="1" ItemsSource="{Binding ShoppingCart.Items}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Grid>
-                            <Label Text="{Binding Product.Name}" />
+                        <Grid Margin="0,10,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="64" />
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="30" />
+                            </Grid.ColumnDefinitions>
+
+                            <pancake:PancakeView
+                                BackgroundColor="{Binding Product.HeroColor}"
+                                CornerRadius="10"
+                                HeightRequest="64"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                WidthRequest="64">
+                                <Image
+                                    Source="{Binding Product.ImageUrl}"
+                                    TranslationX="10"
+                                    TranslationY="15" />
+                            </pancake:PancakeView>
+
+                            <Label
+                                Grid.Column="1"
+                                HorizontalOptions="Center"
+                                Style="{StaticResource ShoppingCartItemLable}"
+                                Text="{Binding Count, StringFormat='{0} x'}" />
+                            <Label
+                                Grid.Column="2"
+                                Style="{StaticResource ShoppingCartItemLable}"
+                                Text="{Binding Product.Name}" />
+                            <Label
+                                Grid.Column="3"
+                                HorizontalOptions="End"
+                                Style="{StaticResource ShoppingCartItemLable}"
+                                Text="{Binding Product.Price, StringFormat='${0}'}" />
+                            <Label
+                                Grid.Column="4"
+                                HorizontalOptions="Center"
+                                Style="{StaticResource ShoppingCartItemLable}"
+                                Text="x" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
