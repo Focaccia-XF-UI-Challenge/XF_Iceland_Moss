@@ -13,6 +13,8 @@
    - 用來畫方塊
 3. [Resizetizer.NT](#Resizetizer.NT)
 4. [com.ptdave.xamarin](#com.ptdave.xamarin)
+5. SkiaSharp.Views.Forms
+   - 用來畫 麵包屑
 
 ---
 
@@ -94,13 +96,19 @@
 
 ------
 
-- 技巧 於Content頁面建立event供MainPage呼叫。
+- 技巧 : Content頁面建立event供MainPage呼叫。
 
 - [52:51] 時出現UI相關比較難理解的狀況，因為這一整塊都可以觸發點擊的事件 ，當 右上方+號新增了自己的事件後卻不會觸發，這邊的解法是 針對這個大區塊 加入  屬性    CascadeInputTransparent="True"  &     InputTransparent="True"  這段有點難理解
 
   
 
 ![MEMO_1](D:\simon\XF_Challenge\Prism_Iceland_Moss\readme\MEMO_1.png)
+
+- [02:07:51] 使用 SkiaSharp 畫出 麵包屑
+
+  可以使用 [SkiaSharp Fiddle](https://github.com/mattleibow/SkiaSharpFiddle )  加速開發 不然每次都要停止再重新編譯才會看到結果(好物😎)
+
+- 
 
 #### Converter
 
