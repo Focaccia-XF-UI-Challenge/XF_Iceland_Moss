@@ -3,6 +3,7 @@
     x:Class="Iceland_Moss.Controls.ShoppingCartPopover"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:Iceland_Moss.Converter"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
     xmlns:vm="clr-namespace:Iceland_Moss.ViewModels">
@@ -18,6 +19,23 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="FontSize" Value="16" />
             </Style>
+
+
+            <DataTemplate x:Key="ProductItemTemplate">
+                <Grid />
+            </DataTemplate>
+
+
+            <DataTemplate x:Key="FreightItemTemplate">
+                <Grid>
+                    <Label Text="Freight Item" />
+                </Grid>
+            </DataTemplate>
+
+            <converters:ShoppingCartDataTemplateSelector
+                x:Key="CartItemSelector"
+                FreightItem="{StaticResource FreightItemTemplate}"
+                ProductItem="{StaticResource ProductItemTemplate}" />
         </ResourceDictionary>
     </ContentView.Resources>
 
@@ -96,10 +114,11 @@
                             <Label
                                 Grid.Column="2"
                                 Text="{Binding Product.Name}"
+                                HorizontalOptions="Center"
                                 Style="{StaticResource ShoppingCartItemLable}" />
                             <Label
                                 Grid.Column="3"
-                                Text="{Binding Product.Price, StringFormat='${0}'}"
+                                Text="{Binding Total, StringFormat='${0}'}"
                                 HorizontalOptions="End"
                                 Style="{StaticResource ShoppingCartItemLable}" />
                             <Label
@@ -115,16 +134,34 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Grid Grid.Row="2" Margin="0,20">
+            <Grid Grid.Row="2" Margin="0,20,30,20">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Label
+                    Grid.Column="0"
                     FontSize="20"
                     Text="Total"
                     TextColor="White"
                     Style="{StaticResource BodyFontMedium}" />
+                <StackLayout
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    HorizontalOptions="End">
+                    <Label
+                        FontSize="14"
+                        Text="$"
+                        TextColor="White"
+                        TranslationY="4"
+                        Style="{StaticResource BodyFontMedium}" />
+                    <Label
+                        FontSize="40"
+                        Text="{Binding ShoppingCart.Total}"
+                        TextColor="White"
+                        Style="{StaticResource BodyFontMedium}" />
+                </StackLayout>
+
             </Grid>
             <pancake:PancakeView
                 x:Name="CheckOutButton"

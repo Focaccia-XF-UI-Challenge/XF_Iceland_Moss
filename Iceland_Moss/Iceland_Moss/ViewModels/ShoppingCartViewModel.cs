@@ -12,11 +12,19 @@ namespace Iceland_Moss.ViewModels
 {
     public class ShoppingCartViewModel : BindableBase
     {
-        public IList<ShoppingCart> Items { get; set; }
+        public IList<ICartItem> Items { get; set; }
+
+        private decimal total;
+        public decimal Total
+        {
+            get { return total; }
+            set { SetProperty(ref total, value); }
+        }
+
 
         public ShoppingCartViewModel()
         {
-            Items = new ObservableCollection<ShoppingCart>();
+            Items = new ObservableCollection<ICartItem>();
         }
 
 
@@ -24,12 +32,42 @@ namespace Iceland_Moss.ViewModels
         {
             foreach (var item in Items)
             {
-                if (item.Product == ItemsToFind)
-                    return item;
+                //只有 Items 是 ShoppingCart才執行
+                if (item is ShoppingCart productItem)
+                {
+                    if (productItem.Product == ItemsToFind)
+                        return productItem;
+                }
             }
             return null;
         }
 
+
+        private void UpdateTotal()
+        {
+
+            decimal calculatedTotal = 0;
+
+            foreach (var item in Items)
+            {
+                if (item is ShoppingCart productItem)
+                {
+                    calculatedTotal += productItem.Total;
+                }
+            }
+
+            //計算運費
+            var freight = GetFreightItem();
+            freight.CalculateFreight(calculatedTotal);
+
+
+            Total = calculatedTotal + freight.FreightCharge;
+        }
+
+        /// <summary>
+        /// 增加訂單數量
+        /// </summary>
+        /// <param name="item"></param>
         public void IncrementOrder(Product item)
         {
             //如果產品已經在購物車
@@ -49,6 +87,25 @@ namespace Iceland_Moss.ViewModels
                 };
                 Items.Add(cartItem);
             }
+            UpdateTotal();
+        }
+
+        public void RemoveItem(ShoppingCart item)
+        {
+            Items.Remove(item);
+            UpdateTotal();
+        }
+
+        private Freight GetFreightItem()
+        {
+            foreach (var item in Items)
+            {
+                if (item is Freight freight)
+                {
+                    return freight;
+                }
+            }
+            return null;
 
         }
     }

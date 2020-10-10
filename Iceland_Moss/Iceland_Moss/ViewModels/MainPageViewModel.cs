@@ -46,13 +46,13 @@ namespace Iceland_Moss.ViewModels
             };
 
             ShoppingCart = new ShoppingCartViewModel();
-
+            ShoppingCart.Items.Add(new Freight() { FreightCharge = 15 });//如果沒有實作一個 ICartItem 型態是沒有辦法被塞進去的 (Part6 1:00:00 附近有實作)
             RemoveItemCommand = new Command<ShoppingCart>(d => RemoveItem(d));
         }
 
         private void RemoveItem(ShoppingCart d)
         {
-            ShoppingCart.Items.Remove(d);
+            ShoppingCart.RemoveItem(d);
         }
 
         private DelegateCommand _navigationCommand;
