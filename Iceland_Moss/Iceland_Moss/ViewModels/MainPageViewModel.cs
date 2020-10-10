@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace Iceland_Moss.ViewModels
 {
@@ -44,6 +46,13 @@ namespace Iceland_Moss.ViewModels
             };
 
             ShoppingCart = new ShoppingCartViewModel();
+
+            RemoveItemCommand = new Command<ShoppingCart>(d => RemoveItem(d));
+        }
+
+        private void RemoveItem(ShoppingCart d)
+        {
+            ShoppingCart.Items.Remove(d);
         }
 
         private DelegateCommand _navigationCommand;
@@ -54,5 +63,9 @@ namespace Iceland_Moss.ViewModels
         {
             await NavigationService.NavigateAsync("SecondPage");
         }
+
+
+        public ICommand RemoveItemCommand { private set; get; }
+
     }
 }

@@ -108,7 +108,21 @@
 
   可以使用 [SkiaSharp Fiddle](https://github.com/mattleibow/SkiaSharpFiddle )  加速開發 不然每次都要停止再重新編譯才會看到結果(好物😎)
 
-- 
+- [02:41:08]刪除購物車內的項目使用 Command 的方式刪除但這邊的寫法跟之前使用的不太一樣要再研究
+
+  ```xaml
+  <Label
+    Grid.Column="4" Text="x" HorizontalOptions="Center" Style="{StaticResource ShoppingCartItemLable}">
+    <Label.GestureRecognizers>
+        <TapGestureRecognizer 
+            Command="{Binding Source={RelativeSource AncestorType={x:Type vm:MainPageViewModel}}, 
+                      Path=RemoveItemCommand}" 
+            CommandParameter="{Binding .}" />
+    </Label.GestureRecognizers>
+  </Label>
+  ```
+
+  
 
 #### Converter
 
