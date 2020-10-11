@@ -23,22 +23,22 @@
             Margin="20"
             Padding="10"
             BackgroundColor="Transparent"
-            Clicked="ImageButton_Clicked"
             HeightRequest="48"
+            WidthRequest="48"
             HorizontalOptions="Start"
-            Source="back_arrow.png"
             VerticalOptions="Center"
-            WidthRequest="48" />
+            Clicked="ImageButton_Clicked"
+            Source="back_arrow.png" />
         <ImageButton
             Margin="20"
             Padding="10"
             BackgroundColor="#33FFFFFF"
             HeightRequest="48"
+            WidthRequest="48"
             HorizontalOptions="End"
-            Source="heart.png"
-            Style="{StaticResource ButtonStyle}"
             VerticalOptions="Center"
-            WidthRequest="48" />
+            Source="heart.png"
+            Style="{StaticResource ButtonStyle}" />
 
         <Grid
             x:Name="ProductPopoverGrid"
@@ -54,7 +54,7 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Label Style="{StaticResource HeaderFontLight}" Text="{Binding SeletedProduct.Name}" />
+            <Label Text="{Binding SeletedProduct.Name}" Style="{StaticResource HeaderFontLight}" />
             <!--  設定數量&金額 Start  -->
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
@@ -70,37 +70,37 @@
                     </Grid.ColumnDefinitions>
                     <Button
                         Grid.Column="0"
-                        Clicked="DecreaseQuanitiy_Clicked"
                         CornerRadius="14"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource ButtonStyle}"
                         Text="-"
+                        WidthRequest="48"
+                        HorizontalOptions="Center"
                         VerticalOptions="Center"
-                        WidthRequest="48" />
+                        Clicked="DecreaseQuanitiy_Clicked"
+                        Style="{StaticResource ButtonStyle}" />
                     <Label
                         x:Name="QuantityDisplay"
                         Grid.Column="1"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource HeaderFontLight}"
                         Text="1"
-                        VerticalOptions="Center" />
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Style="{StaticResource HeaderFontLight}" />
                     <Button
                         Grid.Column="2"
-                        Clicked="IncreaseQuanitiy_Clicked"
                         CornerRadius="14"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource ButtonStyle}"
                         Text="+"
+                        WidthRequest="48"
+                        HorizontalOptions="Center"
                         VerticalOptions="Center"
-                        WidthRequest="48" />
+                        Clicked="IncreaseQuanitiy_Clicked"
+                        Style="{StaticResource ButtonStyle}" />
                 </Grid>
                 <StackLayout
                     x:Name="PriceLabel"
                     Grid.Column="1"
                     Margin="10,0"
-                    HorizontalOptions="Center"
                     Orientation="Horizontal"
-                    Spacing="4">
+                    Spacing="4"
+                    HorizontalOptions="Center">
                     <Label
                         FontSize="14"
                         Text="$"
@@ -108,19 +108,19 @@
                     <Label
                         x:Name="QuantityDisplayValue"
                         FontSize="40"
-                        HorizontalOptions="Start"
-                        Style="{StaticResource HeaderFontLight}"
                         Text="{Binding SeletedProduct.Price}"
-                        VerticalOptions="Start" />
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Style="{StaticResource HeaderFontLight}" />
 
                 </StackLayout>
                 <Label
                     Grid.Column="1"
-                    HorizontalOptions="Center"
                     IsVisible="false"
-                    Style="{StaticResource HeaderFontLight}"
                     Text="$19"
-                    VerticalOptions="Center" />
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Style="{StaticResource HeaderFontLight}" />
             </Grid>
             <!--  設定數量&金額 End  -->
 
@@ -134,7 +134,7 @@
                 <controls:InfoPanel
                     Title="Humidity"
                     Grid.Column="0"
-                    TitleIcon="{Static fas:FontAwesomeIcons.Subscript}"
+                    TitleIcon="{Static fas:FontAwesomeIcons.Tint}"
                     Value="50-75%" />
                 <controls:InfoPanel
                     Title="Light"
@@ -151,15 +151,15 @@
             <!--  相關資訊(包含FontAwesome) End  -->
             <!--  說明 Start  -->
             <StackLayout Grid.Row="3">
-                <Label Style="{StaticResource BodyFontLight}" Text="Contained in glass polygonal florarium." />
+                <Label Text="Contained in glass polygonal florarium." Style="{StaticResource BodyFontLight}" />
                 <Label>
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Style="{StaticResource BodyFontMedium}" Text="Size: " />
-                            <Span Style="{StaticResource BodyFontLight}" Text="150 * 150 mm." />
+                            <Span Text="Size: " Style="{StaticResource BodyFontMedium}" />
+                            <Span Text="150 * 150 mm." Style="{StaticResource BodyFontLight}" />
                             <Span Text="   " />
-                            <Span Style="{StaticResource BodyFontMedium}" Text="Diameter: " />
-                            <Span Style="{StaticResource BodyFontLight}" Text="190mm." />
+                            <Span Text="Diameter: " Style="{StaticResource BodyFontMedium}" />
+                            <Span Text="190mm." Style="{StaticResource BodyFontLight}" />
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -175,9 +175,9 @@
                 HeightRequest="60">
                 <Label
                     FontSize="20"
-                    HorizontalOptions="Center"
                     Text="Add to Cart"
                     TextColor="White"
+                    HorizontalOptions="Center"
                     VerticalOptions="Center" />
             </pancake:PancakeView>
             <!--  按鈕 End  -->

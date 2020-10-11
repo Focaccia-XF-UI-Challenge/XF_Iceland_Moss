@@ -41,8 +41,6 @@ namespace Iceland_Moss.Controls
         }
         #endregion
 
-
-
         #region TitleIcon
         public static readonly BindableProperty TitleIconProperty = BindableProperty.Create(nameof(TitleIcon), typeof(string), typeof(InfoPanel), propertyChanged: (obj, old, newV) =>
         {
@@ -67,7 +65,6 @@ namespace Iceland_Moss.Controls
             set => SetValue(TitleIconProperty, value);
         }
         #endregion
-
 
         #region Value
         public static readonly BindableProperty ValueProperty = BindableProperty.Create(nameof(Value), typeof(string), typeof(InfoPanel), propertyChanged: (obj, old, newV) =>

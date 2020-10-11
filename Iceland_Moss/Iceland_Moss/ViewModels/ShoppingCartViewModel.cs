@@ -22,6 +22,16 @@ namespace Iceland_Moss.ViewModels
         }
 
 
+        private int itemCount;
+        public int ItemCount
+        {
+            get
+            {
+                return Items.OfType<ShoppingCart>().Count();
+            }
+            //set { SetProperty(ref itemCount, value); }
+        }
+
         public ShoppingCartViewModel()
         {
             Items = new ObservableCollection<ICartItem>();
@@ -60,8 +70,10 @@ namespace Iceland_Moss.ViewModels
             var freight = GetFreightItem();
             freight.CalculateFreight(calculatedTotal);
 
-
             Total = calculatedTotal + freight.FreightCharge;
+
+            //購物車數量在這裡做動態綁定
+            OnPropertyChanged(nameof(ItemCount));
         }
 
         /// <summary>
@@ -85,7 +97,8 @@ namespace Iceland_Moss.ViewModels
                     Product = item,
                     Count = 1
                 };
-                Items.Add(cartItem);
+                //新增的項目Index 0在比較前面顯示
+                Items.Insert(0, cartItem);
             }
             UpdateTotal();
         }

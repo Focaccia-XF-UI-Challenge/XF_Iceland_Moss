@@ -44,10 +44,10 @@
             <Button
                 x:Name="btnAlert"
                 AbsoluteLayout.LayoutBounds="80,20,48,48"
-                Clicked="btnAlert_Clicked"
                 IsVisible="false"
                 Text="Click_Alert"
-                WidthRequest="200" />
+                WidthRequest="200"
+                Clicked="btnAlert_Clicked" />
 
             <ImageButton
                 x:Name="icon購物"
@@ -63,7 +63,7 @@
                 CornerRadius="7">
                 <pancke:PancakeView.Triggers>
                     <DataTrigger
-                        Binding="{Binding ShoppingCart.Items.Count}"
+                        Binding="{Binding ShoppingCart.ItemCount}"
                         TargetType="pancke:PancakeView"
                         Value="0">
                         <Setter Property="IsVisible" Value="false" />
@@ -71,15 +71,15 @@
                 </pancke:PancakeView.Triggers>
                 <Label
                     FontSize="10"
-                    HorizontalOptions="Center"
-                    Text="{Binding ShoppingCart.Items.Count}"
+                    Text="{Binding ShoppingCart.ItemCount}"
                     TextColor="White"
+                    HorizontalOptions="Center"
                     VerticalOptions="Center" />
             </pancke:PancakeView>
 
             <StackLayout x:Name="Header" AbsoluteLayout.LayoutBounds="20,100,340,100">
-                <Label Style="{StaticResource HeaderFontLight}" Text="Choose your new" />
-                <Label Style="{StaticResource HeaderFontMedium}" Text="green friend" />
+                <Label Text="Choose your new" Style="{StaticResource HeaderFontLight}" />
+                <Label Text="green friend" Style="{StaticResource HeaderFontMedium}" />
             </StackLayout>
 
             <!--#region 查詢元件-->
@@ -114,8 +114,8 @@
                     BindableLayout.ItemsSource="{Binding Products}"
                     Direction="Column"
                     HeightRequest="1300"
-                    HorizontalOptions="Center"
-                    Wrap="Wrap">
+                    Wrap="Wrap"
+                    HorizontalOptions="Center">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
                             <controls:ProductDisplay

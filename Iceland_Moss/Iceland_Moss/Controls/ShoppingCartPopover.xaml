@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:Iceland_Moss.Converter"
+    xmlns:fas="clr-namespace:FontAwesome"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
     xmlns:vm="clr-namespace:Iceland_Moss.ViewModels">
@@ -20,15 +21,109 @@
                 <Setter Property="FontSize" Value="16" />
             </Style>
 
-
             <DataTemplate x:Key="ProductItemTemplate">
-                <Grid />
+                <Grid
+                    Margin="0,10"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="64" />
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="40" />
+                        <ColumnDefinition Width="30" />
+                    </Grid.ColumnDefinitions>
+
+                    <pancake:PancakeView
+                        BackgroundColor="{Binding Product.HeroColor}"
+                        CornerRadius="10"
+                        HeightRequest="64"
+                        WidthRequest="64"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center">
+                        <Image
+                            TranslationX="10"
+                            TranslationY="15"
+                            Source="{Binding Product.ImageUrl}" />
+                    </pancake:PancakeView>
+
+                    <Label
+                        Grid.Column="1"
+                        Text="{Binding Count, StringFormat='{0} x'}"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource ShoppingCartItemLable}" />
+                    <Label
+                        Grid.Column="2"
+                        Text="{Binding Product.Name}"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource ShoppingCartItemLable}" />
+                    <Label
+                        Grid.Column="3"
+                        Text="{Binding Total, StringFormat='${0}'}"
+                        HorizontalOptions="End"
+                        Style="{StaticResource ShoppingCartItemLable}" />
+                    <Label
+                        Grid.Column="4"
+                        Text="x"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource ShoppingCartItemLable}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:MainPageViewModel}}, Path=RemoveItemCommand}" CommandParameter="{Binding .}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
             </DataTemplate>
 
-
             <DataTemplate x:Key="FreightItemTemplate">
-                <Grid>
-                    <Label Text="Freight Item" />
+                <Grid
+                    Margin="0,10"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="64" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="110" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <BoxView
+                        BackgroundColor="#50C281"
+                        CornerRadius="10"
+                        HeightRequest="64"
+                        WidthRequest="64"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label
+                            x:Name="IconTrack"
+                            FontFamily="{StaticResource FontAwesomeSolid}"
+                            FontSize="30"
+                            Text="{Static fas:FontAwesomeIcons.TruckMoving}"
+                            TextColor="White" />
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Column="1"
+                        Margin="20,0"
+                        Orientation="Vertical">
+                        <Label Text="Delivery" Style="{StaticResource ShoppingCartItemLable}" />
+                        <Label
+                            FontSize="12"
+                            Text="Free distribution for more than $80"
+                            TextColor="#ADF4CB"
+                            Style="{StaticResource ShoppingCartItemLable}" />
+                    </StackLayout>
+
+                    <Label
+                        Grid.Column="2"
+                        Margin="0,0,30,0"
+                        Text="{Binding FreightCharge, StringFormat='${0}'}"
+                        HorizontalOptions="End"
+                        Style="{StaticResource ShoppingCartItemLable}" />
                 </Grid>
             </DataTemplate>
 
@@ -69,9 +164,10 @@
             BackgroundColor="#75D59F"
             CornerRadius="30,30,0,0" />
 
+
         <Grid Grid.Row="2" Margin="30">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
+                <RowDefinition Height="60" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -81,58 +177,15 @@
                 Text="Shopping Cart"
                 TextColor="White"
                 Style="{StaticResource HeaderFontMedium}" />
-            <CollectionView Grid.Row="1" ItemsSource="{Binding ShoppingCart.Items}">
-                <CollectionView.ItemTemplate>
+            <CollectionView
+                Grid.Row="1"
+                ItemTemplate="{StaticResource CartItemSelector}"
+                ItemsSource="{Binding ShoppingCart.Items}">
+                <!--  [part6 1:40:40 開始就把這邊搬走 改為使用 ItemTemplate 的方式]  -->
+                <!--<CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Grid Margin="0,10,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="64" />
-                                <ColumnDefinition Width="50" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="40" />
-                                <ColumnDefinition Width="30" />
-                            </Grid.ColumnDefinitions>
-
-                            <pancake:PancakeView
-                                BackgroundColor="{Binding Product.HeroColor}"
-                                CornerRadius="10"
-                                HeightRequest="64"
-                                WidthRequest="64"
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center">
-                                <Image
-                                    TranslationX="10"
-                                    TranslationY="15"
-                                    Source="{Binding Product.ImageUrl}" />
-                            </pancake:PancakeView>
-
-                            <Label
-                                Grid.Column="1"
-                                Text="{Binding Count, StringFormat='{0} x'}"
-                                HorizontalOptions="Center"
-                                Style="{StaticResource ShoppingCartItemLable}" />
-                            <Label
-                                Grid.Column="2"
-                                Text="{Binding Product.Name}"
-                                HorizontalOptions="Center"
-                                Style="{StaticResource ShoppingCartItemLable}" />
-                            <Label
-                                Grid.Column="3"
-                                Text="{Binding Total, StringFormat='${0}'}"
-                                HorizontalOptions="End"
-                                Style="{StaticResource ShoppingCartItemLable}" />
-                            <Label
-                                Grid.Column="4"
-                                Text="x"
-                                HorizontalOptions="Center"
-                                Style="{StaticResource ShoppingCartItemLable}">
-                                <Label.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:MainPageViewModel}}, Path=RemoveItemCommand}" CommandParameter="{Binding .}" />
-                                </Label.GestureRecognizers>
-                            </Label>
-                        </Grid>
                     </DataTemplate>
-                </CollectionView.ItemTemplate>
+                </CollectionView.ItemTemplate>-->
             </CollectionView>
             <Grid Grid.Row="2" Margin="0,20,30,20">
                 <Grid.ColumnDefinitions>
